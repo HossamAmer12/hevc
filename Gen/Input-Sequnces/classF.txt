@@ -1,0 +1,4 @@
+BasketballDrillText_832x480_50 BasketballDrillText
+ChinaSpeed_1024x768_30 ChinaSpeed
+SlideEditing_1280x720_30 SlideEditing
+SlideShow_1280x720_20 SlideShow

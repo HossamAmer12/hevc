@@ -1,0 +1,1 @@
+./TAppEncoder -c ~/7\@S7\@S\ Works/work/workspace/jctvc-tmuc/cfg_1/encoder_lowdelay_P_main.cfg -c ~/7\@S7\@S\ Works/work/workspace/jctvc-tmuc/cfg_1/per-sequence/BasketballDrill.cfg -i ~/7\@S7\@S\ Works/work/workspace/TS/BasketballDrill_832x480_50.yuv -f 9 -q 42 -b ~/7\@S7\@S\ Works/work/workspace/Gen/test1.265 > ~/7\@S7\@S\ Works/work/workspace/Gen/test46.txt

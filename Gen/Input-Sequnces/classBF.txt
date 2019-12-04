@@ -1,0 +1,9 @@
+BasketballDrive_1920x1080_50 BasketballDrive
+BQTerrace_1920x1080_60 BQTerrace
+Cactus_1920x1080_50 Cactus
+Kimono1_1920x1080_24 Kimono
+ParkScene_1920x1080_24 ParkScene
+SlideEditing_1280x720_30 SlideEditing
+SlideShow_1280x720_20 SlideShow
+ChinaSpeed_1024x768_30 ChinaSpeed
+BasketballDrillText_832x480_50 BasketballDrillText

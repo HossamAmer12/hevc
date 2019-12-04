@@ -1,0 +1,7 @@
+BasketballPass_416x240_50 BasketballPass
+BlowingBubbles_416x240_50 BlowingBubbles
+RaceHorsesD_416x240 RaceHorses
+BQSquare_416x240_60 BQSquare
+SlideEditing_1280x720_30 SlideEditing
+SlideShow_1280x720_20 SlideShow
+BQTerrace_1920x1080_60 BQTerrace

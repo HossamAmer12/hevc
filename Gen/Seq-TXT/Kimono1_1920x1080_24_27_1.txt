@@ -1,0 +1,4382 @@
+
+HM software: Encoder Version [16.0] (including RExt)[Mac OS X][GCC 4.2.1][64 bit] 
+
+
+Input          File               : /Users/hossam.amer/Desktop/Projects/TS/Kimono1_1920x1080_24.yuv
+Bitstream      File               : Gen/Seq-265/Kimono1_1920x1080_24_27_1.265
+Reconstruction File               : rec.yuv
+Real     Format                   : 1920x1080 24Hz
+Internal Format                   : 1920x1080 24Hz
+Sequence PSNR output              : Linear average only
+Sequence MSE output               : Disabled
+Frame MSE output                  : Disabled
+Frame/Field                       : Frame based coding
+Frame index                       : 0 - 239 (240 frames)
+Profile                           : main
+CU size / depth                   : 64 / 4
+RQT trans. size (min / max)       : 4 / 32
+Max RQT depth inter               : 3
+Max RQT depth intra               : 3
+Min PCM size                      : 8
+Motion search range               : 64
+Intra period                      : -1
+Decoding refresh type             : 0
+QP                                : 27.00
+Max dQP signaling depth           : 0
+Cb QP Offset                      : 0
+Cr QP Offset                      : 0
+Max CU chroma QP adjustment depth : -1
+QP adaptation                     : 0 (range=0)
+GOP size                          : 4
+Input bit depth                   : (Y:8, C:8)
+MSB-extended bit depth            : (Y:8, C:8)
+Internal bit depth                : (Y:8, C:8)
+PCM sample bit depth              : (Y:8, C:8)
+Extended precision processing     : Disabled
+Intra reference smoothing         : Enabled
+Implicit residual DPCM            : Disabled
+Explicit residual DPCM            : Disabled
+Residual rotation                 : Disabled
+Single significance map context   : Disabled
+Cross-component prediction        : Disabled
+High-precision prediction weight  : Disabled
+Golomb-Rice parameter adaptation  : Disabled
+CABAC bypass bit alignment        : Disabled
+Sao Luma Offset bit shifts        : 0
+Sao Chroma Offset bit shifts      : 0
+Cost function:                    : Lossy coding (default)
+RateControl                       : 0
+Max Num Merge Candidates          : 5
+
+TOOL CFG: IBD:0 HAD:1 RDQ:1 RDQTS:1 RDpenalty:0 SQP:0 ASR:0 FEN:1 ECU:0 FDM:1 CFM:0 ESD:0 RQT:1 TransformSkip:1 TransformSkipFast:1 TransformSkipLog2MaxSize:2 Slice: M=0 SliceSegment: M=0 CIP:0 SAO:1 PCM:0 TransQuantBypassEnabled:0 WPP:0 WPB:0 PME:2  WaveFrontSynchro:0 WaveFrontSubstreams:1 ScalingList:0 TMVPMode:1 AQpS:0 SignBitHidingFlag:1 RecalQP:0
+
+RExt Non-environment-variable-controlled macros set as follows: 
+
+                                RExt__DECODER_DEBUG_BIT_STATISTICS =   0
+                                      RExt__HIGH_BIT_DEPTH_SUPPORT =   0
+                            RExt__HIGH_PRECISION_FORWARD_TRANSFORM =   0
+                                  RExt__O0043_BEST_EFFORT_DECODING =   0
+                      RExt__BACKWARDS_COMPATIBILITY_HM_TICKET_1149 =   1
+                      RExt__BACKWARDS_COMPATIBILITY_HM_TICKET_1298 =   0
+           RExt__BACKWARDS_COMPATIBILITY_RBSP_EMULATION_PREVENTION =   0
+             RExt__BACKWARDS_COMPATIBILITY_MOTION_ESTIMATION_R0105 =   1
+
+Yang: TEncTop: create: I'm creating the GOP, Slice, CU Encoder 
+
+xInitRPS Inside TEncTop after the INIT: 
+                   Input ChromaFormatIDC =   4:2:0
+       Output (internal) ChromaFormatIDC =   4:2:0
+
+
+-----------
+0) lambda Cathy: TEncSlice Muuuu: Lambda = 4.88345, qp = 22, qpFactor: 0.4845
+-----------
+
+updateREf12: Ref1: 0, Ref2: 0
+
+Accumlating bits for the slice: 766810, 0, greater than hashtaka: 0
+------------
+
+
+
+0) UUUUUUUUUU Bits and PSNRY and MSEY 772488, 43.1628, 3.13903
+POC    0 TId: 0 ( I-SLICE, nQP 22 QP 22 )     772488 bits [Y 43.1628 dB    U 44.6637 dB    V 46.4637 dB] [ET    39 ] [L0 ] [L1 ] [MD5:3003b2a90266b3282eee7e0cb0ccbcde,f9c02bd815ceab4c688b358e8fec458c,c4cbd8da030e1745acb08f13f45e900a]
+
+-----------
+1) lambda Cathy: TEncSlice Muuuu: Lambda = 88.7808, qp = 30, qpFactor: 0.4624
+-----------
+
+updateREf12: Ref1: 0, Ref2: 0
+
+Accumlating bits for the slice: 91851, 0, greater than hashtaka: 0
+------------
+
+
+
+1) UUUUUUUUUU Bits and PSNRY and MSEY 92376, 40.2606, 6.12376
+POC    1 TId: 0 ( P-SLICE, nQP 30 QP 30 )      92376 bits [Y 40.2606 dB    U 42.1575 dB    V 44.3250 dB] [ET    71 ] [L0 0 ] [L1 ] [MD5:5661a10c402c8277e6dfa86c78fa7fe5,db9f661cdf5c60f814d8714fa15acd82,37887b37a7bf1c5c0a7058138ba1d375]
+
+-----------
+2) lambda Cathy: TEncSlice Muuuu: Lambda = 66.5506, qp = 29, qpFactor: 0.4624
+-----------
+
+updateREf12: Ref1: 0, Ref2: 0
+
+Accumlating bits for the slice: 137122, 0, greater than hashtaka: 0
+------------
+
+
+
+2) UUUUUUUUUU Bits and PSNRY and MSEY 138000, 40.1717, 6.25049
+POC    2 TId: 0 ( P-SLICE, nQP 29 QP 29 )     138000 bits [Y 40.1717 dB    U 41.6182 dB    V 43.6808 dB] [ET    98 ] [L0 1 0 ] [L1 ] [MD5:6345c8e46015a5d62733fa5f29cf08c0,349e5be67ab1f1f9be40d83936ff8357,45da96fbfdc46fcab91128371822c91b]
+
+-----------
+3) lambda Cathy: TEncSlice Muuuu: Lambda = 88.7808, qp = 30, qpFactor: 0.4624
+-----------
+
+updateREf12: Ref1: 0, Ref2: 0
+
+Accumlating bits for the slice: 106078, 0, greater than hashtaka: 0
+------------
+
+
+
+3) UUUUUUUUUU Bits and PSNRY and MSEY 106664, 39.4055, 7.45639
+POC    3 TId: 0 ( P-SLICE, nQP 30 QP 30 )     106664 bits [Y 39.4055 dB    U 41.2590 dB    V 43.2283 dB] [ET   104 ] [L0 2 1 0 ] [L1 ] [MD5:64f593b6c7f3b5449779026c3f267293,adb6a542cbe371b9be4fa8a05f955334,bb9d1f16b20d1e3c14799ae63d0ab29a]
+
+-----------
+4) lambda Cathy: TEncSlice Muuuu: Lambda = 23.3035, qp = 28, qpFactor: 0.578
+-----------
+
+updateREf12: Ref1: 0, Ref2: 0
+
+Accumlating bits for the slice: 253387, 0, greater than hashtaka: 0
+------------
+
+
+
+4) UUUUUUUUUU Bits and PSNRY and MSEY 256256, 41.1665, 4.9709
+POC    4 TId: 0 ( P-SLICE, nQP 28 QP 28 )     256256 bits [Y 41.1665 dB    U 42.3046 dB    V 43.9696 dB] [ET   150 ] [L0 3 2 1 0 ] [L1 ] [MD5:4390dee245b0ca3564a13bd27ef4193e,93bf0d556d80429dbab15505c29e811c,2eb3115803b8236e2f4cf47173e76c48]
+
+-----------
+5) lambda Cathy: TEncSlice Muuuu: Lambda = 88.7808, qp = 30, qpFactor: 0.4624
+-----------
+
+updateREf12: Ref1: 0, Ref2: 0
+
+Accumlating bits for the slice: 93538, 0, greater than hashtaka: 0
+------------
+
+
+
+5) UUUUUUUUUU Bits and PSNRY and MSEY 94120, 39.5782, 7.16568
+POC    5 TId: 0 ( P-SLICE, nQP 30 QP 30 )      94120 bits [Y 39.5782 dB    U 41.4696 dB    V 43.1877 dB] [ET   119 ] [L0 4 3 2 0 ] [L1 ] [MD5:3d2e5181689c2b58adf1ff187888efd3,ba200421a9157e559a7609b2c118e1f8,d6c84eaa79b349bb039b5343e10195be]
+
+-----------
+6) lambda Cathy: TEncSlice Muuuu: Lambda = 66.5506, qp = 29, qpFactor: 0.4624
+-----------
+
+updateREf12: Ref1: 0, Ref2: 0
+
+Accumlating bits for the slice: 129983, 0, greater than hashtaka: 0
+------------
+
+
+
+6) UUUUUUUUUU Bits and PSNRY and MSEY 130800, 39.8687, 6.70204
+POC    6 TId: 0 ( P-SLICE, nQP 29 QP 29 )     130800 bits [Y 39.8687 dB    U 41.2217 dB    V 42.9069 dB] [ET   132 ] [L0 5 4 3 0 ] [L1 ] [MD5:fd25bda44e3bd79a13446afff087f5dc,66ff6733a3a91448a60be6c7180feb2a,054ff018d752ab96ff98e74b6064ce4e]
+
+-----------
+7) lambda Cathy: TEncSlice Muuuu: Lambda = 88.7808, qp = 30, qpFactor: 0.4624
+-----------
+
+updateREf12: Ref1: 0, Ref2: 0
+
+Accumlating bits for the slice: 101311, 0, greater than hashtaka: 0
+------------
+
+
+
+7) UUUUUUUUUU Bits and PSNRY and MSEY 101848, 39.3696, 7.51826
+POC    7 TId: 0 ( P-SLICE, nQP 30 QP 30 )     101848 bits [Y 39.3696 dB    U 40.9989 dB    V 42.6919 dB] [ET   124 ] [L0 6 5 4 0 ] [L1 ] [MD5:ccb0bafd2cb858601305a31c6f74bfca,1104e01ab70d2553f3139d67122faf45,25d4fa4caf6b5227d1070e27a061359e]
+PIC: 8
+Size of distortion so far: 8
+Size of epsilon so far: 1
+
+-----------
+8) lambda Cathy: TEncSlice Muuuu: Lambda = 19.1841, qp = 27, qpFactor: 0.578
+-----------
+
+updateREf12: Ref1: 0, Ref2: 0
+
+Accumlating bits for the slice: 279929, 0, greater than hashtaka: 0
+------------
+
+
+
+8) UUUUUUUUUU Bits and PSNRY and MSEY 283648, 41.4666, 4.63896
+POC    8 TId: 0 ( P-SLICE, nQP 27 QP 27 )     283648 bits [Y 41.4666 dB    U 42.4853 dB    V 44.0354 dB] [ET   159 ] [L0 7 6 4 0 ] [L1 ] [MD5:79641cef49214cfb6fb88374253917cf,1ba67d05b4d8d0af85b71e87f1aed9eb,3e1683aa456128368f08f5768ac9c5e1]
+PIC: 9
+Size of distortion so far: 9
+Size of epsilon so far: 2
+------New Lambda total coding dependence: 88.7808, 107.845
+
+-----------
+9) lambda Cathy: TEncSlice Muuuu: Lambda = 90.5833, qp = 35, qpFactor: 0.4624
+-----------
+
+updateREf12: Ref1: 0, Ref2: 0
+
+Accumlating bits for the slice: 69696, 0, greater than hashtaka: 0
+------------
+
+
+
+9) UUUUUUUUUU Bits and PSNRY and MSEY 70456, 39.5547, 7.20463
+POC    9 TId: 0 ( P-SLICE, nQP 35 QP 35 )      70456 bits [Y 39.5547 dB    U 41.6484 dB    V 43.2833 dB] [ET   118 ] [L0 8 7 4 0 ] [L1 ] [MD5:8ad37d458876f887f907a35c55d898a8,a133fef5724429a4b272a72e5da68c35,a1b5ca024b2049fbce6317ae735b4b32]
+PIC: 10
+Size of distortion so far: 10
+Size of epsilon so far: 3
+------New Lambda total coding dependence: 66.5506, 79.8626
+
+-----------
+10) lambda Cathy: TEncSlice Muuuu: Lambda = 66.2745, qp = 33, qpFactor: 0.4624
+-----------
+
+updateREf12: Ref1: 0, Ref2: 0
+
+Accumlating bits for the slice: 107961, 0, greater than hashtaka: 0
+------------
+
+
+
+10) UUUUUUUUUU Bits and PSNRY and MSEY 108776, 39.7448, 6.89605
+POC   10 TId: 0 ( P-SLICE, nQP 33 QP 33 )     108776 bits [Y 39.7448 dB    U 41.3448 dB    V 43.0898 dB] [ET   130 ] [L0 9 8 4 0 ] [L1 ] [MD5:e7f4887f7a1a4bf4330ef5c6a8315602,14a412dbb47942fa94bf6c4606cda641,23d5b4e2c95f84529ed6c555895d7e70]
+PIC: 11
+Size of distortion so far: 11
+Size of epsilon so far: 4
+------New Lambda total coding dependence: 88.7808, 106.703
+
+-----------
+11) lambda Cathy: TEncSlice Muuuu: Lambda = 93.5937, qp = 35, qpFactor: 0.4624
+-----------
+
+updateREf12: Ref1: 0, Ref2: 0
+
+Accumlating bits for the slice: 83196, 0, greater than hashtaka: 0
+------------
+
+
+
+11) UUUUUUUUUU Bits and PSNRY and MSEY 83944, 38.9533, 8.27473
+POC   11 TId: 0 ( P-SLICE, nQP 35 QP 35 )      83944 bits [Y 38.9533 dB    U 41.0599 dB    V 42.7461 dB] [ET   128 ] [L0 10 8 4 0 ] [L1 ] [MD5:4afc86ddbea8d7088f15a50ebc9f5fa1,b3f4c21eb71576800c707ecc9e52a8b4,a56021c570fc1e73c4f1d32912ed0482]
+PIC: 12
+Size of distortion so far: 12
+Size of epsilon so far: 5
+------New Lambda total coding dependence: 23.3035, 27.5666
+
+-----------
+12) lambda Cathy: TEncSlice Muuuu: Lambda = 22.1405, qp = 28, qpFactor: 0.578
+-----------
+
+updateREf12: Ref1: 0, Ref2: 0
+
+Accumlating bits for the slice: 268577, 0, greater than hashtaka: 0
+------------
+
+
+
+12) UUUUUUUUUU Bits and PSNRY and MSEY 272168, 41.0755, 5.07614
+POC   12 TId: 0 ( P-SLICE, nQP 28 QP 28 )     272168 bits [Y 41.0755 dB    U 42.1213 dB    V 43.5521 dB] [ET   170 ] [L0 11 8 4 0 ] [L1 ] [MD5:59aa2adf9e76fd25617d106e84081582,dd11141c38cf6ede8ef47b5c1b999171,cb98b133ebaeae8b2d7fd1a5f1027868]
+PIC: 13
+Size of distortion so far: 13
+Size of epsilon so far: 6
+------New Lambda total coding dependence: 88.7808, 105.895
+
+-----------
+13) lambda Cathy: TEncSlice Muuuu: Lambda = 86.776, qp = 35, qpFactor: 0.4624
+-----------
+
+updateREf12: Ref1: 0, Ref2: 0
+
+Accumlating bits for the slice: 75366, 0, greater than hashtaka: 0
+------------
+
+
+
+13) UUUUUUUUUU Bits and PSNRY and MSEY 76296, 39.2431, 7.7406
+POC   13 TId: 0 ( P-SLICE, nQP 35 QP 35 )      76296 bits [Y 39.2431 dB    U 41.3490 dB    V 42.9666 dB] [ET   138 ] [L0 12 8 4 0 ] [L1 ] [MD5:fbf1607850f5696db91ee7bd68ba5d9c,fd95e8263bcbeb951854f580483ec481,6992b4607fb795bad3daefd5f04ed99a]
+PIC: 14
+Size of distortion so far: 14
+Size of epsilon so far: 7
+------New Lambda total coding dependence: 66.5506, 79.7357
+
+-----------
+14) lambda Cathy: TEncSlice Muuuu: Lambda = 63.7805, qp = 33, qpFactor: 0.4624
+-----------
+
+updateREf12: Ref1: 0, Ref2: 0
+
+Accumlating bits for the slice: 114519, 0, greater than hashtaka: 0
+------------
+
+
+
+14) UUUUUUUUUU Bits and PSNRY and MSEY 115600, 39.5458, 7.21937
+POC   14 TId: 0 ( P-SLICE, nQP 33 QP 33 )     115600 bits [Y 39.5458 dB    U 41.1727 dB    V 42.8174 dB] [ET   142 ] [L0 13 12 8 4 ] [L1 ] [MD5:c9ade46d0f9f9c5a3ad175cbb3672a05,6ab241dc830c19eb113a2b6ec736cb53,5e44d5b814f377c7a65d17851cb2ea84]
+PIC: 15
+Size of distortion so far: 15
+Size of epsilon so far: 8
+------New Lambda total coding dependence: 88.7808, 107.079
+
+-----------
+15) lambda Cathy: TEncSlice Muuuu: Lambda = 91.5701, qp = 35, qpFactor: 0.4624
+-----------
+
+updateREf12: Ref1: 0, Ref2: 0
+
+Accumlating bits for the slice: 82973, 0, greater than hashtaka: 0
+------------
+
+
+
+15) UUUUUUUUUU Bits and PSNRY and MSEY 83856, 38.8847, 8.40637
+POC   15 TId: 0 ( P-SLICE, nQP 35 QP 35 )      83856 bits [Y 38.8847 dB    U 40.9044 dB    V 42.6306 dB] [ET   132 ] [L0 14 12 8 4 ] [L1 ] [MD5:a508d504805b148d247fb14c1a5b1f71,4302debdff6d97edc4b155619f55c970,00a35f55c5f4962996f1a6d1770f15f2]
+PIC: 16
+Size of distortion so far: 16
+Size of epsilon so far: 9
+------New Lambda total coding dependence: 23.3035, 27.9767
+
+-----------
+16) lambda Cathy: TEncSlice Muuuu: Lambda = 22.0062, qp = 28, qpFactor: 0.578
+-----------
+
+updateREf12: Ref1: 0, Ref2: 0
+
+Accumlating bits for the slice: 269743, 0, greater than hashtaka: 0
+------------
+
+
+
+16) UUUUUUUUUU Bits and PSNRY and MSEY 273320, 41.0904, 5.05866
+POC   16 TId: 0 ( P-SLICE, nQP 28 QP 28 )     273320 bits [Y 41.0904 dB    U 42.0937 dB    V 43.4982 dB] [ET   171 ] [L0 15 12 8 4 ] [L1 ] [MD5:ed778a88db6c44ca8424f3196b76dc0f,c2f290d5229d1369f208324cc9f4f177,302f0b2282b2fe76e2bd1c6b8316fbd2]
+PIC: 17
+Size of distortion so far: 17
+Size of epsilon so far: 10
+------New Lambda total coding dependence: 88.7808, 107.11
+
+-----------
+17) lambda Cathy: TEncSlice Muuuu: Lambda = 85.7296, qp = 35, qpFactor: 0.4624
+-----------
+
+updateREf12: Ref1: 0, Ref2: 0
+
+Accumlating bits for the slice: 71405, 0, greater than hashtaka: 0
+------------
+
+
+
+17) UUUUUUUUUU Bits and PSNRY and MSEY 71992, 39.3959, 7.47287
+POC   17 TId: 0 ( P-SLICE, nQP 35 QP 35 )      71992 bits [Y 39.3959 dB    U 41.3697 dB    V 43.0451 dB] [ET   133 ] [L0 16 12 8 4 ] [L1 ] [MD5:28558dda0ade6f1cbe848b776a856519,ebe8cad031f6e2893bbc06e1e6655adf,ba525cde03315f351cbbd36d2b0833bc]
+PIC: 18
+Size of distortion so far: 18
+Size of epsilon so far: 11
+------New Lambda total coding dependence: 66.5506, 80.6043
+
+-----------
+18) lambda Cathy: TEncSlice Muuuu: Lambda = 63.8769, qp = 33, qpFactor: 0.4624
+-----------
+
+updateREf12: Ref1: 0, Ref2: 0
+
+Accumlating bits for the slice: 110533, 0, greater than hashtaka: 0
+------------
+
+
+
+18) UUUUUUUUUU Bits and PSNRY and MSEY 111464, 39.7012, 6.96561
+POC   18 TId: 0 ( P-SLICE, nQP 33 QP 33 )     111464 bits [Y 39.7012 dB    U 41.2107 dB    V 42.8556 dB] [ET   136 ] [L0 17 16 12 8 ] [L1 ] [MD5:1bb90f77ffcc19946fcbfce1621445f8,9cd044673ee34eac92168ed6f418f8af,25d5aa0df38844f401ad6472b02c2944]
+PIC: 19
+Size of distortion so far: 19
+Size of epsilon so far: 12
+------New Lambda total coding dependence: 88.7808, 107.947
+
+-----------
+19) lambda Cathy: TEncSlice Muuuu: Lambda = 92.2896, qp = 35, qpFactor: 0.4624
+-----------
+
+updateREf12: Ref1: 0, Ref2: 0
+
+Accumlating bits for the slice: 78291, 0, greater than hashtaka: 0
+------------
+
+
+
+19) UUUUUUUUUU Bits and PSNRY and MSEY 79200, 39.0194, 8.14975
+POC   19 TId: 0 ( P-SLICE, nQP 35 QP 35 )      79200 bits [Y 39.0194 dB    U 41.0174 dB    V 42.6764 dB] [ET   134 ] [L0 18 16 12 8 ] [L1 ] [MD5:939d708c78e49c0eccea412eba22deb3,de74408a53605c3b1a6c8b21d2920b57,a1c76151d5cee7f5d34a4f59f90484b9]
+PIC: 20
+Size of distortion so far: 20
+Size of epsilon so far: 13
+------New Lambda total coding dependence: 23.3035, 28.2287
+
+-----------
+20) lambda Cathy: TEncSlice Muuuu: Lambda = 22.053, qp = 28, qpFactor: 0.578
+-----------
+
+updateREf12: Ref1: 0, Ref2: 0
+
+Accumlating bits for the slice: 249381, 0, greater than hashtaka: 0
+------------
+
+
+
+20) UUUUUUUUUU Bits and PSNRY and MSEY 252496, 41.1788, 4.95681
+POC   20 TId: 0 ( P-SLICE, nQP 28 QP 28 )     252496 bits [Y 41.1788 dB    U 42.1695 dB    V 43.5609 dB] [ET   174 ] [L0 19 16 12 8 ] [L1 ] [MD5:a7099de662346434684f9fe56cd13e8f,a4fb0f5ad413e00c24a870f5652634d8,42b204470253d5b77c7e9e678a899670]
+PIC: 21
+Size of distortion so far: 21
+Size of epsilon so far: 14
+------New Lambda total coding dependence: 88.7808, 107.888
+
+-----------
+21) lambda Cathy: TEncSlice Muuuu: Lambda = 86.347, qp = 35, qpFactor: 0.4624
+-----------
+
+updateREf12: Ref1: 0, Ref2: 0
+
+Accumlating bits for the slice: 66986, 0, greater than hashtaka: 0
+------------
+
+
+
+21) UUUUUUUUUU Bits and PSNRY and MSEY 67392, 39.4163, 7.43798
+POC   21 TId: 0 ( P-SLICE, nQP 35 QP 35 )      67392 bits [Y 39.4163 dB    U 41.5063 dB    V 43.1503 dB] [ET   134 ] [L0 20 16 12 8 ] [L1 ]Always setting the mu method to true 
+ [MD5:e3cb98dabb6a0c84affbb65eb0fa6142,ce53d9351a40105d95bd063d47943b54,1b1bfbb0490a75d4fe28b7266a16483b]
+PIC: 22
+Size of distortion so far: 22
+Size of epsilon so far: 15
+------New Lambda total coding dependence: 66.5506, 81.051
+
+-----------
+22) lambda Cathy: TEncSlice Muuuu: Lambda = 63.7606, qp = 33, qpFactor: 0.4624
+-----------
+
+updateREf12: Ref1: 0, Ref2: 0
+
+Accumlating bits for the slice: 101117, 0, greater than hashtaka: 0
+------------
+
+
+
+22) UUUUUUUUUU Bits and PSNRY and MSEY 102256, 39.6941, 6.9771
+POC   22 TId: 0 ( P-SLICE, nQP 33 QP 33 )     102256 bits [Y 39.6941 dB    U 41.3096 dB    V 43.0646 dB] [ET   136 ] [L0 21 20 16 12 ] [L1 ] [MD5:202b8c81b16992d07c186b8df4038ca7,37e080ff58a5683f0e76f7932dee3a97,bdde5d2eb96f991e899219baba5b366f]
+PIC: 23
+Size of distortion so far: 23
+Size of epsilon so far: 16
+------New Lambda total coding dependence: 88.7808, 108.447
+
+-----------
+23) lambda Cathy: TEncSlice Muuuu: Lambda = 91.7888, qp = 35, qpFactor: 0.4624
+-----------
+
+updateREf12: Ref1: 0, Ref2: 0
+
+Accumlating bits for the slice: 68473, 0, greater than hashtaka: 0
+------------
+
+
+
+23) UUUUUUUUUU Bits and PSNRY and MSEY 68896, 39.2098, 7.80016
+POC   23 TId: 0 ( P-SLICE, nQP 35 QP 35 )      68896 bits [Y 39.2098 dB    U 41.0992 dB    V 42.9374 dB] [ET   131 ] [L0 22 20 16 12 ] [L1 ] [MD5:f46ee8785ea6eb68ceac783d066a985c,89344a841618e094656ed8eae023eebf,bad68d866fdf3ecc6000c59ceff41a45]
+PIC: 24
+Size of distortion so far: 24
+Size of epsilon so far: 17
+------New Lambda total coding dependence: 23.3035, 28.3996
+
+-----------
+24) lambda Cathy: TEncSlice Muuuu: Lambda = 21.8418, qp = 28, qpFactor: 0.578
+-----------
+
+updateREf12: Ref1: 0, Ref2: 0
+
+Accumlating bits for the slice: 232716, 0, greater than hashtaka: 0
+------------
+
+
+
+24) UUUUUUUUUU Bits and PSNRY and MSEY 236264, 41.3653, 4.74846
+POC   24 TId: 0 ( P-SLICE, nQP 28 QP 28 )     236264 bits [Y 41.3653 dB    U 42.2842 dB    V 43.8233 dB] [ET   177 ] [L0 23 20 16 12 ] [L1 ] [MD5:570ae243a00484c7b3a34ec6768da75d,9c5b7b51356af1250d9f6a7a6f456eb0,258f963b764806698061226395c7f5e6]
+PIC: 25
+Size of distortion so far: 25
+Size of epsilon so far: 18
+------New Lambda total coding dependence: 88.7808, 108.495
+
+-----------
+25) lambda Cathy: TEncSlice Muuuu: Lambda = 85.1156, qp = 35, qpFactor: 0.4624
+-----------
+
+updateREf12: Ref1: 0, Ref2: 0
+
+Accumlating bits for the slice: 63106, 0, greater than hashtaka: 0
+------------
+
+
+
+25) UUUUUUUUUU Bits and PSNRY and MSEY 63752, 39.7324, 6.91584
+POC   25 TId: 0 ( P-SLICE, nQP 35 QP 35 )      63752 bits [Y 39.7324 dB    U 41.6586 dB    V 43.4722 dB] [ET   139 ] [L0 24 20 16 12 ] [L1 ] [MD5:aaa1c1e6d12bd6b83d3359986273060a,be71b1c18f342dc265ff7b2ef83c14b6,936da39e8d6434ddf97b5e4049c8c826]
+PIC: 26
+Size of distortion so far: 26
+Size of epsilon so far: 19
+------New Lambda total coding dependence: 66.5506, 81.5267
+
+-----------
+26) lambda Cathy: TEncSlice Muuuu: Lambda = 62.1867, qp = 33, qpFactor: 0.4624
+-----------
+
+updateREf12: Ref1: 0, Ref2: 0
+
+Accumlating bits for the slice: 97780, 0, greater than hashtaka: 0
+------------
+
+
+
+26) UUUUUUUUUU Bits and PSNRY and MSEY 98808, 40.0271, 6.46203
+POC   26 TId: 0 ( P-SLICE, nQP 33 QP 33 )      98808 bits [Y 40.0271 dB    U 41.4656 dB    V 43.2906 dB] [ET   140 ] [L0 25 24 20 16 ] [L1 ] [MD5:1bf09d1821b670f55b096af1a1dab53f,38ce95a9b6b1c2b11c8a8d75208b5a74,2ee8c5b97b329e7e640b01827d9f7b1b]
+PIC: 27
+Size of distortion so far: 27
+Size of epsilon so far: 20
+------New Lambda total coding dependence: 88.7808, 109.144
+
+-----------
+27) lambda Cathy: TEncSlice Muuuu: Lambda = 90.4229, qp = 35, qpFactor: 0.4624
+-----------
+
+updateREf12: Ref1: 0, Ref2: 0
+
+Accumlating bits for the slice: 71409, 0, greater than hashtaka: 0
+------------
+
+
+
+27) UUUUUUUUUU Bits and PSNRY and MSEY 71944, 39.2976, 7.64402
+POC   27 TId: 0 ( P-SLICE, nQP 35 QP 35 )      71944 bits [Y 39.2976 dB    U 41.2400 dB    V 43.0365 dB] [ET   134 ] [L0 26 24 20 16 ] [L1 ] [MD5:16b06c02c5965e23bb7792e45276abc8,bddbc03c68135b0bf260e5e23ca8bd67,5abb125501b2a2ee1d7cd490adc7b633]
+PIC: 28
+Size of distortion so far: 28
+Size of epsilon so far: 21
+------New Lambda total coding dependence: 23.3035, 28.6192
+
+-----------
+28) lambda Cathy: TEncSlice Muuuu: Lambda = 21.4639, qp = 28, qpFactor: 0.578
+-----------
+
+updateREf12: Ref1: 0, Ref2: 0
+
+Accumlating bits for the slice: 237334, 0, greater than hashtaka: 0
+------------
+
+
+
+28) UUUUUUUUUU Bits and PSNRY and MSEY 240376, 41.4035, 4.7069
+POC   28 TId: 0 ( P-SLICE, nQP 28 QP 28 )     240376 bits [Y 41.4035 dB    U 42.3388 dB    V 43.8187 dB] [ET   172 ] [L0 27 24 20 16 ] [L1 ] [MD5:e7ba92a5db40cb2c9d6ff60b47cdb80a,75c6fbc7ab1251dfaef3395440229c31,e321414f0abba5425af09d51d14eb5be]
+PIC: 29
+Size of distortion so far: 29
+Size of epsilon so far: 22
+------New Lambda total coding dependence: 88.7808, 109.345
+
+-----------
+29) lambda Cathy: TEncSlice Muuuu: Lambda = 84.9871, qp = 35, qpFactor: 0.4624
+-----------
+
+updateREf12: Ref1: 0, Ref2: 0
+
+Accumlating bits for the slice: 63693, 0, greater than hashtaka: 0
+------------
+
+
+
+29) UUUUUUUUUU Bits and PSNRY and MSEY 64360, 39.6802, 6.99938
+POC   29 TId: 0 ( P-SLICE, nQP 35 QP 35 )      64360 bits [Y 39.6802 dB    U 41.5865 dB    V 43.3280 dB] [ET   139 ] [L0 28 24 20 16 ] [L1 ] [MD5:afb7e2a7eedebb7e57004d33a747199a,f84238b53ee1d2cbc57133d7d974d421,2576f30b75167658b4a7ac2a72d54819]
+PIC: 30
+Size of distortion so far: 30
+Size of epsilon so far: 23
+------New Lambda total coding dependence: 66.5506, 82.1388
+
+-----------
+30) lambda Cathy: TEncSlice Muuuu: Lambda = 62.7451, qp = 33, qpFactor: 0.4624
+-----------
+
+updateREf12: Ref1: 0, Ref2: 0
+
+Accumlating bits for the slice: 101826, 0, greater than hashtaka: 0
+------------
+
+
+
+30) UUUUUUUUUU Bits and PSNRY and MSEY 102592, 39.8888, 6.67109
+POC   30 TId: 0 ( P-SLICE, nQP 33 QP 33 )     102592 bits [Y 39.8888 dB    U 41.4067 dB    V 43.1352 dB] [ET   138 ] [L0 29 28 24 20 ] [L1 ] [MD5:cd2812423c0012f1fd7c518a42031928,e65bb45273148b051d6cdc638562f735,c91a3432753b51d727f29d9b4233a034]
+PIC: 31
+Size of distortion so far: 31
+Size of epsilon so far: 24
+------New Lambda total coding dependence: 88.7808, 109.863
+
+-----------
+31) lambda Cathy: TEncSlice Muuuu: Lambda = 92.2494, qp = 35, qpFactor: 0.4624
+-----------
+
+updateREf12: Ref1: 0, Ref2: 0
+
+Accumlating bits for the slice: 71914, 0, greater than hashtaka: 0
+------------
+
+
+
+31) UUUUUUUUUU Bits and PSNRY and MSEY 72680, 39.1636, 7.88353
+POC   31 TId: 0 ( P-SLICE, nQP 35 QP 35 )      72680 bits [Y 39.1636 dB    U 41.1405 dB    V 42.9340 dB] [ET   131 ] [L0 30 28 24 20 ] [L1 ] [MD5:486f0e7ec2434bd13537d606f59db890,a8eac6495194a6344e9c392e31f45bea,d081f3753a6b88a2721c3c3b3fc01b94]
+PIC: 32
+Size of distortion so far: 32
+Size of epsilon so far: 25
+------New Lambda total coding dependence: 23.3035, 28.7846
+
+-----------
+32) lambda Cathy: TEncSlice Muuuu: Lambda = 22.0569, qp = 28, qpFactor: 0.578
+-----------
+
+updateREf12: Ref1: 0, Ref2: 0
+
+Accumlating bits for the slice: 242142, 0, greater than hashtaka: 0
+------------
+
+
+
+32) UUUUUUUUUU Bits and PSNRY and MSEY 245000, 41.2455, 4.88129
+POC   32 TId: 0 ( P-SLICE, nQP 28 QP 28 )     245000 bits [Y 41.2455 dB    U 42.1974 dB    V 43.6442 dB] [ET   172 ] [L0 31 28 24 20 ] [L1 ] [MD5:17f4f144b6d6fb1d33a32b1e0a298258,a9c0ee4f9a3eef00138eaec6e689204d,ae8e8d28b145387d2ba1477904b3c016]
+PIC: 33
+Size of distortion so far: 33
+Size of epsilon so far: 26
+------New Lambda total coding dependence: 88.7808, 109.843
+
+-----------
+33) lambda Cathy: TEncSlice Muuuu: Lambda = 85.7035, qp = 35, qpFactor: 0.4624
+-----------
+
+updateREf12: Ref1: 0, Ref2: 0
+
+Accumlating bits for the slice: 66329, 0, greater than hashtaka: 0
+------------
+
+
+
+33) UUUUUUUUUU Bits and PSNRY and MSEY 67024, 39.4517, 7.37756
+POC   33 TId: 0 ( P-SLICE, nQP 35 QP 35 )      67024 bits [Y 39.4517 dB    U 41.4468 dB    V 43.1359 dB] [ET   137 ] [L0 32 28 24 20 ] [L1 ] [MD5:1e32eb7463380ad9f273d280bae8a50f,6e31138ffcf94fa789fb79e1e5581335,5edc9ddae3ec2afbf744770f76448e96]
+PIC: 34
+Size of distortion so far: 34
+Size of epsilon so far: 27
+------New Lambda total coding dependence: 66.5506, 82.4642
+
+-----------
+34) lambda Cathy: TEncSlice Muuuu: Lambda = 63.1427, qp = 33, qpFactor: 0.4624
+-----------
+
+updateREf12: Ref1: 0, Ref2: 0
+
+Accumlating bits for the slice: 105466, 0, greater than hashtaka: 0
+------------
+
+
+
+34) UUUUUUUUUU Bits and PSNRY and MSEY 106248, 39.5938, 7.14009
+POC   34 TId: 0 ( P-SLICE, nQP 33 QP 33 )     106248 bits [Y 39.5938 dB    U 41.1988 dB    V 42.8929 dB] [ET   142 ] [L0 33 32 28 24 ] [L1 ] [MD5:d1bb0b14fd20a7bd58b07d3a22f01db3,00ec43f463df85fdf5f37565b8329cdc,849b0dc7b38042de9e3f7ecfafd2b916]
+PIC: 35
+Size of distortion so far: 35
+Size of epsilon so far: 28
+------New Lambda total coding dependence: 88.7808, 110.243
+
+-----------
+35) lambda Cathy: TEncSlice Muuuu: Lambda = 91.0983, qp = 35, qpFactor: 0.4624
+-----------
+
+updateREf12: Ref1: 0, Ref2: 0
+
+Accumlating bits for the slice: 74163, 0, greater than hashtaka: 0
+------------
+
+
+
+35) UUUUUUUUUU Bits and PSNRY and MSEY 74688, 38.9779, 8.22791
+POC   35 TId: 0 ( P-SLICE, nQP 35 QP 35 )      74688 bits [Y 38.9779 dB    U 40.9687 dB    V 42.7292 dB] [ET   137 ] [L0 34 32 28 24 ] [L1 ] [MD5:c02ad9d7131f7b88a7c5ab7625675665,d008b64284baa785b1f7ca40202a5458,85f7e592775d04d031fd44c41ea7127e]
+PIC: 36
+Size of distortion so far: 36
+Size of epsilon so far: 29
+------New Lambda total coding dependence: 23.3035, 28.9052
+
+-----------
+36) lambda Cathy: TEncSlice Muuuu: Lambda = 21.5789, qp = 28, qpFactor: 0.578
+-----------
+
+updateREf12: Ref1: 0, Ref2: 0
+
+Accumlating bits for the slice: 257280, 0, greater than hashtaka: 0
+------------
+
+
+
+36) UUUUUUUUUU Bits and PSNRY and MSEY 260408, 41.1433, 4.99752
+POC   36 TId: 0 ( P-SLICE, nQP 28 QP 28 )     260408 bits [Y 41.1433 dB    U 42.1527 dB    V 43.5517 dB] [ET   180 ] [L0 35 32 28 24 ] [L1 ] [MD5:24d292cf3ffce861f592e8ba98a841f7,a4fb6b1fd2f5f29513368c98a5662218,3e1442faa087f7df2b58cbdad5c77f24]
+PIC: 37
+Size of distortion so far: 37
+Size of epsilon so far: 30
+------New Lambda total coding dependence: 88.7808, 110.348
+
+-----------
+37) lambda Cathy: TEncSlice Muuuu: Lambda = 85.1108, qp = 35, qpFactor: 0.4624
+-----------
+
+updateREf12: Ref1: 0, Ref2: 0
+
+Accumlating bits for the slice: 67241, 0, greater than hashtaka: 0
+------------
+
+
+
+37) UUUUUUUUUU Bits and PSNRY and MSEY 67896, 39.4343, 7.40716
+POC   37 TId: 0 ( P-SLICE, nQP 35 QP 35 )      67896 bits [Y 39.4343 dB    U 41.4527 dB    V 43.0955 dB] [ET   141 ] [L0 36 32 28 24 ] [L1 ] [MD5:e4c03250bc0087b6e1ab384f0d4ef407,dbdd1d6ce1317a147132af5151d89894,da065b654b96d4e886683dd4e221bb3d]
+PIC: 38
+Size of distortion so far: 38
+Size of epsilon so far: 31
+------New Lambda total coding dependence: 66.5506, 82.8477
+
+-----------
+38) lambda Cathy: TEncSlice Muuuu: Lambda = 63.3736, qp = 33, qpFactor: 0.4624
+-----------
+
+updateREf12: Ref1: 0, Ref2: 0
+
+Accumlating bits for the slice: 104651, 0, greater than hashtaka: 0
+------------
+
+
+
+38) UUUUUUUUUU Bits and PSNRY and MSEY 105480, 39.7455, 6.8949
+POC   38 TId: 0 ( P-SLICE, nQP 33 QP 33 )     105480 bits [Y 39.7455 dB    U 41.2435 dB    V 42.9203 dB] [ET   140 ] [L0 37 36 32 28 ] [L1 ] [MD5:35f103d6640fad066f8732155e6e1633,ebc94ddd552463a67f2c81f9f642e649,bdce613f74cae0f57a8cf15120674988]
+PIC: 39
+Size of distortion so far: 39
+Size of epsilon so far: 32
+------New Lambda total coding dependence: 88.7808, 110.704
+
+-----------
+39) lambda Cathy: TEncSlice Muuuu: Lambda = 93.1074, qp = 35, qpFactor: 0.4624
+-----------
+
+updateREf12: Ref1: 0, Ref2: 0
+
+Accumlating bits for the slice: 75441, 0, greater than hashtaka: 0
+------------
+
+
+
+39) UUUUUUUUUU Bits and PSNRY and MSEY 76120, 39.1098, 7.98172
+POC   39 TId: 0 ( P-SLICE, nQP 35 QP 35 )      76120 bits [Y 39.1098 dB    U 41.0049 dB    V 42.7379 dB] [ET   134 ] [L0 38 36 32 28 ] [L1 ] [MD5:fa507105a5816415d151de3147d8e26e,e0d46e645724eb3ba8228d81ca6552c4,a4dcc000b08aa00b6f79e4abe7520de8]
+PIC: 40
+Size of distortion so far: 40
+Size of epsilon so far: 33
+------New Lambda total coding dependence: 23.3035, 29.0084
+
+-----------
+40) lambda Cathy: TEncSlice Muuuu: Lambda = 22.4907, qp = 28, qpFactor: 0.578
+-----------
+
+updateREf12: Ref1: 0, Ref2: 0
+
+Accumlating bits for the slice: 241170, 0, greater than hashtaka: 0
+------------
+
+
+
+40) UUUUUUUUUU Bits and PSNRY and MSEY 243936, 41.1175, 5.02722
+POC   40 TId: 0 ( P-SLICE, nQP 28 QP 28 )     243936 bits [Y 41.1175 dB    U 42.1359 dB    V 43.5426 dB] [ET   171 ] [L0 39 36 32 28 ] [L1 ] [MD5:8ab64f20048144e930d7e586a3c44e83,fd631a8bc9928038490c630bb13ca143,175183ac5ff5bae107985104f102f577]
+PIC: 41
+Size of distortion so far: 41
+Size of epsilon so far: 34
+------New Lambda total coding dependence: 88.7808, 110.606
+
+-----------
+41) lambda Cathy: TEncSlice Muuuu: Lambda = 87.4253, qp = 35, qpFactor: 0.4624
+-----------
+
+updateREf12: Ref1: 0, Ref2: 0
+
+Accumlating bits for the slice: 66251, 0, greater than hashtaka: 0
+------------
+
+
+
+41) UUUUUUUUUU Bits and PSNRY and MSEY 66760, 39.4367, 7.40297
+POC   41 TId: 0 ( P-SLICE, nQP 35 QP 35 )      66760 bits [Y 39.4367 dB    U 41.4235 dB    V 43.1740 dB] [ET   132 ] [L0 40 36 32 28 ] [L1 ] [MD5:4d5a1e982a27c5d7b1eb8fe2970ca6af,74820906c93fd25ad5ee15c5545fbb7d,686a8d14cf7a7b9763d7e06fe067a48c]
+PIC: 42
+Size of distortion so far: 42
+Size of epsilon so far: 35
+------New Lambda total coding dependence: 66.5506, 82.952
+
+-----------
+42) lambda Cathy: TEncSlice Muuuu: Lambda = 64.0812, qp = 33, qpFactor: 0.4624
+-----------
+
+updateREf12: Ref1: 0, Ref2: 0
+
+Accumlating bits for the slice: 105117, 0, greater than hashtaka: 0
+------------
+
+
+
+42) UUUUUUUUUU Bits and PSNRY and MSEY 106096, 39.7758, 6.84699
+POC   42 TId: 0 ( P-SLICE, nQP 33 QP 33 )     106096 bits [Y 39.7758 dB    U 41.2804 dB    V 43.0320 dB] [ET   134 ] [L0 41 40 36 32 ] [L1 ] [MD5:064d6a96b0ad4509cc7dfc427cb952e2,e87b992a4f1148b2205838fd8c7915d8,9b91d9a95362f0a83125f9e364f90863]
+PIC: 43
+Size of distortion so far: 43
+Size of epsilon so far: 36
+------New Lambda total coding dependence: 88.7808, 110.784
+
+-----------
+43) lambda Cathy: TEncSlice Muuuu: Lambda = 93.0594, qp = 35, qpFactor: 0.4624
+-----------
+
+updateREf12: Ref1: 0, Ref2: 0
+
+Accumlating bits for the slice: 76690, 0, greater than hashtaka: 0
+------------
+
+
+
+43) UUUUUUUUUU Bits and PSNRY and MSEY 77208, 39.1292, 7.9463
+POC   43 TId: 0 ( P-SLICE, nQP 35 QP 35 )      77208 bits [Y 39.1292 dB    U 41.0200 dB    V 42.8733 dB] [ET   131 ] [L0 42 40 36 32 ] [L1 ] [MD5:5786b0b1efa333d347ebdb020b4042b5,3b2816bc63a823d2ffdcbc3bbdc3ad2a,414310eac8edb41709d34bb3ab15ca73]
+PIC: 44
+Size of distortion so far: 44
+Size of epsilon so far: 37
+------New Lambda total coding dependence: 23.3035, 29.0356
+
+-----------
+44) lambda Cathy: TEncSlice Muuuu: Lambda = 22.4057, qp = 28, qpFactor: 0.578
+-----------
+
+updateREf12: Ref1: 0, Ref2: 0
+
+Accumlating bits for the slice: 247568, 0, greater than hashtaka: 0
+------------
+
+
+
+44) UUUUUUUUUU Bits and PSNRY and MSEY 251072, 41.1483, 4.99173
+POC   44 TId: 0 ( P-SLICE, nQP 28 QP 28 )     251072 bits [Y 41.1483 dB    U 42.1397 dB    V 43.6374 dB] [ET   168 ] [L0 43 40 36 32 ] [L1 ] [MD5:7c56dfbb0056f5b43169a0ec9527c7c1,b1a5a17fa620afad24dd0e2f31570410,4a6c28760b5f754a98e3b098d7d19411]
+PIC: 45
+Size of distortion so far: 45
+Size of epsilon so far: 38
+------New Lambda total coding dependence: 88.7808, 110.707
+
+-----------
+45) lambda Cathy: TEncSlice Muuuu: Lambda = 89.1383, qp = 35, qpFactor: 0.4624
+-----------
+
+updateREf12: Ref1: 0, Ref2: 0
+
+Accumlating bits for the slice: 71709, 0, greater than hashtaka: 0
+------------
+
+
+
+45) UUUUUUUUUU Bits and PSNRY and MSEY 72232, 39.4149, 7.44036
+POC   45 TId: 0 ( P-SLICE, nQP 35 QP 35 )      72232 bits [Y 39.4149 dB    U 41.3968 dB    V 43.1382 dB] [ET   130 ] [L0 44 40 36 32 ] [L1 ] [MD5:80b588fef38e5471e8b99ca8ab136675,fb061c1ee9bebc4a04481473fbd953b2,8a2000b8fdfc9b9d41136ed924798c2f]
+PIC: 46
+Size of distortion so far: 46
+Size of epsilon so far: 39
+------New Lambda total coding dependence: 66.5506, 82.9773
+
+-----------
+46) lambda Cathy: TEncSlice Muuuu: Lambda = 66.0124, qp = 33, qpFactor: 0.4624
+-----------
+
+updateREf12: Ref1: 0, Ref2: 0
+
+Accumlating bits for the slice: 108791, 0, greater than hashtaka: 0
+------------
+
+
+
+46) UUUUUUUUUU Bits and PSNRY and MSEY 109616, 39.7314, 6.91733
+POC   46 TId: 0 ( P-SLICE, nQP 33 QP 33 )     109616 bits [Y 39.7314 dB    U 41.2010 dB    V 42.9204 dB] [ET   132 ] [L0 45 44 40 36 ] [L1 ] [MD5:8abce81b46685fcfe8f252e023c60879,fe20b32635f514a31e3400da3d4b6b23,e373aaecd9acbdc7d3d1ac9be0ce53df]
+PIC: 47
+Size of distortion so far: 47
+Size of epsilon so far: 40
+------New Lambda total coding dependence: 88.7808, 110.718
+
+-----------
+47) lambda Cathy: TEncSlice Muuuu: Lambda = 94.2645, qp = 35, qpFactor: 0.4624
+-----------
+
+updateREf12: Ref1: 0, Ref2: 0
+
+Accumlating bits for the slice: 79425, 0, greater than hashtaka: 0
+------------
+
+
+
+47) UUUUUUUUUU Bits and PSNRY and MSEY 80472, 39.1293, 7.94612
+POC   47 TId: 0 ( P-SLICE, nQP 35 QP 35 )      80472 bits [Y 39.1293 dB    U 40.9557 dB    V 42.7551 dB] [ET   129 ] [L0 46 44 40 36 ] [L1 ] [MD5:6f2fd3b67b8e858d4789b6dda93c89be,943837d53e1ad3c5fc4181e0ed0d24ad,d51433e4a27a4738b08df0b62fea7b6a]
+PIC: 48
+Size of distortion so far: 48
+Size of epsilon so far: 41
+------New Lambda total coding dependence: 23.3035, 29.0123
+
+-----------
+48) lambda Cathy: TEncSlice Muuuu: Lambda = 22.6664, qp = 28, qpFactor: 0.578
+-----------
+
+updateREf12: Ref1: 0, Ref2: 0
+
+Accumlating bits for the slice: 244100, 0, greater than hashtaka: 0
+------------
+
+
+
+48) UUUUUUUUUU Bits and PSNRY and MSEY 247144, 41.2649, 4.85948
+POC   48 TId: 0 ( P-SLICE, nQP 28 QP 28 )     247144 bits [Y 41.2649 dB    U 42.1243 dB    V 43.5934 dB] [ET   168 ] [L0 47 44 40 36 ] [L1 ] [MD5:f5a82c5e7686f59ed76443d0dee713ff,04cdab2d1e0d3480c352b9b659e8b797,55cc1798bcded7607dcf63241ce527e7]
+PIC: 49
+Size of distortion so far: 49
+Size of epsilon so far: 42
+------New Lambda total coding dependence: 88.7808, 110.584
+
+-----------
+49) lambda Cathy: TEncSlice Muuuu: Lambda = 88.979, qp = 35, qpFactor: 0.4624
+-----------
+
+updateREf12: Ref1: 0, Ref2: 0
+
+Accumlating bits for the slice: 71144, 0, greater than hashtaka: 0
+------------
+
+
+
+49) UUUUUUUUUU Bits and PSNRY and MSEY 71704, 39.3713, 7.51536
+POC   49 TId: 0 ( P-SLICE, nQP 35 QP 35 )      71704 bits [Y 39.3713 dB    U 41.3376 dB    V 42.9904 dB] [ET   130 ] [L0 48 44 40 36 ] [L1 ] [MD5:fa7dd104133ff5c9aba7338eab394cfa,868f390f66040f88fd53d6912eacea62,f33913f568097649daf994046baca7d9]
+PIC: 50
+Size of distortion so far: 50
+Size of epsilon so far: 43
+------New Lambda total coding dependence: 66.5506, 82.8899
+
+-----------
+50) lambda Cathy: TEncSlice Muuuu: Lambda = 65.8108, qp = 33, qpFactor: 0.4624
+-----------
+
+updateREf12: Ref1: 0, Ref2: 0
+
+Accumlating bits for the slice: 110753, 0, greater than hashtaka: 0
+------------
+
+
+
+50) UUUUUUUUUU Bits and PSNRY and MSEY 111872, 39.5817, 7.15992
+POC   50 TId: 0 ( P-SLICE, nQP 33 QP 33 )     111872 bits [Y 39.5817 dB    U 41.1547 dB    V 42.7611 dB] [ET   135 ] [L0 49 48 44 40 ] [L1 ] [MD5:624249112fe20650c8a7295e83221f3a,8dd31481c392893708c99b0ca8b98d2c,28a56a51b0485142ba256c0c1457e173]
+PIC: 51
+Size of distortion so far: 51
+Size of epsilon so far: 44
+------New Lambda total coding dependence: 88.7808, 110.609
+
+-----------
+51) lambda Cathy: TEncSlice Muuuu: Lambda = 95.2301, qp = 35, qpFactor: 0.4624
+-----------
+
+updateREf12: Ref1: 0, Ref2: 0
+
+Accumlating bits for the slice: 79623, 0, greater than hashtaka: 0
+------------
+
+
+
+51) UUUUUUUUUU Bits and PSNRY and MSEY 80480, 38.9637, 8.25486
+POC   51 TId: 0 ( P-SLICE, nQP 35 QP 35 )      80480 bits [Y 38.9637 dB    U 40.8795 dB    V 42.5931 dB] [ET   133 ] [L0 50 48 44 40 ] [L1 ] [MD5:ba5c5b14a598e8761399fb6cffef5614,377e345da16f1dd694a99546e3c05f86,2d28621082f3661d54e3b05c134077b7]
+PIC: 52
+Size of distortion so far: 52
+Size of epsilon so far: 45
+------New Lambda total coding dependence: 23.3035, 28.9787
+
+-----------
+52) lambda Cathy: TEncSlice Muuuu: Lambda = 22.9476, qp = 28, qpFactor: 0.578
+-----------
+
+updateREf12: Ref1: 0, Ref2: 0
+
+Accumlating bits for the slice: 251840, 0, greater than hashtaka: 0
+------------
+
+
+
+52) UUUUUUUUUU Bits and PSNRY and MSEY 255200, 41.1469, 4.99328
+POC   52 TId: 0 ( P-SLICE, nQP 28 QP 28 )     255200 bits [Y 41.1469 dB    U 42.0687 dB    V 43.4937 dB] [ET   176 ] [L0 51 48 44 40 ] [L1 ] [MD5:8463a876ef4e2e83dbd3864bb32ff8c1,3f53eb8e89d89e07c849168bf52a4a27,4d1e9318a826ca7802222c6b74e35f4d]
+PIC: 53
+Size of distortion so far: 53
+Size of epsilon so far: 46
+------New Lambda total coding dependence: 88.7808, 110.43
+
+-----------
+53) lambda Cathy: TEncSlice Muuuu: Lambda = 89.4937, qp = 35, qpFactor: 0.4624
+-----------
+
+updateREf12: Ref1: 0, Ref2: 0
+
+Accumlating bits for the slice: 71705, 0, greater than hashtaka: 0
+------------
+
+
+
+53) UUUUUUUUUU Bits and PSNRY and MSEY 72232, 39.444, 7.39057
+POC   53 TId: 0 ( P-SLICE, nQP 35 QP 35 )      72232 bits [Y 39.4440 dB    U 41.2886 dB    V 42.9801 dB] [ET   137 ] [L0 52 48 44 40 ] [L1 ] [MD5:5be2b2cdabf866732c7bfb06fbf8ce50,ffb70a3d3303d2f2aab7ce1e39e2837a,565c57a52cb246d0612604ca80878013]
+PIC: 54
+Size of distortion so far: 54
+Size of epsilon so far: 47
+------New Lambda total coding dependence: 66.5506, 82.7635
+
+-----------
+54) lambda Cathy: TEncSlice Muuuu: Lambda = 66.8109, qp = 34, qpFactor: 0.4624
+-----------
+
+updateREf12: Ref1: 0, Ref2: 0
+
+Accumlating bits for the slice: 99733, 0, greater than hashtaka: 0
+------------
+
+
+
+54) UUUUUUUUUU Bits and PSNRY and MSEY 100672, 39.5256, 7.2531
+POC   54 TId: 0 ( P-SLICE, nQP 34 QP 34 )     100672 bits [Y 39.5256 dB    U 41.0842 dB    V 42.7535 dB] [ET   134 ] [L0 53 52 48 44 ] [L1 ] [MD5:2db24121eba4951501ab4b450e45ddf1,0c45c33eff852a9198f21a25e9e224b4,d150460530b73137a3407e0e922e20b1]
+PIC: 55
+Size of distortion so far: 55
+Size of epsilon so far: 48
+------New Lambda total coding dependence: 88.7808, 110.4
+
+-----------
+55) lambda Cathy: TEncSlice Muuuu: Lambda = 95.7118, qp = 35, qpFactor: 0.4624
+-----------
+
+updateREf12: Ref1: 0, Ref2: 0
+
+Accumlating bits for the slice: 81429, 0, greater than hashtaka: 0
+------------
+
+
+
+55) UUUUUUUUUU Bits and PSNRY and MSEY 82024, 38.8686, 8.43772
+POC   55 TId: 0 ( P-SLICE, nQP 35 QP 35 )      82024 bits [Y 38.8686 dB    U 40.8399 dB    V 42.5803 dB] [ET   131 ] [L0 54 52 48 44 ] [L1 ] [MD5:7025ce31e0b42aaa6d4179957097fe30,c4ebf4db7ec02e00912b03ecfa5d9140,89c2c28674ed92569c8de623fda6bc10]
+PIC: 56
+Size of distortion so far: 56
+Size of epsilon so far: 49
+------New Lambda total coding dependence: 23.3035, 28.924
+
+-----------
+56) lambda Cathy: TEncSlice Muuuu: Lambda = 23.2136, qp = 28, qpFactor: 0.578
+-----------
+
+updateREf12: Ref1: 0, Ref2: 0
+
+Accumlating bits for the slice: 246482, 0, greater than hashtaka: 0
+------------
+
+
+
+56) UUUUUUUUUU Bits and PSNRY and MSEY 249120, 41.0385, 5.11951
+POC   56 TId: 0 ( P-SLICE, nQP 28 QP 28 )     249120 bits [Y 41.0385 dB    U 42.0750 dB    V 43.4406 dB] [ET   168 ] [L0 55 52 48 44 ] [L1 ] [MD5:627fa57af57d3a1c7cd59634f6333b93,8691503adf0d0ce5616444cec4659df3,44988fa8d453b5a86afe85d7cdbc8779]
+PIC: 57
+Size of distortion so far: 57
+Size of epsilon so far: 50
+------New Lambda total coding dependence: 88.7808, 110.2
+
+-----------
+57) lambda Cathy: TEncSlice Muuuu: Lambda = 89.7058, qp = 35, qpFactor: 0.4624
+-----------
+
+updateREf12: Ref1: 0, Ref2: 0
+
+Accumlating bits for the slice: 71613, 0, greater than hashtaka: 0
+------------
+
+
+
+57) UUUUUUUUUU Bits and PSNRY and MSEY 72408, 39.5051, 7.28741
+POC   57 TId: 0 ( P-SLICE, nQP 35 QP 35 )      72408 bits [Y 39.5051 dB    U 41.3538 dB    V 43.0395 dB] [ET   134 ] [L0 56 52 48 44 ] [L1 ] [MD5:8b60b7c7bf5b67c56820cee507dedd0b,3a3db3ed0794a6c372cef60d4814262f,289c13cb06afabdcdb90dba039d6af04]
+PIC: 58
+Size of distortion so far: 58
+Size of epsilon so far: 51
+------New Lambda total coding dependence: 66.5506, 82.5884
+
+-----------
+58) lambda Cathy: TEncSlice Muuuu: Lambda = 66.431, qp = 33, qpFactor: 0.4624
+-----------
+
+updateREf12: Ref1: 0, Ref2: 0
+
+Accumlating bits for the slice: 106858, 0, greater than hashtaka: 0
+------------
+
+
+
+58) UUUUUUUUUU Bits and PSNRY and MSEY 107456, 39.8092, 6.7945
+POC   58 TId: 0 ( P-SLICE, nQP 33 QP 33 )     107456 bits [Y 39.8092 dB    U 41.1885 dB    V 42.8877 dB] [ET   137 ] [L0 57 56 52 48 ] [L1 ] [MD5:917067cd47e4f8f51aafcfa2d7c83ada,243cd1cdbf06a27643e9c9edd242e1ea,b6877a81dc18b51d5b8f4bc55d03359b]
+PIC: 59
+Size of distortion so far: 59
+Size of epsilon so far: 52
+------New Lambda total coding dependence: 88.7808, 110.18
+
+-----------
+59) lambda Cathy: TEncSlice Muuuu: Lambda = 95.2574, qp = 35, qpFactor: 0.4624
+-----------
+
+updateREf12: Ref1: 0, Ref2: 0
+
+Accumlating bits for the slice: 80623, 0, greater than hashtaka: 0
+------------
+
+
+
+59) UUUUUUUUUU Bits and PSNRY and MSEY 81184, 39.1651, 7.88076
+POC   59 TId: 0 ( P-SLICE, nQP 35 QP 35 )      81184 bits [Y 39.1651 dB    U 40.9737 dB    V 42.7015 dB] [ET   134 ] [L0 58 56 52 48 ] [L1 ] [MD5:5fb15899f5f1a210f41807afef487553,bd3b07b291c184415480296d8411cb9a,cbbc300dc95b404beab7ae21ea1498f6]
+PIC: 60
+Size of distortion so far: 60
+Size of epsilon so far: 53
+------New Lambda total coding dependence: 23.3035, 28.8767
+
+-----------
+60) lambda Cathy: TEncSlice Muuuu: Lambda = 23.3686, qp = 28, qpFactor: 0.578
+-----------
+
+updateREf12: Ref1: 0, Ref2: 0
+
+Accumlating bits for the slice: 242739, 0, greater than hashtaka: 0
+------------
+
+
+
+60) UUUUUUUUUU Bits and PSNRY and MSEY 246136, 41.1745, 4.9617
+POC   60 TId: 0 ( P-SLICE, nQP 28 QP 28 )     246136 bits [Y 41.1745 dB    U 42.1314 dB    V 43.5694 dB] [ET   174 ] [L0 59 56 52 48 ] [L1 ] [MD5:c8904a58ad180373f9447d61495464c6,762dafa37ed5f52a83d73422bebc7f00,6f0a53182e9698685592aa15e3024b85]
+PIC: 61
+Size of distortion so far: 61
+Size of epsilon so far: 54
+------New Lambda total coding dependence: 88.7808, 110.009
+
+-----------
+61) lambda Cathy: TEncSlice Muuuu: Lambda = 91.648, qp = 35, qpFactor: 0.4624
+-----------
+
+updateREf12: Ref1: 0, Ref2: 0
+
+Accumlating bits for the slice: 70609, 0, greater than hashtaka: 0
+------------
+
+
+
+61) UUUUUUUUUU Bits and PSNRY and MSEY 71216, 39.4162, 7.43814
+POC   61 TId: 0 ( P-SLICE, nQP 35 QP 35 )      71216 bits [Y 39.4162 dB    U 41.4045 dB    V 43.0880 dB] [ET   141 ] [L0 60 56 52 48 ] [L1 ] [MD5:d75bfe1f7ead3c9a678d29ec7c3866a4,f17de73c9dbece81dce1b7458498133d,3db12a3e25cdd98cbfb125c4e6f72ece]
+PIC: 62
+Size of distortion so far: 62
+Size of epsilon so far: 55
+------New Lambda total coding dependence: 66.5506, 82.4111
+
+-----------
+62) lambda Cathy: TEncSlice Muuuu: Lambda = 68.1694, qp = 34, qpFactor: 0.4624
+-----------
+
+updateREf12: Ref1: 0, Ref2: 0
+
+Accumlating bits for the slice: 99536, 0, greater than hashtaka: 0
+------------
+
+
+
+62) UUUUUUUUUU Bits and PSNRY and MSEY 100728, 39.5229, 7.25753
+POC   62 TId: 0 ( P-SLICE, nQP 34 QP 34 )     100728 bits [Y 39.5229 dB    U 41.1812 dB    V 42.9157 dB] [ET   138 ] [L0 61 60 56 52 ] [L1 ] [MD5:a6571ec6a2b16eaa087f33d2115d796a,2bb42a26d05f2275234717928715020f,79a0a2ea90ffcbea0a257eb9bea90f0f]
+PIC: 63
+Size of distortion so far: 63
+Size of epsilon so far: 56
+------New Lambda total coding dependence: 88.7808, 109.889
+
+-----------
+63) lambda Cathy: TEncSlice Muuuu: Lambda = 97.5629, qp = 35, qpFactor: 0.4624
+-----------
+
+updateREf12: Ref1: 0, Ref2: 0
+
+Accumlating bits for the slice: 75668, 0, greater than hashtaka: 0
+------------
+
+
+
+63) UUUUUUUUUU Bits and PSNRY and MSEY 76336, 38.9022, 8.3726
+POC   63 TId: 0 ( P-SLICE, nQP 35 QP 35 )      76336 bits [Y 38.9022 dB    U 41.0284 dB    V 42.7488 dB] [ET   132 ] [L0 62 60 56 52 ] [L1 ] [MD5:44b2c818f4057406ed2a115ce2fb5720,66e32a80b9b574231ad74da5114b9c7c,3922fc23d82a60432c087b076a6e645e]
+PIC: 64
+Size of distortion so far: 64
+Size of epsilon so far: 57
+------New Lambda total coding dependence: 23.3035, 28.7872
+
+-----------
+64) lambda Cathy: TEncSlice Muuuu: Lambda = 23.5923, qp = 28, qpFactor: 0.578
+-----------
+
+updateREf12: Ref1: 0, Ref2: 0
+
+Accumlating bits for the slice: 243985, 0, greater than hashtaka: 0
+------------
+
+
+
+64) UUUUUUUUUU Bits and PSNRY and MSEY 246832, 41.0766, 5.07481
+POC   64 TId: 0 ( P-SLICE, nQP 28 QP 28 )     246832 bits [Y 41.0766 dB    U 42.1129 dB    V 43.5660 dB] [ET   169 ] [L0 63 60 56 52 ] [L1 ] [MD5:a58ee385978acb0cd23dc0afd543c44d,fa8d56e85cdf773970bfd9ab26e058f7,af28c815c5e389033f8c66ed7fe5062d]
+PIC: 65
+Size of distortion so far: 65
+Size of epsilon so far: 58
+------New Lambda total coding dependence: 88.7808, 109.655
+
+-----------
+65) lambda Cathy: TEncSlice Muuuu: Lambda = 90.0963, qp = 35, qpFactor: 0.4624
+-----------
+
+updateREf12: Ref1: 0, Ref2: 0
+
+Accumlating bits for the slice: 65147, 0, greater than hashtaka: 0
+------------
+
+
+
+65) UUUUUUUUUU Bits and PSNRY and MSEY 65736, 39.5348, 7.23768
+POC   65 TId: 0 ( P-SLICE, nQP 35 QP 35 )      65736 bits [Y 39.5348 dB    U 41.4496 dB    V 43.1448 dB] [ET   129 ] [L0 64 60 56 52 ] [L1 ] [MD5:a80ec538d9a379f7423319f833dcb392,0b435a84efde754ff18b76d35fa74c0e,65cd70d1db628e5cc7fbb7bf5d17a6e2]
+PIC: 66
+Size of distortion so far: 66
+Size of epsilon so far: 59
+------New Lambda total coding dependence: 66.5506, 82.1758
+
+-----------
+66) lambda Cathy: TEncSlice Muuuu: Lambda = 65.6442, qp = 33, qpFactor: 0.4624
+-----------
+
+updateREf12: Ref1: 0, Ref2: 0
+
+Accumlating bits for the slice: 98954, 0, greater than hashtaka: 0
+------------
+
+
+
+66) UUUUUUUUUU Bits and PSNRY and MSEY 99984, 39.8338, 6.75614
+POC   66 TId: 0 ( P-SLICE, nQP 33 QP 33 )      99984 bits [Y 39.8338 dB    U 41.2792 dB    V 43.0076 dB] [ET   129 ] [L0 65 64 60 56 ] [L1 ] [MD5:97d11f1e8c04280b7a41a37cbd051b08,e532ce07adb611a9a27830d16844063f,2e8547f1a03f65bb73d5c6317eb13356]
+PIC: 67
+Size of distortion so far: 67
+Size of epsilon so far: 60
+------New Lambda total coding dependence: 88.7808, 109.651
+
+-----------
+67) lambda Cathy: TEncSlice Muuuu: Lambda = 94.9896, qp = 35, qpFactor: 0.4624
+-----------
+
+updateREf12: Ref1: 0, Ref2: 0
+
+Accumlating bits for the slice: 76051, 0, greater than hashtaka: 0
+------------
+
+
+
+67) UUUUUUUUUU Bits and PSNRY and MSEY 76728, 39.1731, 7.86623
+POC   67 TId: 0 ( P-SLICE, nQP 35 QP 35 )      76728 bits [Y 39.1731 dB    U 41.0865 dB    V 42.8249 dB] [ET   128 ] [L0 66 64 60 56 ] [L1 ] [MD5:8f2112e73a8c0b142bad7ce0cec588a4,119cd8e5cb6616948284e780fe7efb40,6f9a5899ed47d2be21b28ab7987103e1]
+PIC: 68
+Size of distortion so far: 68
+Size of epsilon so far: 61
+------New Lambda total coding dependence: 23.3035, 28.7454
+
+-----------
+68) lambda Cathy: TEncSlice Muuuu: Lambda = 23.2179, qp = 28, qpFactor: 0.578
+-----------
+
+updateREf12: Ref1: 0, Ref2: 0
+
+Accumlating bits for the slice: 237156, 0, greater than hashtaka: 0
+------------
+
+
+
+68) UUUUUUUUUU Bits and PSNRY and MSEY 240360, 41.0648, 5.08867
+POC   68 TId: 0 ( P-SLICE, nQP 28 QP 28 )     240360 bits [Y 41.0648 dB    U 42.1818 dB    V 43.6530 dB] [ET   166 ] [L0 67 64 60 56 ] [L1 ] [MD5:01b0e6e51abdb8274d6a8e05a1faf681,c05fe2e117acd3738c329954bebd2fba,74d4523196b7b8b380848d9dad2bc254]
+PIC: 69
+Size of distortion so far: 69
+Size of epsilon so far: 62
+------New Lambda total coding dependence: 88.7808, 109.518
+
+-----------
+69) lambda Cathy: TEncSlice Muuuu: Lambda = 90.069, qp = 35, qpFactor: 0.4624
+-----------
+
+updateREf12: Ref1: 0, Ref2: 0
+
+Accumlating bits for the slice: 67201, 0, greater than hashtaka: 0
+------------
+
+
+
+69) UUUUUUUUUU Bits and PSNRY and MSEY 67920, 39.4452, 7.38865
+POC   69 TId: 0 ( P-SLICE, nQP 35 QP 35 )      67920 bits [Y 39.4452 dB    U 41.4302 dB    V 43.1598 dB] [ET   128 ] [L0 68 64 60 56 ] [L1 ] [MD5:52103ab891b70ebf0e264c8a0cc723a7,b3201b0da6302f3eace48c9532d725fd,53d98503fee6ba27e124549a3308a98f]
+PIC: 70
+Size of distortion so far: 70
+Size of epsilon so far: 63
+------New Lambda total coding dependence: 66.5506, 82.0749
+
+-----------
+70) lambda Cathy: TEncSlice Muuuu: Lambda = 66.0371, qp = 33, qpFactor: 0.4624
+-----------
+
+updateREf12: Ref1: 0, Ref2: 0
+
+Accumlating bits for the slice: 98716, 0, greater than hashtaka: 0
+------------
+
+
+
+70) UUUUUUUUUU Bits and PSNRY and MSEY 99960, 39.6715, 7.0135
+POC   70 TId: 0 ( P-SLICE, nQP 33 QP 33 )      99960 bits [Y 39.6715 dB    U 41.3154 dB    V 42.9996 dB] [ET   129 ] [L0 69 68 64 60 ] [L1 ] [MD5:dc4212755d61134438957e9b60dd829a,ea87ea28360e1b882da84e5d32d7a98c,94761794e0f2505e1bdbecfd385a494e]
+PIC: 71
+Size of distortion so far: 71
+Size of epsilon so far: 64
+------New Lambda total coding dependence: 88.7808, 109.505
+
+-----------
+71) lambda Cathy: TEncSlice Muuuu: Lambda = 94.3354, qp = 35, qpFactor: 0.4624
+-----------
+
+updateREf12: Ref1: 0, Ref2: 0
+
+Accumlating bits for the slice: 73073, 0, greater than hashtaka: 0
+------------
+
+
+
+71) UUUUUUUUUU Bits and PSNRY and MSEY 73760, 39.1392, 7.92786
+POC   71 TId: 0 ( P-SLICE, nQP 35 QP 35 )      73760 bits [Y 39.1392 dB    U 41.1040 dB    V 42.8528 dB] [ET   127 ] [L0 70 68 64 60 ] [L1 ] [MD5:f8bf8dd9c798ca5bd177c816369beda2,471ca49dfa7c3ea8bb6bd64070c35855,5a2f3047b1d212ff21f08466785e99f4]
+PIC: 72
+Size of distortion so far: 72
+Size of epsilon so far: 65
+------New Lambda total coding dependence: 23.3035, 28.7125
+
+-----------
+72) lambda Cathy: TEncSlice Muuuu: Lambda = 23.0116, qp = 28, qpFactor: 0.578
+-----------
+
+updateREf12: Ref1: 0, Ref2: 0
+
+Accumlating bits for the slice: 230128, 0, greater than hashtaka: 0
+------------
+
+
+
+72) UUUUUUUUUU Bits and PSNRY and MSEY 232840, 41.1096, 5.03643
+POC   72 TId: 0 ( P-SLICE, nQP 28 QP 28 )     232840 bits [Y 41.1096 dB    U 42.2325 dB    V 43.6660 dB] [ET   168 ] [L0 71 68 64 60 ] [L1 ] [MD5:f2bc2e537992c93a9e2661ccfb7f2392,4fd6ac9d2a2a4e6ed58b9af946bae161,a4063bbf010185f09ae01658d84ed37f]
+PIC: 73
+Size of distortion so far: 73
+Size of epsilon so far: 66
+------New Lambda total coding dependence: 88.7808, 109.404
+
+-----------
+73) lambda Cathy: TEncSlice Muuuu: Lambda = 90.1188, qp = 35, qpFactor: 0.4624
+-----------
+
+updateREf12: Ref1: 0, Ref2: 0
+
+Accumlating bits for the slice: 64809, 0, greater than hashtaka: 0
+------------
+
+
+
+73) UUUUUUUUUU Bits and PSNRY and MSEY 65392, 39.5524, 7.20846
+POC   73 TId: 0 ( P-SLICE, nQP 35 QP 35 )      65392 bits [Y 39.5524 dB    U 41.5546 dB    V 43.2298 dB] [ET   134 ] [L0 72 68 64 60 ] [L1 ] [MD5:dd7a099415d708b44783460fa6be4638,9fcc489a957fe700f56473e35496cfe5,c87557d71218ea921299120c20d1b5e2]
+PIC: 74
+Size of distortion so far: 74
+Size of epsilon so far: 67
+------New Lambda total coding dependence: 66.5506, 81.99
+
+-----------
+74) lambda Cathy: TEncSlice Muuuu: Lambda = 67.9022, qp = 34, qpFactor: 0.4624
+-----------
+
+updateREf12: Ref1: 0, Ref2: 0
+
+Accumlating bits for the slice: 91591, 0, greater than hashtaka: 0
+------------
+
+
+
+74) UUUUUUUUUU Bits and PSNRY and MSEY 92648, 39.6806, 6.99882
+POC   74 TId: 0 ( P-SLICE, nQP 34 QP 34 )      92648 bits [Y 39.6806 dB    U 41.2837 dB    V 42.9865 dB] [ET   135 ] [L0 73 72 68 64 ] [L1 ] [MD5:aec61e156ebcfb3cbdab5175536987ce,fafc56e4af583e9ecb75d7291df12c06,2fcff169e33ae6f6d51bbe25d80af194]
+PIC: 75
+Size of distortion so far: 75
+Size of epsilon so far: 68
+------New Lambda total coding dependence: 88.7808, 109.344
+
+-----------
+75) lambda Cathy: TEncSlice Muuuu: Lambda = 95.4179, qp = 35, qpFactor: 0.4624
+-----------
+
+updateREf12: Ref1: 0, Ref2: 0
+
+Accumlating bits for the slice: 75271, 0, greater than hashtaka: 0
+------------
+
+
+
+75) UUUUUUUUUU Bits and PSNRY and MSEY 75920, 39.2014, 7.81516
+POC   75 TId: 0 ( P-SLICE, nQP 35 QP 35 )      75920 bits [Y 39.2014 dB    U 41.0871 dB    V 42.8466 dB] [ET   132 ] [L0 74 72 68 64 ] [L1 ] [MD5:c92c4964b50a2c876022468344484eaf,5bd7a464cb4473c5d7d3c3880643ed5b,f6cd74d8e950722acc8a09e341b89c5f]
+PIC: 76
+Size of distortion so far: 76
+Size of epsilon so far: 69
+------New Lambda total coding dependence: 23.3035, 28.6674
+
+-----------
+76) lambda Cathy: TEncSlice Muuuu: Lambda = 23.7959, qp = 28, qpFactor: 0.578
+-----------
+
+updateREf12: Ref1: 0, Ref2: 0
+
+Accumlating bits for the slice: 224745, 0, greater than hashtaka: 0
+------------
+
+
+
+76) UUUUUUUUUU Bits and PSNRY and MSEY 227720, 41.1373, 5.00435
+POC   76 TId: 0 ( P-SLICE, nQP 28 QP 28 )     227720 bits [Y 41.1373 dB    U 42.1778 dB    V 43.6166 dB] [ET   167 ] [L0 75 72 68 64 ] [L1 ] [MD5:101d847526c5e84996ef6b1b108d4f8a,26567b0ae40c049185e4d11aa2957dfc,c043db4ff525169343e50c98090ba9b8]
+PIC: 77
+Size of distortion so far: 77
+Size of epsilon so far: 70
+------New Lambda total coding dependence: 88.7808, 109.192
+
+-----------
+77) lambda Cathy: TEncSlice Muuuu: Lambda = 91.1732, qp = 35, qpFactor: 0.4624
+-----------
+
+updateREf12: Ref1: 0, Ref2: 0
+
+Accumlating bits for the slice: 65722, 0, greater than hashtaka: 0
+------------
+
+
+
+77) UUUUUUUUUU Bits and PSNRY and MSEY 66400, 39.4326, 7.41005
+POC   77 TId: 0 ( P-SLICE, nQP 35 QP 35 )      66400 bits [Y 39.4326 dB    U 41.5125 dB    V 43.1543 dB] [ET   129 ] [L0 76 72 68 64 ] [L1 ] [MD5:a6cd2201c3790f1dc65fdf969023bc4e,79ab486d9acf43037faacc46f99870c7,31b316a21a578934767a74f0a3f3a2df]
+PIC: 78
+Size of distortion so far: 78
+Size of epsilon so far: 71
+------New Lambda total coding dependence: 66.5506, 81.8175
+
+-----------
+78) lambda Cathy: TEncSlice Muuuu: Lambda = 67.5154, qp = 34, qpFactor: 0.4624
+-----------
+
+updateREf12: Ref1: 0, Ref2: 0
+
+Accumlating bits for the slice: 94798, 0, greater than hashtaka: 0
+------------
+
+
+
+78) UUUUUUUUUU Bits and PSNRY and MSEY 95840, 39.5375, 7.23315
+POC   78 TId: 0 ( P-SLICE, nQP 34 QP 34 )      95840 bits [Y 39.5375 dB    U 41.2650 dB    V 42.9465 dB] [ET   130 ] [L0 77 76 72 68 ] [L1 ] [MD5:50c2cf2064093cedffae7b390da3551f,0c902ee670299318b00345c7bf548d11,46591405d083ca3ccb93962a554a7ca9]
+PIC: 79
+Size of distortion so far: 79
+Size of epsilon so far: 72
+------New Lambda total coding dependence: 88.7808, 109.124
+
+-----------
+79) lambda Cathy: TEncSlice Muuuu: Lambda = 95.7383, qp = 35, qpFactor: 0.4624
+-----------
+
+updateREf12: Ref1: 0, Ref2: 0
+
+Accumlating bits for the slice: 74302, 0, greater than hashtaka: 0
+------------
+
+
+
+79) UUUUUUUUUU Bits and PSNRY and MSEY 75280, 39.1602, 7.88968
+POC   79 TId: 0 ( P-SLICE, nQP 35 QP 35 )      75280 bits [Y 39.1602 dB    U 41.0913 dB    V 42.8365 dB] [ET   128 ] [L0 78 76 72 68 ] [L1 ] [MD5:ea3c1dfc469d544d393ca2f7855cfc4e,6b6a752d70f78b5a95d2999f27c965e3,9d295cbea4d697768f52b22265b033ca]
+PIC: 80
+Size of distortion so far: 80
+Size of epsilon so far: 73
+------New Lambda total coding dependence: 23.3035, 28.6099
+
+-----------
+80) lambda Cathy: TEncSlice Muuuu: Lambda = 23.5681, qp = 28, qpFactor: 0.578
+-----------
+
+updateREf12: Ref1: 0, Ref2: 0
+
+Accumlating bits for the slice: 231545, 0, greater than hashtaka: 0
+------------
+
+
+
+80) UUUUUUUUUU Bits and PSNRY and MSEY 234584, 41.1256, 5.01793
+POC   80 TId: 0 ( P-SLICE, nQP 28 QP 28 )     234584 bits [Y 41.1256 dB    U 42.1827 dB    V 43.6229 dB] [ET   169 ] [L0 79 76 72 68 ] [L1 ] [MD5:0fe5e3d22831779d0adb6728e6623df7,216746b2325aa4e305d27dd798e4cc55,ee99a1e41374db969c98358129047c17]
+PIC: 81
+Size of distortion so far: 81
+Size of epsilon so far: 74
+------New Lambda total coding dependence: 88.7808, 108.984
+
+-----------
+81) lambda Cathy: TEncSlice Muuuu: Lambda = 90.5155, qp = 35, qpFactor: 0.4624
+-----------
+
+updateREf12: Ref1: 0, Ref2: 0
+
+Accumlating bits for the slice: 66754, 0, greater than hashtaka: 0
+------------
+
+
+
+81) UUUUUUUUUU Bits and PSNRY and MSEY 67312, 39.5498, 7.21277
+POC   81 TId: 0 ( P-SLICE, nQP 35 QP 35 )      67312 bits [Y 39.5498 dB    U 41.4391 dB    V 43.1185 dB] [ET   134 ] [L0 80 76 72 68 ] [L1 ] [MD5:04f40dbb77059c7883c221bd12c1f30a,77ec9245482afeac9881c82aeb4dbf5d,607ba43eb617fb55e5e835e84e22ed64]
+PIC: 82
+Size of distortion so far: 82
+Size of epsilon so far: 75
+------New Lambda total coding dependence: 66.5506, 81.6729
+
+-----------
+82) lambda Cathy: TEncSlice Muuuu: Lambda = 68.3066, qp = 34, qpFactor: 0.4624
+-----------
+
+updateREf12: Ref1: 0, Ref2: 0
+
+Accumlating bits for the slice: 94189, 0, greater than hashtaka: 0
+------------
+
+
+
+82) UUUUUUUUUU Bits and PSNRY and MSEY 95464, 39.6385, 7.06698
+POC   82 TId: 0 ( P-SLICE, nQP 34 QP 34 )      95464 bits [Y 39.6385 dB    U 41.2647 dB    V 42.9114 dB] [ET   137 ] [L0 81 80 76 72 ] [L1 ] [MD5:053ae49233b76f7558114b79386ac8c1,31602b6e50120c0b00299a8401ec3ecc,46ec307018ca743df8b71eb54be4f55e]
+PIC: 83
+Size of distortion so far: 83
+Size of epsilon so far: 76
+------New Lambda total coding dependence: 88.7808, 108.916
+
+-----------
+83) lambda Cathy: TEncSlice Muuuu: Lambda = 95.8377, qp = 35, qpFactor: 0.4624
+-----------
+
+updateREf12: Ref1: 0, Ref2: 0
+
+Accumlating bits for the slice: 78362, 0, greater than hashtaka: 0
+------------
+
+
+
+83) UUUUUUUUUU Bits and PSNRY and MSEY 79336, 39.0384, 8.11406
+POC   83 TId: 0 ( P-SLICE, nQP 35 QP 35 )      79336 bits [Y 39.0384 dB    U 41.0539 dB    V 42.7218 dB] [ET   135 ] [L0 82 80 76 72 ] [L1 ] [MD5:1a1daf20c4bba94a57744108b995a039,d3cc5818a48f816759e9b81138e0ff25,16b2bdbf4a5b9eeda6348c2700c92a66]
+PIC: 84
+Size of distortion so far: 84
+Size of epsilon so far: 77
+------New Lambda total coding dependence: 23.3035, 28.5557
+
+-----------
+84) lambda Cathy: TEncSlice Muuuu: Lambda = 23.6473, qp = 28, qpFactor: 0.578
+-----------
+
+updateREf12: Ref1: 0, Ref2: 0
+
+Accumlating bits for the slice: 236067, 0, greater than hashtaka: 0
+------------
+
+
+
+84) UUUUUUUUUU Bits and PSNRY and MSEY 238216, 41.0965, 5.05156
+POC   84 TId: 0 ( P-SLICE, nQP 28 QP 28 )     238216 bits [Y 41.0965 dB    U 42.1567 dB    V 43.5926 dB] [ET   173 ] [L0 83 80 76 72 ] [L1 ] [MD5:c3aa80903d9bc5124dc43e83c989cf66,06e7368f7c67a9f22b29faac876084eb,b8af0dbe9464a410d5fce1b40b69b508]
+PIC: 85
+Size of distortion so far: 85
+Size of epsilon so far: 78
+------New Lambda total coding dependence: 88.7808, 108.775
+
+-----------
+85) lambda Cathy: TEncSlice Muuuu: Lambda = 90.7568, qp = 35, qpFactor: 0.4624
+-----------
+
+updateREf12: Ref1: 0, Ref2: 0
+
+Accumlating bits for the slice: 69201, 0, greater than hashtaka: 0
+------------
+
+
+
+85) UUUUUUUUUU Bits and PSNRY and MSEY 69872, 39.4793, 7.33081
+POC   85 TId: 0 ( P-SLICE, nQP 35 QP 35 )      69872 bits [Y 39.4793 dB    U 41.4410 dB    V 43.0382 dB] [ET   136 ] [L0 84 80 76 72 ] [L1 ] [MD5:1a9aa9a55202f0c0116f78d2ede34463,599bc397cd1864c6ac2eb10cc595b157,81d24a1225aec2046eeb5cd8d6eb2de1]
+PIC: 86
+Size of distortion so far: 86
+Size of epsilon so far: 79
+------New Lambda total coding dependence: 66.5506, 81.514
+
+-----------
+86) lambda Cathy: TEncSlice Muuuu: Lambda = 67.846, qp = 34, qpFactor: 0.4624
+-----------
+
+updateREf12: Ref1: 0, Ref2: 0
+
+Accumlating bits for the slice: 94194, 0, greater than hashtaka: 0
+------------
+
+
+
+86) UUUUUUUUUU Bits and PSNRY and MSEY 95136, 39.5281, 7.2488
+POC   86 TId: 0 ( P-SLICE, nQP 34 QP 34 )      95136 bits [Y 39.5281 dB    U 41.2594 dB    V 42.8252 dB] [ET   131 ] [L0 85 84 80 76 ] [L1 ] [MD5:b02cd7f9063f7786abf8da0aafce9f51,6721fb61b06da39bc4f9ff6b0ebda4b6,d5bd68444f57dbc2384c19bfef5cb3b7]
+PIC: 87
+Size of distortion so far: 87
+Size of epsilon so far: 80
+------New Lambda total coding dependence: 88.7808, 108.715
+
+-----------
+87) lambda Cathy: TEncSlice Muuuu: Lambda = 96.3245, qp = 35, qpFactor: 0.4624
+-----------
+
+updateREf12: Ref1: 0, Ref2: 0
+
+Accumlating bits for the slice: 74189, 0, greater than hashtaka: 0
+------------
+
+
+
+87) UUUUUUUUUU Bits and PSNRY and MSEY 74864, 38.8924, 8.39155
+POC   87 TId: 0 ( P-SLICE, nQP 35 QP 35 )      74864 bits [Y 38.8924 dB    U 41.0947 dB    V 42.6389 dB] [ET   128 ] [L0 86 84 80 76 ] [L1 ] [MD5:099bae86fe61e75a736c2b6835288b25,05680c7cabc4e8beb64f613e251b101e,18dd2a989f146a997e02bffb2fc96e17]
+PIC: 88
+Size of distortion so far: 88
+Size of epsilon so far: 81
+------New Lambda total coding dependence: 23.3035, 28.5015
+
+-----------
+88) lambda Cathy: TEncSlice Muuuu: Lambda = 23.663, qp = 28, qpFactor: 0.578
+-----------
+
+updateREf12: Ref1: 0, Ref2: 0
+
+Accumlating bits for the slice: 231699, 0, greater than hashtaka: 0
+------------
+
+
+
+88) UUUUUUUUUU Bits and PSNRY and MSEY 235152, 41.0359, 5.12257
+POC   88 TId: 0 ( P-SLICE, nQP 28 QP 28 )     235152 bits [Y 41.0359 dB    U 42.1879 dB    V 43.5278 dB] [ET   169 ] [L0 87 84 80 76 ] [L1 ] [MD5:f1bed00f3d5301fb11d51478662ead6d,d88ed3760509199dd85a133730e4f00d,608bef849a026fc69e930be85d496a11]
+PIC: 89
+Size of distortion so far: 89
+Size of epsilon so far: 82
+------New Lambda total coding dependence: 88.7808, 108.569
+
+-----------
+89) lambda Cathy: TEncSlice Muuuu: Lambda = 90.7025, qp = 35, qpFactor: 0.4624
+-----------
+
+updateREf12: Ref1: 0, Ref2: 0
+
+Accumlating bits for the slice: 65920, 0, greater than hashtaka: 0
+------------
+
+
+
+89) UUUUUUUUUU Bits and PSNRY and MSEY 66784, 39.4707, 7.34537
+POC   89 TId: 0 ( P-SLICE, nQP 35 QP 35 )      66784 bits [Y 39.4707 dB    U 41.4946 dB    V 42.9992 dB] [ET   135 ] [L0 88 84 80 76 ] [L1 ] [MD5:561cb7380924dd2a8a2771d7713003e1,4d9ce9e54ed00ec488c4c98bc70f6e48,ecde656b6d6273abc25fca2d556b44d0]
+PIC: 90
+Size of distortion so far: 90
+Size of epsilon so far: 83
+------New Lambda total coding dependence: 66.5506, 81.3611
+
+-----------
+90) lambda Cathy: TEncSlice Muuuu: Lambda = 65.0312, qp = 33, qpFactor: 0.4624
+-----------
+
+updateREf12: Ref1: 0, Ref2: 0
+
+Accumlating bits for the slice: 102917, 0, greater than hashtaka: 0
+------------
+
+
+
+90) UUUUUUUUUU Bits and PSNRY and MSEY 104016, 39.7999, 6.80912
+POC   90 TId: 0 ( P-SLICE, nQP 33 QP 33 )     104016 bits [Y 39.7999 dB    U 41.3024 dB    V 42.8684 dB] [ET   133 ] [L0 89 88 84 80 ] [L1 ] [MD5:629edf295cf5f4ddfae55f901ee27801,ddb2cf4b26826845e932e0500926f012,d0b6ef3222e3aea536f07a43faf2ceda]
+PIC: 91
+Size of distortion so far: 91
+Size of epsilon so far: 84
+------New Lambda total coding dependence: 88.7808, 108.569
+
+-----------
+91) lambda Cathy: TEncSlice Muuuu: Lambda = 93.5354, qp = 35, qpFactor: 0.4624
+-----------
+
+updateREf12: Ref1: 0, Ref2: 0
+
+Accumlating bits for the slice: 74338, 0, greater than hashtaka: 0
+------------
+
+
+
+91) UUUUUUUUUU Bits and PSNRY and MSEY 75336, 39.1936, 7.82933
+POC   91 TId: 0 ( P-SLICE, nQP 35 QP 35 )      75336 bits [Y 39.1936 dB    U 41.1016 dB    V 42.7006 dB] [ET   127 ] [L0 90 88 84 80 ] [L1 ] [MD5:65741b08cd550889bfbf3edd23a6f986,38f743ee148538d789bf384abb8e7869,e08be4d4f1a85fc20dde94c1d1e623a3]
+PIC: 92
+Size of distortion so far: 92
+Size of epsilon so far: 85
+------New Lambda total coding dependence: 23.3035, 28.4778
+
+-----------
+92) lambda Cathy: TEncSlice Muuuu: Lambda = 22.9802, qp = 28, qpFactor: 0.578
+-----------
+
+updateREf12: Ref1: 0, Ref2: 0
+
+Accumlating bits for the slice: 231864, 0, greater than hashtaka: 0
+------------
+
+
+
+92) UUUUUUUUUU Bits and PSNRY and MSEY 235088, 41.1899, 4.94417
+POC   92 TId: 0 ( P-SLICE, nQP 28 QP 28 )     235088 bits [Y 41.1899 dB    U 42.2390 dB    V 43.6410 dB] [ET   169 ] [L0 91 88 84 80 ] [L1 ] [MD5:d4351b6bec3efa513137d6cfd07b909d,93fea355b30cda78537bc2d679ed4780,971acabef0322d8bce9f39aa6b44525a]
+PIC: 93
+Size of distortion so far: 93
+Size of epsilon so far: 86
+------New Lambda total coding dependence: 88.7808, 108.507
+
+-----------
+93) lambda Cathy: TEncSlice Muuuu: Lambda = 90.2505, qp = 35, qpFactor: 0.4624
+-----------
+
+updateREf12: Ref1: 0, Ref2: 0
+
+Accumlating bits for the slice: 63277, 0, greater than hashtaka: 0
+------------
+
+
+
+93) UUUUUUUUUU Bits and PSNRY and MSEY 63856, 39.5214, 7.26006
+POC   93 TId: 0 ( P-SLICE, nQP 35 QP 35 )      63856 bits [Y 39.5214 dB    U 41.5553 dB    V 43.1425 dB] [ET   134 ] [L0 92 88 84 80 ] [L1 ] [MD5:6b623105544c2b28579c08faaee7f4c7,fda53e1f5a58f43d91449cf2ab29a606,e70e6f12459af4b9af1054d933402560]
+PIC: 94
+Size of distortion so far: 94
+Size of epsilon so far: 87
+------New Lambda total coding dependence: 66.5506, 81.3209
+
+-----------
+94) lambda Cathy: TEncSlice Muuuu: Lambda = 67.0462, qp = 34, qpFactor: 0.4624
+-----------
+
+updateREf12: Ref1: 0, Ref2: 0
+
+Accumlating bits for the slice: 90423, 0, greater than hashtaka: 0
+------------
+
+
+
+94) UUUUUUUUUU Bits and PSNRY and MSEY 91376, 39.5563, 7.20189
+POC   94 TId: 0 ( P-SLICE, nQP 34 QP 34 )      91376 bits [Y 39.5563 dB    U 41.3594 dB    V 42.8804 dB] [ET   134 ] [L0 93 92 88 84 ] [L1 ] [MD5:628f792beada70c36589d1a71e38d5af,320883b0338403c969251cf8561e1dd5,a2036f014a091d539d3bfc9daaafceee]
+PIC: 95
+Size of distortion so far: 95
+Size of epsilon so far: 88
+------New Lambda total coding dependence: 88.7808, 108.475
+
+-----------
+95) lambda Cathy: TEncSlice Muuuu: Lambda = 94.5146, qp = 35, qpFactor: 0.4624
+-----------
+
+updateREf12: Ref1: 0, Ref2: 0
+
+Accumlating bits for the slice: 69459, 0, greater than hashtaka: 0
+------------
+
+
+
+95) UUUUUUUUUU Bits and PSNRY and MSEY 70248, 38.9614, 8.25926
+POC   95 TId: 0 ( P-SLICE, nQP 35 QP 35 )      70248 bits [Y 38.9614 dB    U 41.1057 dB    V 42.6835 dB] [ET   128 ] [L0 94 92 88 84 ] [L1 ] [MD5:18846fbbb7008f10088c8c7468431182,0b63f69236f64fa6e797a8ad6aef6d44,b63b3717955a7d3ce0933062e091bd09]
+PIC: 96
+Size of distortion so far: 96
+Size of epsilon so far: 89
+------New Lambda total coding dependence: 23.3035, 28.4492
+
+-----------
+96) lambda Cathy: TEncSlice Muuuu: Lambda = 22.9568, qp = 28, qpFactor: 0.578
+-----------
+
+updateREf12: Ref1: 0, Ref2: 0
+
+Accumlating bits for the slice: 228940, 0, greater than hashtaka: 0
+------------
+
+
+
+96) UUUUUUUUUU Bits and PSNRY and MSEY 232272, 41.0694, 5.08324
+POC   96 TId: 0 ( P-SLICE, nQP 28 QP 28 )     232272 bits [Y 41.0694 dB    U 42.2122 dB    V 43.5833 dB] [ET   166 ] [L0 95 92 88 84 ] [L1 ] [MD5:8001c334d1f31b62706915e5d642bef6,f59b21fbc469fba91015a9c8b4b6f278,c156bf00625ff2a62ffe3559fa76d84a]
+PIC: 97
+Size of distortion so far: 97
+Size of epsilon so far: 90
+------New Lambda total coding dependence: 88.7808, 108.399
+
+-----------
+97) lambda Cathy: TEncSlice Muuuu: Lambda = 86.5069, qp = 35, qpFactor: 0.4624
+-----------
+
+updateREf12: Ref1: 0, Ref2: 0
+
+Accumlating bits for the slice: 60515, 0, greater than hashtaka: 0
+------------
+
+
+
+97) UUUUUUUUUU Bits and PSNRY and MSEY 61136, 39.6496, 7.04887
+POC   97 TId: 0 ( P-SLICE, nQP 35 QP 35 )      61136 bits [Y 39.6496 dB    U 41.6275 dB    V 43.1674 dB] [ET   130 ] [L0 96 92 88 84 ] [L1 ] [MD5:f95f08626b94a8ebd09791528a3f1fdd,c544ebae7c0642f4e07f97fd5bfca9bf,451e138ec074cbe696f8fb0e516c7b60]
+PIC: 98
+Size of distortion so far: 98
+Size of epsilon so far: 91
+------New Lambda total coding dependence: 66.5506, 81.2807
+
+-----------
+98) lambda Cathy: TEncSlice Muuuu: Lambda = 63.3229, qp = 33, qpFactor: 0.4624
+-----------
+
+updateREf12: Ref1: 0, Ref2: 0
+
+Accumlating bits for the slice: 93030, 0, greater than hashtaka: 0
+------------
+
+
+
+98) UUUUUUUUUU Bits and PSNRY and MSEY 94008, 39.824, 6.77142
+POC   98 TId: 0 ( P-SLICE, nQP 33 QP 33 )      94008 bits [Y 39.8240 dB    U 41.4322 dB    V 42.9917 dB] [ET   134 ] [L0 97 96 92 88 ] [L1 ] [MD5:58e1e185aa620ece607dccaff1bb0fda,dae36870fd632bbabdf761e4807830e3,cbab02e4e5f3d452ea8d731fbc35e2ac]
+PIC: 99
+Size of distortion so far: 99
+Size of epsilon so far: 92
+------New Lambda total coding dependence: 88.7808, 108.492
+
+-----------
+99) lambda Cathy: TEncSlice Muuuu: Lambda = 93.0298, qp = 35, qpFactor: 0.4624
+-----------
+
+updateREf12: Ref1: 0, Ref2: 0
+
+Accumlating bits for the slice: 67384, 0, greater than hashtaka: 0
+------------
+
+
+
+99) UUUUUUUUUU Bits and PSNRY and MSEY 68088, 39.288, 7.66087
+POC   99 TId: 0 ( P-SLICE, nQP 35 QP 35 )      68088 bits [Y 39.2880 dB    U 41.1895 dB    V 42.7869 dB] [ET   125 ] [L0 98 96 92 88 ] [L1 ] [MD5:ce732ac830e9bc94aa5b05934a9bb233,cab96145a29534ec22230e6867340b08,622d34ae92fc5f66ac1c749c37c89bd0]
+PIC: 100
+Size of distortion so far: 100
+Size of epsilon so far: 93
+------New Lambda total coding dependence: 23.3035, 28.4614
+
+-----------
+100) lambda Cathy: TEncSlice Muuuu: Lambda = 22.9767, qp = 28, qpFactor: 0.578
+-----------
+
+updateREf12: Ref1: 0, Ref2: 0
+
+Accumlating bits for the slice: 221440, 0, greater than hashtaka: 0
+------------
+
+
+
+100) UUUUUUUUUU Bits and PSNRY and MSEY 224984, 41.1934, 4.9401
+POC  100 TId: 0 ( P-SLICE, nQP 28 QP 28 )     224984 bits [Y 41.1934 dB    U 42.2155 dB    V 43.5355 dB] [ET   163 ] [L0 99 96 92 88 ] [L1 ] [MD5:9ca7a608eaf7d3c078a58a709001f55b,f84dabce1b70dc752f6d130892a7c586,e11b1435e32fbfab847fca9d29b57269]
+PIC: 101
+Size of distortion so far: 101
+Size of epsilon so far: 94
+------New Lambda total coding dependence: 88.7808, 108.443
+
+-----------
+101) lambda Cathy: TEncSlice Muuuu: Lambda = 88.0697, qp = 35, qpFactor: 0.4624
+-----------
+
+updateREf12: Ref1: 0, Ref2: 0
+
+Accumlating bits for the slice: 61718, 0, greater than hashtaka: 0
+------------
+
+
+
+101) UUUUUUUUUU Bits and PSNRY and MSEY 62376, 39.499, 7.29758
+POC  101 TId: 0 ( P-SLICE, nQP 35 QP 35 )      62376 bits [Y 39.4990 dB    U 41.5436 dB    V 43.0599 dB] [ET   131 ] [L0 100 96 92 88 ] [L1 ] [MD5:f3e569da86a5dab92900a978aaf2fab7,bd0f3a7dc9c67bd2463e024fba4e50a6,d4d0d28560c43bc1f056feec6d106e80]
+PIC: 102
+Size of distortion so far: 102
+Size of epsilon so far: 95
+------New Lambda total coding dependence: 66.5506, 81.2971
+
+-----------
+102) lambda Cathy: TEncSlice Muuuu: Lambda = 64.804, qp = 33, qpFactor: 0.4624
+-----------
+
+updateREf12: Ref1: 0, Ref2: 0
+
+Accumlating bits for the slice: 96337, 0, greater than hashtaka: 0
+------------
+
+
+
+102) UUUUUUUUUU Bits and PSNRY and MSEY 97136, 39.7461, 6.89405
+POC  102 TId: 0 ( P-SLICE, nQP 33 QP 33 )      97136 bits [Y 39.7461 dB    U 41.3266 dB    V 42.8394 dB] [ET   133 ] [L0 101 100 96 92 ] [L1 ] [MD5:996dab46efcc804709f1f091df484928,003a4d263be4b51db06d7268eeceaf02,583a8c5ae061abdb351a8e2f4abd7963]
+PIC: 103
+Size of distortion so far: 103
+Size of epsilon so far: 96
+------New Lambda total coding dependence: 88.7808, 108.484
+
+-----------
+103) lambda Cathy: TEncSlice Muuuu: Lambda = 92.3053, qp = 35, qpFactor: 0.4624
+-----------
+
+updateREf12: Ref1: 0, Ref2: 0
+
+Accumlating bits for the slice: 68480, 0, greater than hashtaka: 0
+------------
+
+
+
+103) UUUUUUUUUU Bits and PSNRY and MSEY 69232, 39.1324, 7.94036
+POC  103 TId: 0 ( P-SLICE, nQP 35 QP 35 )      69232 bits [Y 39.1324 dB    U 41.0929 dB    V 42.6724 dB] [ET   126 ] [L0 102 100 96 92 ] [L1 ] [MD5:5200a006bcce87c3878833488baadfdf,9d33b622fa127259278bd84be6446a3b,19b88ef4c8b76dbc48ad66eb6b2a568e]
+PIC: 104
+Size of distortion so far: 104
+Size of epsilon so far: 97
+------New Lambda total coding dependence: 23.3035, 28.4622
+
+-----------
+104) lambda Cathy: TEncSlice Muuuu: Lambda = 22.3784, qp = 28, qpFactor: 0.578
+-----------
+
+updateREf12: Ref1: 0, Ref2: 0
+
+Accumlating bits for the slice: 232805, 0, greater than hashtaka: 0
+------------
+
+
+
+104) UUUUUUUUUU Bits and PSNRY and MSEY 236288, 41.1164, 5.02849
+POC  104 TId: 0 ( P-SLICE, nQP 28 QP 28 )     236288 bits [Y 41.1164 dB    U 42.2414 dB    V 43.5605 dB] [ET   165 ] [L0 103 100 96 92 ] [L1 ] [MD5:042ae280bb176152232d3ad46248cb7a,1e8063f478167a8b4a582c8d2404cebe,2f251fba3a47c6f5fa6b37506bd63b20]
+PIC: 105
+Size of distortion so far: 105
+Size of epsilon so far: 98
+------New Lambda total coding dependence: 88.7808, 108.468
+
+-----------
+105) lambda Cathy: TEncSlice Muuuu: Lambda = 86.5259, qp = 35, qpFactor: 0.4624
+-----------
+
+updateREf12: Ref1: 0, Ref2: 0
+
+Accumlating bits for the slice: 62133, 0, greater than hashtaka: 0
+------------
+
+
+
+105) UUUUUUUUUU Bits and PSNRY and MSEY 62616, 39.5939, 7.1399
+POC  105 TId: 0 ( P-SLICE, nQP 35 QP 35 )      62616 bits [Y 39.5939 dB    U 41.5614 dB    V 43.1277 dB] [ET   131 ] [L0 104 100 96 92 ] [L1 ] [MD5:9faa7975d92018c91b72b3377eda2338,79d734d0fa05a59800111934d321ef46,2a33e2a9322d4f477ba248535de560bb]
+PIC: 106
+Size of distortion so far: 106
+Size of epsilon so far: 99
+------New Lambda total coding dependence: 66.5506, 81.331
+
+-----------
+106) lambda Cathy: TEncSlice Muuuu: Lambda = 63.9268, qp = 33, qpFactor: 0.4624
+-----------
+
+updateREf12: Ref1: 0, Ref2: 0
+
+Accumlating bits for the slice: 96027, 0, greater than hashtaka: 0
+------------
+
+
+
+106) UUUUUUUUUU Bits and PSNRY and MSEY 97016, 39.836, 6.75274
+POC  106 TId: 0 ( P-SLICE, nQP 33 QP 33 )      97016 bits [Y 39.8360 dB    U 41.4268 dB    V 42.9282 dB] [ET   131 ] [L0 105 104 100 96 ] [L1 ] [MD5:5c3a6027692f4f76fd7eaa8aa9589ee4,db0837edfa72df8daf41d9eeedbb68fe,e362f1dd202db9707c47d755f8fb3ed9]
+PIC: 107
+Size of distortion so far: 107
+Size of epsilon so far: 100
+------New Lambda total coding dependence: 88.7808, 108.543
+
+-----------
+107) lambda Cathy: TEncSlice Muuuu: Lambda = 92.9251, qp = 35, qpFactor: 0.4624
+-----------
+
+updateREf12: Ref1: 0, Ref2: 0
+
+Accumlating bits for the slice: 69495, 0, greater than hashtaka: 0
+------------
+
+
+
+107) UUUUUUUUUU Bits and PSNRY and MSEY 70336, 39.1704, 7.87111
+POC  107 TId: 0 ( P-SLICE, nQP 35 QP 35 )      70336 bits [Y 39.1704 dB    U 41.1376 dB    V 42.6568 dB] [ET   128 ] [L0 106 104 100 96 ] [L1 ] [MD5:0f3f60a89411238fa33f89049f52d66b,2b004bf43a5864c3628b23d6d8dff279,96e27015b8817812afc1598d62bc3826]
+PIC: 108
+Size of distortion so far: 108
+Size of epsilon so far: 101
+------New Lambda total coding dependence: 23.3035, 28.4761
+
+-----------
+108) lambda Cathy: TEncSlice Muuuu: Lambda = 22.7318, qp = 28, qpFactor: 0.578
+-----------
+
+updateREf12: Ref1: 0, Ref2: 0
+
+Accumlating bits for the slice: 232031, 0, greater than hashtaka: 0
+------------
+
+
+
+108) UUUUUUUUUU Bits and PSNRY and MSEY 235480, 41.077, 5.07441
+POC  108 TId: 0 ( P-SLICE, nQP 28 QP 28 )     235480 bits [Y 41.0770 dB    U 42.1991 dB    V 43.4637 dB] [ET   171 ] [L0 107 104 100 96 ] [L1 ] [MD5:ce87e2c7e9a6b2833012b70af67cfd90,fe5c2e1915ee6d3046eb28fa5fafb685,2d491e914d22f5909208acc24fb91fa9]
+PIC: 109
+Size of distortion so far: 109
+Size of epsilon so far: 102
+------New Lambda total coding dependence: 88.7808, 108.507
+
+-----------
+109) lambda Cathy: TEncSlice Muuuu: Lambda = 87.8861, qp = 35, qpFactor: 0.4624
+-----------
+
+updateREf12: Ref1: 0, Ref2: 0
+
+Accumlating bits for the slice: 62018, 0, greater than hashtaka: 0
+------------
+
+
+
+109) UUUUUUUUUU Bits and PSNRY and MSEY 62616, 39.4129, 7.44375
+POC  109 TId: 0 ( P-SLICE, nQP 35 QP 35 )      62616 bits [Y 39.4129 dB    U 41.5597 dB    V 42.9883 dB] [ET   137 ] [L0 108 104 100 96 ] [L1 ] [MD5:8ab9928fe7ff389696bb7a9d5e0f30ce,7c62885a377f5261d030bca1b70c64ff,d38ab68abc313f7ecb3d2b9bbe065a15]
+PIC: 110
+Size of distortion so far: 110
+Size of epsilon so far: 103
+------New Lambda total coding dependence: 66.5506, 81.3466
+
+-----------
+110) lambda Cathy: TEncSlice Muuuu: Lambda = 64.4878, qp = 33, qpFactor: 0.4624
+-----------
+
+updateREf12: Ref1: 0, Ref2: 0
+
+Accumlating bits for the slice: 99013, 0, greater than hashtaka: 0
+------------
+
+
+
+110) UUUUUUUUUU Bits and PSNRY and MSEY 100224, 39.7792, 6.84159
+POC  110 TId: 0 ( P-SLICE, nQP 33 QP 33 )     100224 bits [Y 39.7792 dB    U 41.3116 dB    V 42.8657 dB] [ET   137 ] [L0 109 108 104 100 ] [L1 ] [MD5:b82e5592ddbee5ac520fe11b8a5c262c,2bf8b0dbbe00c6c52fd2eed7f72ac2dc,8365212c59e50ba1a38f1c4051bb6bd6]
+PIC: 111
+Size of distortion so far: 111
+Size of epsilon so far: 104
+------New Lambda total coding dependence: 88.7808, 108.553
+
+-----------
+111) lambda Cathy: TEncSlice Muuuu: Lambda = 92.1898, qp = 35, qpFactor: 0.4624
+-----------
+
+updateREf12: Ref1: 0, Ref2: 0
+
+Accumlating bits for the slice: 69320, 0, greater than hashtaka: 0
+------------
+
+
+
+111) UUUUUUUUUU Bits and PSNRY and MSEY 70136, 39.1884, 7.8387
+POC  111 TId: 0 ( P-SLICE, nQP 35 QP 35 )      70136 bits [Y 39.1884 dB    U 41.0902 dB    V 42.6708 dB] [ET   132 ] [L0 110 108 104 100 ] [L1 ] [MD5:947029edc5aa12827ed0d1570229ea0b,1e5ad72410ae17064e7bfca76d2a8a60,3048291cb2e8582656a8b29be9ae8ea3]
+PIC: 112
+Size of distortion so far: 112
+Size of epsilon so far: 105
+------New Lambda total coding dependence: 23.3035, 28.4817
+
+-----------
+112) lambda Cathy: TEncSlice Muuuu: Lambda = 22.5195, qp = 28, qpFactor: 0.578
+-----------
+
+updateREf12: Ref1: 0, Ref2: 0
+
+Accumlating bits for the slice: 235192, 0, greater than hashtaka: 0
+------------
+
+
+
+112) UUUUUUUUUU Bits and PSNRY and MSEY 238408, 41.2386, 4.88898
+POC  112 TId: 0 ( P-SLICE, nQP 28 QP 28 )     238408 bits [Y 41.2386 dB    U 42.2217 dB    V 43.5428 dB] [ET   168 ] [L0 111 108 104 100 ] [L1 ] [MD5:67eeb790b01ca9ad5259eb0583e9a419,c4f845d3eb3d8c96b8a85a5f0f566973,920e7e1886c796f8a69a435f4e0ff5d9]
+PIC: 113
+Size of distortion so far: 113
+Size of epsilon so far: 106
+------New Lambda total coding dependence: 88.7808, 108.534
+
+-----------
+113) lambda Cathy: TEncSlice Muuuu: Lambda = 88.2842, qp = 35, qpFactor: 0.4624
+-----------
+
+updateREf12: Ref1: 0, Ref2: 0
+
+Accumlating bits for the slice: 61445, 0, greater than hashtaka: 0
+------------
+
+
+
+113) UUUUUUUUUU Bits and PSNRY and MSEY 62352, 39.6256, 7.08802
+POC  113 TId: 0 ( P-SLICE, nQP 35 QP 35 )      62352 bits [Y 39.6256 dB    U 41.5687 dB    V 43.0928 dB] [ET   129 ] [L0 112 108 104 100 ] [L1 ] [MD5:0e9496da742a4e087c48f295200fce4d,1099dc03675dd6e8471ca23fd35f3312,2b1d08b513928ff4b05ca74bdc19516b]
+PIC: 114
+Size of distortion so far: 114
+Size of epsilon so far: 107
+------New Lambda total coding dependence: 66.5506, 81.3626
+
+-----------
+114) lambda Cathy: TEncSlice Muuuu: Lambda = 65.4234, qp = 33, qpFactor: 0.4624
+-----------
+
+updateREf12: Ref1: 0, Ref2: 0
+
+Accumlating bits for the slice: 96795, 0, greater than hashtaka: 0
+------------
+
+
+
+114) UUUUUUUUUU Bits and PSNRY and MSEY 97776, 39.7806, 6.83945
+POC  114 TId: 0 ( P-SLICE, nQP 33 QP 33 )      97776 bits [Y 39.7806 dB    U 41.3951 dB    V 42.8600 dB] [ET   131 ] [L0 113 112 108 104 ] [L1 ] [MD5:d9759e2afc78c90f9ae56962221509a7,88ca5c8b9bd62d48ff3d05c2418086fa,5b54c10a4d4a600885814ba11e5f6638]
+PIC: 115
+Size of distortion so far: 115
+Size of epsilon so far: 108
+------New Lambda total coding dependence: 88.7808, 108.558
+
+-----------
+115) lambda Cathy: TEncSlice Muuuu: Lambda = 93.7117, qp = 35, qpFactor: 0.4624
+-----------
+
+updateREf12: Ref1: 0, Ref2: 0
+
+Accumlating bits for the slice: 69704, 0, greater than hashtaka: 0
+------------
+
+
+
+115) UUUUUUUUUU Bits and PSNRY and MSEY 70544, 39.1463, 7.91499
+POC  115 TId: 0 ( P-SLICE, nQP 35 QP 35 )      70544 bits [Y 39.1463 dB    U 41.1281 dB    V 42.6588 dB] [ET   128 ] [L0 114 112 108 104 ] [L1 ] [MD5:448935ffd579864e0a5dcdd273399bbc,b3a8de7232aca8a304d1515d5251a494,c1365c16305cdccbd26cc8e9fa4fa37d]
+PIC: 116
+Size of distortion so far: 116
+Size of epsilon so far: 109
+------New Lambda total coding dependence: 23.3035, 28.4786
+
+-----------
+116) lambda Cathy: TEncSlice Muuuu: Lambda = 22.4651, qp = 28, qpFactor: 0.578
+-----------
+
+updateREf12: Ref1: 0, Ref2: 0
+
+Accumlating bits for the slice: 237968, 0, greater than hashtaka: 0
+------------
+
+
+
+116) UUUUUUUUUU Bits and PSNRY and MSEY 241144, 41.2465, 4.88011
+POC  116 TId: 0 ( P-SLICE, nQP 28 QP 28 )     241144 bits [Y 41.2465 dB    U 42.2743 dB    V 43.5403 dB] [ET   168 ] [L0 115 112 108 104 ] [L1 ] [MD5:d69b6cfad3f45d340e7d9b8e8ef48962,fc560f2bf5d246b3bd2b7557ecc91f49,6e697ae9ca3a8367895cb720514881a9]
+PIC: 117
+Size of distortion so far: 117
+Size of epsilon so far: 110
+------New Lambda total coding dependence: 88.7808, 108.523
+
+-----------
+117) lambda Cathy: TEncSlice Muuuu: Lambda = 86.0047, qp = 35, qpFactor: 0.4624
+-----------
+
+updateREf12: Ref1: 0, Ref2: 0
+
+Accumlating bits for the slice: 64185, 0, greater than hashtaka: 0
+------------
+
+
+
+117) UUUUUUUUUU Bits and PSNRY and MSEY 64848, 39.5803, 7.16226
+POC  117 TId: 0 ( P-SLICE, nQP 35 QP 35 )      64848 bits [Y 39.5803 dB    U 41.5712 dB    V 43.0441 dB] [ET   130 ] [L0 116 112 108 104 ] [L1 ] [MD5:533385ab6b8646bf3bb260053c6209b9,584b25796fdf8804221e7d68939546e8,5b5d5fecd976e054a8dcd71dc794ed18]
+PIC: 118
+Size of distortion so far: 118
+Size of epsilon so far: 111
+------New Lambda total coding dependence: 66.5506, 81.3748
+
+-----------
+118) lambda Cathy: TEncSlice Muuuu: Lambda = 63.1269, qp = 33, qpFactor: 0.4624
+-----------
+
+updateREf12: Ref1: 0, Ref2: 0
+
+Accumlating bits for the slice: 100470, 0, greater than hashtaka: 0
+------------
+
+
+
+118) UUUUUUUUUU Bits and PSNRY and MSEY 101272, 39.721, 6.93398
+POC  118 TId: 0 ( P-SLICE, nQP 33 QP 33 )     101272 bits [Y 39.7210 dB    U 41.3505 dB    V 42.9058 dB] [ET   134 ] [L0 117 116 112 108 ] [L1 ] [MD5:a7359971d26750dd85b3baa525b52882,23bb32030c24f2f1a862746bbf2f3602,1451dd4b94ecbdc2b751c036a65041db]
+PIC: 119
+Size of distortion so far: 119
+Size of epsilon so far: 112
+------New Lambda total coding dependence: 88.7808, 108.611
+
+-----------
+119) lambda Cathy: TEncSlice Muuuu: Lambda = 92.477, qp = 35, qpFactor: 0.4624
+-----------
+
+updateREf12: Ref1: 0, Ref2: 0
+
+Accumlating bits for the slice: 67379, 0, greater than hashtaka: 0
+------------
+
+
+
+119) UUUUUUUUUU Bits and PSNRY and MSEY 68296, 39.1402, 7.92617
+POC  119 TId: 0 ( P-SLICE, nQP 35 QP 35 )      68296 bits [Y 39.1402 dB    U 41.0887 dB    V 42.6775 dB] [ET   130 ] [L0 118 116 112 108 ] [L1 ] [MD5:aea8a5e4a239d5ad171229ba8df2e1c6,ddb72e567f0ff29e7d23fe6af886709a,22b712641ee317553165a54ae7d544cd]
+PIC: 120
+Size of distortion so far: 120
+Size of epsilon so far: 113
+------New Lambda total coding dependence: 23.3035, 28.4967
+
+-----------
+120) lambda Cathy: TEncSlice Muuuu: Lambda = 22.3794, qp = 28, qpFactor: 0.578
+-----------
+
+updateREf12: Ref1: 0, Ref2: 0
+
+Accumlating bits for the slice: 230890, 0, greater than hashtaka: 0
+------------
+
+
+
+120) UUUUUUUUUU Bits and PSNRY and MSEY 234472, 41.2281, 4.90085
+POC  120 TId: 0 ( P-SLICE, nQP 28 QP 28 )     234472 bits [Y 41.2281 dB    U 42.2608 dB    V 43.5614 dB] [ET   170 ] [L0 119 116 112 108 ] [L1 ] [MD5:98477e94705b3e0d9eac52d9e53ccfd7,fa9e37975b64021193ce5b43f56a6171,2b3447c15e94bcd5784fe5d064b68459]
+PIC: 121
+Size of distortion so far: 121
+Size of epsilon so far: 114
+------New Lambda total coding dependence: 88.7808, 108.594
+
+-----------
+121) lambda Cathy: TEncSlice Muuuu: Lambda = 86.4012, qp = 35, qpFactor: 0.4624
+-----------
+
+updateREf12: Ref1: 0, Ref2: 0
+
+Accumlating bits for the slice: 58269, 0, greater than hashtaka: 0
+------------
+
+
+
+121) UUUUUUUUUU Bits and PSNRY and MSEY 58760, 39.6773, 7.00399
+POC  121 TId: 0 ( P-SLICE, nQP 35 QP 35 )      58760 bits [Y 39.6773 dB    U 41.6017 dB    V 43.1323 dB] [ET   131 ] [L0 120 116 112 108 ] [L1 ] [MD5:adee4144691ccb93ce55dc2e915543bb,1a014282374058987a33ce4987e69178,14fa2aeb0439f3f40d3bce462a71f10d]
+PIC: 122
+Size of distortion so far: 122
+Size of epsilon so far: 115
+------New Lambda total coding dependence: 66.5506, 81.4233
+
+-----------
+122) lambda Cathy: TEncSlice Muuuu: Lambda = 63.4484, qp = 33, qpFactor: 0.4624
+-----------
+
+updateREf12: Ref1: 0, Ref2: 0
+
+Accumlating bits for the slice: 94477, 0, greater than hashtaka: 0
+------------
+
+
+
+122) UUUUUUUUUU Bits and PSNRY and MSEY 95656, 39.9655, 6.55436
+POC  122 TId: 0 ( P-SLICE, nQP 33 QP 33 )      95656 bits [Y 39.9655 dB    U 41.3781 dB    V 42.9700 dB] [ET   130 ] [L0 121 120 116 112 ] [L1 ] [MD5:5e87fc417ff96ed5df63987aea0059e9,ebae9eb214d7015851876f898dc94729,96d32f3583ca84791b111b8acdd69aae]
+PIC: 123
+Size of distortion so far: 123
+Size of epsilon so far: 116
+------New Lambda total coding dependence: 88.7808, 108.666
+
+-----------
+123) lambda Cathy: TEncSlice Muuuu: Lambda = 92.2597, qp = 35, qpFactor: 0.4624
+-----------
+
+updateREf12: Ref1: 0, Ref2: 0
+
+Accumlating bits for the slice: 66914, 0, greater than hashtaka: 0
+------------
+
+
+
+123) UUUUUUUUUU Bits and PSNRY and MSEY 67624, 39.3077, 7.62619
+POC  123 TId: 0 ( P-SLICE, nQP 35 QP 35 )      67624 bits [Y 39.3077 dB    U 41.1267 dB    V 42.7379 dB] [ET   119 ] [L0 122 120 116 112 ] [L1 ] [MD5:ffd19e56bcad03617a2abd11ad683312,52c4b82676eae8a6710a9d742b7055dd,a76b112633197e584659fea7f04c9e03]
+PIC: 124
+Size of distortion so far: 124
+Size of epsilon so far: 117
+------New Lambda total coding dependence: 23.3035, 28.5126
+
+-----------
+124) lambda Cathy: TEncSlice Muuuu: Lambda = 22.498, qp = 28, qpFactor: 0.578
+-----------
+
+updateREf12: Ref1: 0, Ref2: 0
+
+Accumlating bits for the slice: 228192, 0, greater than hashtaka: 0
+------------
+
+
+
+124) UUUUUUUUUU Bits and PSNRY and MSEY 231752, 41.3464, 4.76911
+POC  124 TId: 0 ( P-SLICE, nQP 28 QP 28 )     231752 bits [Y 41.3464 dB    U 42.2567 dB    V 43.6301 dB] [ET   155 ] [L0 123 120 116 112 ] [L1 ] [MD5:e0f31b87c0e9df92f3b48e19c3495a8b,305888680fc5da22e0ba2b7f78881010,b1a16a2386e61a1c1b2dac3e4cd88c2b]
+PIC: 125
+Size of distortion so far: 125
+Size of epsilon so far: 118
+------New Lambda total coding dependence: 88.7808, 108.65
+
+-----------
+125) lambda Cathy: TEncSlice Muuuu: Lambda = 87.8703, qp = 35, qpFactor: 0.4624
+-----------
+
+updateREf12: Ref1: 0, Ref2: 0
+
+Accumlating bits for the slice: 60356, 0, greater than hashtaka: 0
+------------
+
+
+
+125) UUUUUUUUUU Bits and PSNRY and MSEY 60848, 39.685, 6.9916
+POC  125 TId: 0 ( P-SLICE, nQP 35 QP 35 )      60848 bits [Y 39.6850 dB    U 41.6043 dB    V 43.1607 dB] [ET   125 ] [L0 124 120 116 112 ] [L1 ] [MD5:6a281867729a0784c39f6f4ad9443f30,dfb557fb82cf1aaddecb36ab133463db,0bda9152978b33d0ac0439a6a8b993c9]
+PIC: 126
+Size of distortion so far: 126
+Size of epsilon so far: 119
+------New Lambda total coding dependence: 66.5506, 81.4518
+
+-----------
+126) lambda Cathy: TEncSlice Muuuu: Lambda = 64.9445, qp = 33, qpFactor: 0.4624
+-----------
+
+updateREf12: Ref1: 0, Ref2: 0
+
+Accumlating bits for the slice: 94894, 0, greater than hashtaka: 0
+------------
+
+
+
+126) UUUUUUUUUU Bits and PSNRY and MSEY 95880, 39.8777, 6.68826
+POC  126 TId: 0 ( P-SLICE, nQP 33 QP 33 )      95880 bits [Y 39.8777 dB    U 41.3218 dB    V 42.9292 dB] [ET   128 ] [L0 125 124 120 116 ] [L1 ] [MD5:d26a702abdf122f724358736aff85794,fd0e2def1331fc9d8c2a2d7ca76f6091,f9d60c95d6fcdcf0718dbba9278c4aaa]
+PIC: 127
+Size of distortion so far: 127
+Size of epsilon so far: 120
+------New Lambda total coding dependence: 88.7808, 108.682
+
+-----------
+127) lambda Cathy: TEncSlice Muuuu: Lambda = 93.3809, qp = 35, qpFactor: 0.4624
+-----------
+
+updateREf12: Ref1: 0, Ref2: 0
+
+Accumlating bits for the slice: 71153, 0, greater than hashtaka: 0
+------------
+
+
+
+127) UUUUUUUUUU Bits and PSNRY and MSEY 71600, 39.1318, 7.94137
+POC  127 TId: 0 ( P-SLICE, nQP 35 QP 35 )      71600 bits [Y 39.1318 dB    U 41.0911 dB    V 42.6204 dB] [ET   123 ] [L0 126 124 120 116 ] [L1 ] [MD5:ba6151a187c3d113bf642ae2156d1b98,8d024d4ab69dd3c1899369515226a26d,a0691df1e1a11273b9e86f23ac3cbf50]
+PIC: 128
+Size of distortion so far: 128
+Size of epsilon so far: 121
+------New Lambda total coding dependence: 23.3035, 28.5135
+
+-----------
+128) lambda Cathy: TEncSlice Muuuu: Lambda = 23.0316, qp = 28, qpFactor: 0.578
+-----------
+
+updateREf12: Ref1: 0, Ref2: 0
+
+Accumlating bits for the slice: 239765, 0, greater than hashtaka: 0
+------------
+
+
+
+128) UUUUUUUUUU Bits and PSNRY and MSEY 242912, 41.1972, 4.9358
+POC  128 TId: 0 ( P-SLICE, nQP 28 QP 28 )     242912 bits [Y 41.1972 dB    U 42.1713 dB    V 43.4453 dB] [ET   160 ] [L0 127 124 120 116 ] [L1 ] [MD5:d9618ff7f2aa1cdf944bc9c242de667f,f116c2e5bcf76b3c1e07d190debcee89,1975083af11803c129cc047e2ebbf02d]
+PIC: 129
+Size of distortion so far: 129
+Size of epsilon so far: 122
+------New Lambda total coding dependence: 88.7808, 108.637
+
+-----------
+129) lambda Cathy: TEncSlice Muuuu: Lambda = 89.5928, qp = 35, qpFactor: 0.4624
+-----------
+
+updateREf12: Ref1: 0, Ref2: 0
+
+Accumlating bits for the slice: 58555, 0, greater than hashtaka: 0
+------------
+
+
+
+129) UUUUUUUUUU Bits and PSNRY and MSEY 59216, 39.5325, 7.24154
+POC  129 TId: 0 ( P-SLICE, nQP 35 QP 35 )      59216 bits [Y 39.5325 dB    U 41.5181 dB    V 42.9655 dB] [ET   130 ] [L0 128 124 120 116 ] [L1 ] [MD5:ce68cec7bb3b44ed519897ecc89f5531,8b0c073f4579c2d66e236d66d4e427f7,9f93a585d15a61fcdfae8c1e0048a275]
+PIC: 130
+Size of distortion so far: 130
+Size of epsilon so far: 123
+------New Lambda total coding dependence: 66.5506, 81.4288
+
+-----------
+130) lambda Cathy: TEncSlice Muuuu: Lambda = 65.6039, qp = 33, qpFactor: 0.4624
+-----------
+
+updateREf12: Ref1: 0, Ref2: 0
+
+Accumlating bits for the slice: 95212, 0, greater than hashtaka: 0
+------------
+
+
+
+130) UUUUUUUUUU Bits and PSNRY and MSEY 95856, 39.7192, 6.93684
+POC  130 TId: 0 ( P-SLICE, nQP 33 QP 33 )      95856 bits [Y 39.7192 dB    U 41.2953 dB    V 42.7227 dB] [ET   132 ] [L0 129 128 124 120 ] [L1 ] [MD5:89d3230f68fa1641727a27e420ce9ddf,807c42bbbf6f3c334b6e7727f2550978,55c091cdb8e15c706698025594a5c592]
+PIC: 131
+Size of distortion so far: 131
+Size of epsilon so far: 124
+------New Lambda total coding dependence: 88.7808, 108.642
+
+-----------
+131) lambda Cathy: TEncSlice Muuuu: Lambda = 93.565, qp = 35, qpFactor: 0.4624
+-----------
+
+updateREf12: Ref1: 0, Ref2: 0
+
+Accumlating bits for the slice: 65285, 0, greater than hashtaka: 0
+------------
+
+
+
+131) UUUUUUUUUU Bits and PSNRY and MSEY 66016, 39.1134, 7.97519
+POC  131 TId: 0 ( P-SLICE, nQP 35 QP 35 )      66016 bits [Y 39.1134 dB    U 41.0388 dB    V 42.5031 dB] [ET   128 ] [L0 130 128 124 120 ] [L1 ] [MD5:12990d2a75654696fadfdc33d23c62d7,eafa1f2ecaa4270e1e02bfc5fac20ffb,cba55f0f8bd647046f5378970e3a775e]
+PIC: 132
+Size of distortion so far: 132
+Size of epsilon so far: 125
+------New Lambda total coding dependence: 23.3035, 28.5029
+
+-----------
+132) lambda Cathy: TEncSlice Muuuu: Lambda = 22.5848, qp = 28, qpFactor: 0.578
+-----------
+
+updateREf12: Ref1: 0, Ref2: 0
+
+Accumlating bits for the slice: 235536, 0, greater than hashtaka: 0
+------------
+
+
+
+132) UUUUUUUUUU Bits and PSNRY and MSEY 238912, 41.2193, 4.91078
+POC  132 TId: 0 ( P-SLICE, nQP 28 QP 28 )     238912 bits [Y 41.2193 dB    U 42.1859 dB    V 43.4559 dB] [ET   162 ] [L0 131 128 124 120 ] [L1 ] [MD5:836a0ec78d246b6ca8774c13ce9daf83,abf970ba233b7f14bddb781704dac57c,686de9c64cd8fd5bf9617ba28ba716d0]
+PIC: 133
+Size of distortion so far: 133
+Size of epsilon so far: 126
+------New Lambda total coding dependence: 88.7808, 108.609
+
+-----------
+133) lambda Cathy: TEncSlice Muuuu: Lambda = 87.327, qp = 35, qpFactor: 0.4624
+-----------
+
+updateREf12: Ref1: 0, Ref2: 0
+
+Accumlating bits for the slice: 58574, 0, greater than hashtaka: 0
+------------
+
+
+
+133) UUUUUUUUUU Bits and PSNRY and MSEY 59256, 39.5976, 7.13379
+POC  133 TId: 0 ( P-SLICE, nQP 35 QP 35 )      59256 bits [Y 39.5976 dB    U 41.5162 dB    V 43.0040 dB] [ET   126 ] [L0 132 128 124 120 ] [L1 ] [MD5:c224d894afa44b05fcb294fec9c8a105,4c79469d80208f194a958525299f4ff6,aeffc60852dc7329b19f62d9a8081311]
+PIC: 134
+Size of distortion so far: 134
+Size of epsilon so far: 127
+------New Lambda total coding dependence: 66.5506, 81.4254
+
+-----------
+134) lambda Cathy: TEncSlice Muuuu: Lambda = 64.9268, qp = 33, qpFactor: 0.4624
+-----------
+
+updateREf12: Ref1: 0, Ref2: 0
+
+Accumlating bits for the slice: 94069, 0, greater than hashtaka: 0
+------------
+
+
+
+134) UUUUUUUUUU Bits and PSNRY and MSEY 94960, 39.807, 6.79797
+POC  134 TId: 0 ( P-SLICE, nQP 33 QP 33 )      94960 bits [Y 39.8070 dB    U 41.2930 dB    V 42.8507 dB] [ET   126 ] [L0 133 132 128 124 ] [L1 ] [MD5:ed3fc2ac9f55e0f85523699ba7c1b04b,dce3da7105be2222e2926f0992a8a490,02eac8541e811aea0f19e323340c1e7a]
+PIC: 135
+Size of distortion so far: 135
+Size of epsilon so far: 128
+------New Lambda total coding dependence: 88.7808, 108.646
+
+-----------
+135) lambda Cathy: TEncSlice Muuuu: Lambda = 93.9809, qp = 35, qpFactor: 0.4624
+-----------
+
+updateREf12: Ref1: 0, Ref2: 0
+
+Accumlating bits for the slice: 65943, 0, greater than hashtaka: 0
+------------
+
+
+
+135) UUUUUUUUUU Bits and PSNRY and MSEY 66584, 39.1645, 7.88186
+POC  135 TId: 0 ( P-SLICE, nQP 35 QP 35 )      66584 bits [Y 39.1645 dB    U 41.0529 dB    V 42.6590 dB] [ET   121 ] [L0 134 132 128 124 ] [L1 ] [MD5:42b5000ad0d9067e7e8dc1b1f26ed06b,4cb9deaf93571b718f125e04dc94a605,1109309d2e4820a1ed48794345c11814]
+PIC: 136
+Size of distortion so far: 136
+Size of epsilon so far: 129
+------New Lambda total coding dependence: 23.3035, 28.5034
+
+-----------
+136) lambda Cathy: TEncSlice Muuuu: Lambda = 22.6202, qp = 28, qpFactor: 0.578
+-----------
+
+updateREf12: Ref1: 0, Ref2: 0
+
+Accumlating bits for the slice: 230447, 0, greater than hashtaka: 0
+------------
+
+
+
+136) UUUUUUUUUU Bits and PSNRY and MSEY 233904, 41.2797, 4.84292
+POC  136 TId: 0 ( P-SLICE, nQP 28 QP 28 )     233904 bits [Y 41.2797 dB    U 42.1901 dB    V 43.4958 dB] [ET   158 ] [L0 135 132 128 124 ] [L1 ] [MD5:9ce651e074bbff53b25600c6201b63e7,d8a398e62f4d35ffb923606395f38a9c,774ce7dfd8b5be4c4da6aa5317e7cbe8]
+PIC: 137
+Size of distortion so far: 137
+Size of epsilon so far: 130
+------New Lambda total coding dependence: 88.7808, 108.609
+
+-----------
+137) lambda Cathy: TEncSlice Muuuu: Lambda = 86.8273, qp = 35, qpFactor: 0.4624
+-----------
+
+updateREf12: Ref1: 0, Ref2: 0
+
+Accumlating bits for the slice: 54516, 0, greater than hashtaka: 0
+------------
+
+
+
+137) UUUUUUUUUU Bits and PSNRY and MSEY 55168, 39.7194, 6.93654
+POC  137 TId: 0 ( P-SLICE, nQP 35 QP 35 )      55168 bits [Y 39.7194 dB    U 41.6176 dB    V 43.1209 dB] [ET   119 ] [L0 136 132 128 124 ] [L1 ] [MD5:459c71f5a189c92fa21fc701f23a3ebb,90405815889d7534ef143925e13bfc89,f971efb257eb0cb959c1f25c423569be]
+PIC: 138
+Size of distortion so far: 138
+Size of epsilon so far: 131
+------New Lambda total coding dependence: 66.5506, 81.4287
+
+-----------
+138) lambda Cathy: TEncSlice Muuuu: Lambda = 64.1682, qp = 33, qpFactor: 0.4624
+-----------
+
+updateREf12: Ref1: 0, Ref2: 0
+
+Accumlating bits for the slice: 89628, 0, greater than hashtaka: 0
+------------
+
+
+
+138) UUUUUUUUUU Bits and PSNRY and MSEY 90640, 39.899, 6.65548
+POC  138 TId: 0 ( P-SLICE, nQP 33 QP 33 )      90640 bits [Y 39.8990 dB    U 41.3832 dB    V 42.9135 dB] [ET   122 ] [L0 137 136 132 128 ] [L1 ] [MD5:7f43742032287d67e11d5f1ce675b8db,4d49926a3aad49cf3c23a4218e893022,7ba7215e601a6ae91fe905e45f4fb65c]
+PIC: 139
+Size of distortion so far: 139
+Size of epsilon so far: 132
+------New Lambda total coding dependence: 88.7808, 108.659
+
+-----------
+139) lambda Cathy: TEncSlice Muuuu: Lambda = 92.4948, qp = 35, qpFactor: 0.4624
+-----------
+
+updateREf12: Ref1: 0, Ref2: 0
+
+Accumlating bits for the slice: 62791, 0, greater than hashtaka: 0
+------------
+
+
+
+139) UUUUUUUUUU Bits and PSNRY and MSEY 63456, 39.3003, 7.63931
+POC  139 TId: 0 ( P-SLICE, nQP 35 QP 35 )      63456 bits [Y 39.3003 dB    U 41.1241 dB    V 42.7873 dB] [ET   118 ] [L0 138 136 132 128 ] [L1 ] [MD5:c8b2a9ddd68c9c1ca130e5a3b12a1c08,7ad312f82f8a4f79a3722bf1b972ff84,b365a4808e5224ba5bda40f0b646a49a]
+PIC: 140
+Size of distortion so far: 140
+Size of epsilon so far: 133
+------New Lambda total coding dependence: 23.3035, 28.5114
+
+-----------
+140) lambda Cathy: TEncSlice Muuuu: Lambda = 22.2834, qp = 28, qpFactor: 0.578
+-----------
+
+updateREf12: Ref1: 0, Ref2: 0
+
+Accumlating bits for the slice: 582479, 0, greater than hashtaka: 0
+------------
+
+
+
+140) UUUUUUUUUU Bits and PSNRY and MSEY 585112, 39.5625, 7.19176
+POC  140 TId: 0 ( P-SLICE, nQP 28 QP 28 )     585112 bits [Y 39.5625 dB    U 41.8899 dB    V 42.5209 dB] [ET   251 ] [L0 139 136 132 128 ] [L1 ] [MD5:60ba04ca14419276753aec21dfa2f86d,4ebd18cee1b6fa2d189d69f5f8f0bfdd,481525addd135bda0cfd3201f09086ad]
+PIC: 141
+Size of distortion so far: 141
+Size of epsilon so far: 134
+------New Lambda total coding dependence: 88.7808, 108.661
+
+-----------
+141) lambda Cathy: TEncSlice Muuuu: Lambda = 86.7294, qp = 35, qpFactor: 0.4624
+-----------
+
+updateREf12: Ref1: 0, Ref2: 0
+
+Accumlating bits for the slice: 19048, 0, greater than hashtaka: 0
+------------
+
+
+
+141) UUUUUUUUUU Bits and PSNRY and MSEY 19600, 38.5324, 9.11682
+POC  141 TId: 0 ( P-SLICE, nQP 35 QP 35 )      19600 bits [Y 38.5324 dB    U 41.6014 dB    V 42.4339 dB] [ET   117 ] [L0 140 136 132 128 ] [L1 ] [MD5:575b324b5743316a74c375ccfadf91a1,c404da59c78c70b340124c94913d8e45,1562a535a362ef4873b4b1d82ea54c6f]
+PIC: 142
+Size of distortion so far: 142
+Size of epsilon so far: 135
+------New Lambda total coding dependence: 66.5506, 81.4724
+
+-----------
+142) lambda Cathy: TEncSlice Muuuu: Lambda = 66.0702, qp = 33, qpFactor: 0.4624
+-----------
+
+updateREf12: Ref1: 0, Ref2: 0
+
+Accumlating bits for the slice: 39838, 0, greater than hashtaka: 0
+------------
+
+
+
+142) UUUUUUUUUU Bits and PSNRY and MSEY 40472, 38.4353, 9.32278
+POC  142 TId: 0 ( P-SLICE, nQP 33 QP 33 )      40472 bits [Y 38.4353 dB    U 41.5722 dB    V 42.3927 dB] [ET   110 ] [L0 141 140 136 132 ] [L1 ] [MD5:04f56de084ebd3d1aa7c1cf56b162663,ef4b728f85dd8f52cb56d37c02cada35,dc0de6f3c489d19debaca21aa5b75ad6]
+PIC: 143
+Size of distortion so far: 143
+Size of epsilon so far: 136
+------New Lambda total coding dependence: 88.7808, 108.695
+
+-----------
+143) lambda Cathy: TEncSlice Muuuu: Lambda = 106.614, qp = 36, qpFactor: 0.4624
+-----------
+
+updateREf12: Ref1: 0, Ref2: 0
+
+Accumlating bits for the slice: 20376, 0, greater than hashtaka: 0
+------------
+
+
+
+143) UUUUUUUUUU Bits and PSNRY and MSEY 20792, 37.9216, 10.4935
+POC  143 TId: 0 ( P-SLICE, nQP 36 QP 36 )      20792 bits [Y 37.9216 dB    U 41.5130 dB    V 42.3355 dB] [ET   104 ] [L0 142 140 136 132 ] [L1 ] [MD5:62c1052789201356c415cc2a69e7edc7,88cfb42b3c96029e16a22d0f39c60baa,13a5841c78224771263e012704b0a164]
+PIC: 144
+Size of distortion so far: 144
+Size of epsilon so far: 137
+------New Lambda total coding dependence: 23.3035, 28.4769
+
+-----------
+144) lambda Cathy: TEncSlice Muuuu: Lambda = 15.0843, qp = 26, qpFactor: 0.578
+-----------
+
+updateREf12: Ref1: 0, Ref2: 0
+
+Accumlating bits for the slice: 342545, 0, greater than hashtaka: 0
+------------
+
+
+
+144) UUUUUUUUUU Bits and PSNRY and MSEY 347632, 40.243, 6.14864
+POC  144 TId: 0 ( P-SLICE, nQP 26 QP 26 )     347632 bits [Y 40.2430 dB    U 42.3221 dB    V 43.0886 dB] [ET   168 ] [L0 143 140 136 132 ] [L1 ] [MD5:83dab6579a8aa6e9ab74bef6cbcc630f,cd5deef44d24369649bf9fd51b59c633,20811dc1f7e4354ba02f70a323964749]
+PIC: 145
+Size of distortion so far: 145
+Size of epsilon so far: 138
+------New Lambda total coding dependence: 88.7808, 108.878
+
+-----------
+145) lambda Cathy: TEncSlice Muuuu: Lambda = 58.6234, qp = 33, qpFactor: 0.4624
+-----------
+
+updateREf12: Ref1: 0, Ref2: 0
+
+Accumlating bits for the slice: 26171, 0, greater than hashtaka: 0
+------------
+
+
+
+145) UUUUUUUUUU Bits and PSNRY and MSEY 26768, 39.1889, 7.83765
+POC  145 TId: 0 ( P-SLICE, nQP 33 QP 33 )      26768 bits [Y 39.1889 dB    U 42.0454 dB    V 42.9806 dB] [ET   108 ] [L0 144 140 136 132 ] [L1 ] [MD5:71c64c7e5177e67b9d7e2099442a607b,26482fedb60bd38e332026843843dac5,9cd6475bc2af4b7e09a646a5d0fc3d79]
+PIC: 146
+Size of distortion so far: 146
+Size of epsilon so far: 139
+------New Lambda total coding dependence: 66.5506, 81.9634
+
+-----------
+146) lambda Cathy: TEncSlice Muuuu: Lambda = 45.049, qp = 32, qpFactor: 0.4624
+-----------
+
+updateREf12: Ref1: 0, Ref2: 0
+
+Accumlating bits for the slice: 52319, 0, greater than hashtaka: 0
+------------
+
+
+
+146) UUUUUUUUUU Bits and PSNRY and MSEY 53592, 39.1271, 7.95007
+POC  146 TId: 0 ( P-SLICE, nQP 32 QP 32 )      53592 bits [Y 39.1271 dB    U 41.9924 dB    V 42.9070 dB] [ET    98 ] [L0 145 144 140 136 ] [L1 ] [MD5:7351518e101952fdf121cdf719e0ddf4,dd31b28f765fcad7a9c3e5a788391cd9,73cbbe818f2a200b67ba4da85e5993e9]
+PIC: 147
+Size of distortion so far: 147
+Size of epsilon so far: 140
+------New Lambda total coding dependence: 88.7808, 109.777
+
+-----------
+147) lambda Cathy: TEncSlice Muuuu: Lambda = 71.79, qp = 34, qpFactor: 0.4624
+-----------
+
+updateREf12: Ref1: 0, Ref2: 0
+
+Accumlating bits for the slice: 29787, 0, greater than hashtaka: 0
+------------
+
+
+
+147) UUUUUUUUUU Bits and PSNRY and MSEY 30464, 38.6568, 8.85938
+POC  147 TId: 0 ( P-SLICE, nQP 34 QP 34 )      30464 bits [Y 38.6568 dB    U 41.9146 dB    V 42.8225 dB] [ET    92 ] [L0 146 144 140 136 ] [L1 ] [MD5:89a89f60b1310886008aed52042e973b,fb0d0db4ff1d53c85c97cf950fbd41fb,e0cafb328588d25fdae9fd8b2b04f013]
+PIC: 148
+Size of distortion so far: 148
+Size of epsilon so far: 141
+------New Lambda total coding dependence: 23.3035, 28.8775
+
+-----------
+148) lambda Cathy: TEncSlice Muuuu: Lambda = 15.7981, qp = 26, qpFactor: 0.578
+-----------
+
+updateREf12: Ref1: 0, Ref2: 0
+
+Accumlating bits for the slice: 239555, 0, greater than hashtaka: 0
+------------
+
+
+
+148) UUUUUUUUUU Bits and PSNRY and MSEY 243208, 40.1292, 6.31187
+POC  148 TId: 0 ( P-SLICE, nQP 26 QP 26 )     243208 bits [Y 40.1292 dB    U 42.3048 dB    V 43.1111 dB] [ET   134 ] [L0 147 144 140 136 ] [L1 ] [MD5:911fde6bfad36b63a85763aa4a7446cd,7336f21a0d5add3f313d5b3d01a0fa40,e5ce68ea48030e8e0983949fa51be6b8]
+PIC: 149
+Size of distortion so far: 149
+Size of epsilon so far: 142
+------New Lambda total coding dependence: 88.7808, 110.357
+
+-----------
+149) lambda Cathy: TEncSlice Muuuu: Lambda = 62.3327, qp = 33, qpFactor: 0.4624
+-----------
+
+updateREf12: Ref1: 0, Ref2: 0
+
+Accumlating bits for the slice: 26157, 0, greater than hashtaka: 0
+------------
+
+
+
+149) UUUUUUUUUU Bits and PSNRY and MSEY 26696, 39.2087, 7.80205
+POC  149 TId: 0 ( P-SLICE, nQP 33 QP 33 )      26696 bits [Y 39.2087 dB    U 42.1419 dB    V 43.0416 dB] [ET    93 ] [L0 148 144 140 136 ] [L1 ] [MD5:3c3907b2f7cde9d33e0d57237b60566a,80744f517728b8ccf071e79b8f57d39c,5768430d241d8d949c05bd175b92ef98]
+PIC: 150
+Size of distortion so far: 150
+Size of epsilon so far: 143
+------New Lambda total coding dependence: 66.5506, 83.0046
+
+-----------
+150) lambda Cathy: TEncSlice Muuuu: Lambda = 47.1724, qp = 32, qpFactor: 0.4624
+-----------
+
+updateREf12: Ref1: 0, Ref2: 0
+
+Accumlating bits for the slice: 50453, 0, greater than hashtaka: 0
+------------
+
+
+
+150) UUUUUUUUUU Bits and PSNRY and MSEY 51384, 39.1472, 7.91333
+POC  150 TId: 0 ( P-SLICE, nQP 32 QP 32 )      51384 bits [Y 39.1472 dB    U 42.0868 dB    V 42.9870 dB] [ET    86 ] [L0 149 148 144 140 ] [L1 ] [MD5:6763ecdbf0fc55649751ffed55fdb60d,7344421ef4fc77ddb818e4ff57f3782a,08b9bba769c93a1a58635e440e7a7bdf]
+PIC: 151
+Size of distortion so far: 151
+Size of epsilon so far: 144
+------New Lambda total coding dependence: 88.7808, 111.097
+
+-----------
+151) lambda Cathy: TEncSlice Muuuu: Lambda = 69.8488, qp = 34, qpFactor: 0.4624
+-----------
+
+updateREf12: Ref1: 0, Ref2: 0
+
+Accumlating bits for the slice: 31955, 0, greater than hashtaka: 0
+------------
+
+
+
+151) UUUUUUUUUU Bits and PSNRY and MSEY 32624, 38.711, 8.74954
+POC  151 TId: 0 ( P-SLICE, nQP 34 QP 34 )      32624 bits [Y 38.7110 dB    U 41.9967 dB    V 42.8525 dB] [ET    83 ] [L0 150 148 144 140 ] [L1 ] [MD5:fd1e7deee551739f89fdf62978ce933b,cc700d47b82cc163fe80f1bb94ef0f07,3be83eb92a3c5cb99123aaf24c165e70]
+PIC: 152
+Size of distortion so far: 152
+Size of epsilon so far: 145
+------New Lambda total coding dependence: 23.3035, 29.2307
+
+-----------
+152) lambda Cathy: TEncSlice Muuuu: Lambda = 16.0174, qp = 26, qpFactor: 0.578
+-----------
+
+updateREf12: Ref1: 0, Ref2: 0
+
+Accumlating bits for the slice: 228083, 0, greater than hashtaka: 0
+------------
+
+
+
+152) UUUUUUUUUU Bits and PSNRY and MSEY 231104, 40.1543, 6.2756
+POC  152 TId: 0 ( P-SLICE, nQP 26 QP 26 )     231104 bits [Y 40.1543 dB    U 42.3010 dB    V 43.1384 dB] [ET   122 ] [L0 151 148 144 140 ] [L1 ] [MD5:6a03faf57792ae6e4c36c60514aa4f1c,a574ecb52c3e5f3bc7d66a92e2db61cd,df3b7f84f7123ee5c33efb7aef173620]
+PIC: 153
+Size of distortion so far: 153
+Size of epsilon so far: 146
+------New Lambda total coding dependence: 88.7808, 111.68
+
+-----------
+153) lambda Cathy: TEncSlice Muuuu: Lambda = 63.0089, qp = 33, qpFactor: 0.4624
+-----------
+
+updateREf12: Ref1: 0, Ref2: 0
+
+Accumlating bits for the slice: 26510, 0, greater than hashtaka: 0
+------------
+
+
+
+153) UUUUUUUUUU Bits and PSNRY and MSEY 27072, 39.2192, 7.78332
+POC  153 TId: 0 ( P-SLICE, nQP 33 QP 33 )      27072 bits [Y 39.2192 dB    U 42.1149 dB    V 42.9954 dB] [ET    80 ] [L0 152 148 144 140 ] [L1 ] [MD5:9837e08bb9df93f602f2c5e5455b8c36,7e14b4a39e1ca9813d2b5d8153b2c2af,faa85dede8d8a8296f9de0a0d3b108d0]
+PIC: 154
+Size of distortion so far: 154
+Size of epsilon so far: 147
+------New Lambda total coding dependence: 66.5506, 83.9806
+
+-----------
+154) lambda Cathy: TEncSlice Muuuu: Lambda = 47.7325, qp = 32, qpFactor: 0.4624
+-----------
+
+updateREf12: Ref1: 0, Ref2: 0
+
+Accumlating bits for the slice: 50241, 0, greater than hashtaka: 0
+------------
+
+
+
+154) UUUUUUUUUU Bits and PSNRY and MSEY 51080, 39.0957, 8.00772
+POC  154 TId: 0 ( P-SLICE, nQP 32 QP 32 )      51080 bits [Y 39.0957 dB    U 42.0572 dB    V 42.9149 dB] [ET    82 ] [L0 153 152 148 144 ] [L1 ] [MD5:f078319b2824b685fce0867fbe762217,38745f3d14a419eed6bbb8a708734d46,b6270a0c5bc10a181f288e42be675929]
+PIC: 155
+Size of distortion so far: 155
+Size of epsilon so far: 148
+------New Lambda total coding dependence: 88.7808, 112.381
+
+-----------
+155) lambda Cathy: TEncSlice Muuuu: Lambda = 70.3242, qp = 34, qpFactor: 0.4624
+-----------
+
+updateREf12: Ref1: 0, Ref2: 0
+
+Accumlating bits for the slice: 30938, 0, greater than hashtaka: 0
+------------
+
+
+
+155) UUUUUUUUUU Bits and PSNRY and MSEY 31512, 38.6571, 8.85866
+POC  155 TId: 0 ( P-SLICE, nQP 34 QP 34 )      31512 bits [Y 38.6571 dB    U 41.9808 dB    V 42.8423 dB] [ET    78 ] [L0 154 152 148 144 ] [L1 ] [MD5:7487bf112a16af6df42e28a191a76700,eb5c8f26747cd39c81aa38fc5df015c5,1b94c9261d7b8aed4c977765d16965dc]
+PIC: 156
+Size of distortion so far: 156
+Size of epsilon so far: 149
+------New Lambda total coding dependence: 23.3035, 29.5652
+
+-----------
+156) lambda Cathy: TEncSlice Muuuu: Lambda = 16.1042, qp = 26, qpFactor: 0.578
+-----------
+
+updateREf12: Ref1: 0, Ref2: 0
+
+Accumlating bits for the slice: 232546, 0, greater than hashtaka: 0
+------------
+
+
+
+156) UUUUUUUUUU Bits and PSNRY and MSEY 236520, 40.1244, 6.31882
+POC  156 TId: 0 ( P-SLICE, nQP 26 QP 26 )     236520 bits [Y 40.1244 dB    U 42.3528 dB    V 43.1350 dB] [ET   120 ] [L0 155 152 148 144 ] [L1 ] [MD5:3314bdb1f2ab3583b4a53c745aef7ec5,3f6a206892e4edd6fb507fec27bb0ba9,6a653346856ac4176767616fd2e1813e]
+PIC: 157
+Size of distortion so far: 157
+Size of epsilon so far: 150
+------New Lambda total coding dependence: 88.7808, 112.945
+
+-----------
+157) lambda Cathy: TEncSlice Muuuu: Lambda = 63.3776, qp = 33, qpFactor: 0.4624
+-----------
+
+updateREf12: Ref1: 0, Ref2: 0
+
+Accumlating bits for the slice: 25385, 0, greater than hashtaka: 0
+------------
+
+
+
+157) UUUUUUUUUU Bits and PSNRY and MSEY 25944, 39.2023, 7.8136
+POC  157 TId: 0 ( P-SLICE, nQP 33 QP 33 )      25944 bits [Y 39.2023 dB    U 42.1492 dB    V 43.0080 dB] [ET    79 ] [L0 156 152 148 144 ] [L1 ] [MD5:ed8b83ccdd41577895b4e9799dc15553,40607065330c2cc6e987e0cf9d5a38c9,4d3cc92ea0597b0cf92c1b5f0bbd8671]
+PIC: 158
+Size of distortion so far: 158
+Size of epsilon so far: 151
+------New Lambda total coding dependence: 66.5506, 84.9198
+
+-----------
+158) lambda Cathy: TEncSlice Muuuu: Lambda = 47.6263, qp = 32, qpFactor: 0.4624
+-----------
+
+updateREf12: Ref1: 0, Ref2: 0
+
+Accumlating bits for the slice: 50699, 0, greater than hashtaka: 0
+------------
+
+
+
+158) UUUUUUUUUU Bits and PSNRY and MSEY 51536, 39.0959, 8.00737
+POC  158 TId: 0 ( P-SLICE, nQP 32 QP 32 )      51536 bits [Y 39.0959 dB    U 42.0793 dB    V 42.8984 dB] [ET    82 ] [L0 157 156 152 148 ] [L1 ] [MD5:f557a55d13237c20432853679abe591e,ced4ebbc7b44f17fd340ff32af1090f1,319faa2282582a78d4655dbe42d2f63d]
+PIC: 159
+Size of distortion so far: 159
+Size of epsilon so far: 152
+------New Lambda total coding dependence: 88.7808, 113.63
+
+-----------
+159) lambda Cathy: TEncSlice Muuuu: Lambda = 70.0356, qp = 34, qpFactor: 0.4624
+-----------
+
+updateREf12: Ref1: 0, Ref2: 0
+
+Accumlating bits for the slice: 29710, 0, greater than hashtaka: 0
+------------
+
+
+
+159) UUUUUUUUUU Bits and PSNRY and MSEY 30392, 38.6899, 8.79201
+POC  159 TId: 0 ( P-SLICE, nQP 34 QP 34 )      30392 bits [Y 38.6899 dB    U 41.9811 dB    V 42.8238 dB] [ET    78 ] [L0 158 156 152 148 ] [L1 ] [MD5:6292c5feb6cff634e75f1fb86a2f76e3,e89ccac6a1aaf544c4c1c2dfacc87bb2,f8a705f289242aa6b447bd3e9cd0cebb]
+PIC: 160
+Size of distortion so far: 160
+Size of epsilon so far: 153
+------New Lambda total coding dependence: 23.3035, 29.8927
+
+-----------
+160) lambda Cathy: TEncSlice Muuuu: Lambda = 16.1204, qp = 26, qpFactor: 0.578
+-----------
+
+updateREf12: Ref1: 0, Ref2: 0
+
+Accumlating bits for the slice: 227970, 0, greater than hashtaka: 0
+------------
+
+
+
+160) UUUUUUUUUU Bits and PSNRY and MSEY 231312, 40.1258, 6.31687
+POC  160 TId: 0 ( P-SLICE, nQP 26 QP 26 )     231312 bits [Y 40.1258 dB    U 42.3646 dB    V 43.1110 dB] [ET   116 ] [L0 159 156 152 148 ] [L1 ] [MD5:b5c07669cc77b8c489adc40c07113e2d,c23c40d1873491918bbd0f6d59eedb40,5194b2420ba2f87fef950bf4f87fb95b]
+PIC: 161
+Size of distortion so far: 161
+Size of epsilon so far: 154
+------New Lambda total coding dependence: 88.7808, 114.186
+
+-----------
+161) lambda Cathy: TEncSlice Muuuu: Lambda = 63.6736, qp = 33, qpFactor: 0.4624
+-----------
+
+updateREf12: Ref1: 0, Ref2: 0
+
+Accumlating bits for the slice: 24256, 0, greater than hashtaka: 0
+------------
+
+
+
+161) UUUUUUUUUU Bits and PSNRY and MSEY 24720, 39.1904, 7.83499
+POC  161 TId: 0 ( P-SLICE, nQP 33 QP 33 )      24720 bits [Y 39.1904 dB    U 42.1619 dB    V 42.9833 dB] [ET    79 ] [L0 160 156 152 148 ] [L1 ] [MD5:89789d3fb533a58b5def1d8e92ddaacb,5279f623ec7ffe8db8ed746658c675a2,8676e666d03d8e92a5b5cc811c1092be]
+PIC: 162
+Size of distortion so far: 162
+Size of epsilon so far: 155
+------New Lambda total coding dependence: 66.5506, 85.8418
+
+-----------
+162) lambda Cathy: TEncSlice Muuuu: Lambda = 48.0704, qp = 32, qpFactor: 0.4624
+-----------
+
+updateREf12: Ref1: 0, Ref2: 0
+
+Accumlating bits for the slice: 48565, 0, greater than hashtaka: 0
+------------
+
+
+
+162) UUUUUUUUUU Bits and PSNRY and MSEY 49472, 39.0969, 8.00561
+POC  162 TId: 0 ( P-SLICE, nQP 32 QP 32 )      49472 bits [Y 39.0969 dB    U 42.0997 dB    V 42.9027 dB] [ET    83 ] [L0 161 160 156 152 ] [L1 ] [MD5:84d6b3f6e4571a0fa3f34e38a5fe72fa,7c1311b5b14878c0034f259aaa7d0ea4,0a5f025417ce195288ebe02a49cb527f]
+PIC: 163
+Size of distortion so far: 163
+Size of epsilon so far: 156
+------New Lambda total coding dependence: 88.7808, 114.843
+
+-----------
+163) lambda Cathy: TEncSlice Muuuu: Lambda = 71.0488, qp = 34, qpFactor: 0.4624
+-----------
+
+updateREf12: Ref1: 0, Ref2: 0
+
+Accumlating bits for the slice: 30051, 0, greater than hashtaka: 0
+------------
+
+
+
+163) UUUUUUUUUU Bits and PSNRY and MSEY 30512, 38.744, 8.68316
+POC  163 TId: 0 ( P-SLICE, nQP 34 QP 34 )      30512 bits [Y 38.7440 dB    U 42.0117 dB    V 42.8327 dB] [ET    79 ] [L0 162 160 156 152 ] [L1 ] [MD5:27a1aad6c403643c218333288bfdf730,e68b5ff59cc2e69aa5ae065452b9c1da,0aefe16f596c1c8133eec47a137cd4d8]
+PIC: 164
+Size of distortion so far: 164
+Size of epsilon so far: 157
+------New Lambda total coding dependence: 23.3035, 30.2046
+
+-----------
+164) lambda Cathy: TEncSlice Muuuu: Lambda = 16.4315, qp = 26, qpFactor: 0.578
+-----------
+
+updateREf12: Ref1: 0, Ref2: 0
+
+Accumlating bits for the slice: 213445, 0, greater than hashtaka: 0
+------------
+
+
+
+164) UUUUUUUUUU Bits and PSNRY and MSEY 216896, 40.1132, 6.33514
+POC  164 TId: 0 ( P-SLICE, nQP 26 QP 26 )     216896 bits [Y 40.1132 dB    U 42.3392 dB    V 43.0478 dB] [ET   116 ] [L0 163 160 156 152 ] [L1 ] [MD5:067841be425c2a5c58cd74ada1c5b151,0911cc77a8c973eaa0d378a01f44de91,1e93bde9da9b118416798009a424e5b2]
+PIC: 165
+Size of distortion so far: 165
+Size of epsilon so far: 158
+------New Lambda total coding dependence: 88.7808, 115.351
+
+-----------
+165) lambda Cathy: TEncSlice Muuuu: Lambda = 65.3244, qp = 33, qpFactor: 0.4624
+-----------
+
+updateREf12: Ref1: 0, Ref2: 0
+
+Accumlating bits for the slice: 23761, 0, greater than hashtaka: 0
+------------
+
+
+
+165) UUUUUUUUUU Bits and PSNRY and MSEY 24448, 39.2259, 7.77122
+POC  165 TId: 0 ( P-SLICE, nQP 33 QP 33 )      24448 bits [Y 39.2259 dB    U 42.1384 dB    V 42.8981 dB] [ET    76 ] [L0 164 160 156 152 ] [L1 ] [MD5:142048a6a09ece3883cb86b65d5e0295,a96ba21e424f4c68bca8e08763ce1376,77aaf5dfdcfe7e5be300d059ebc6ebc5]
+PIC: 166
+Size of distortion so far: 166
+Size of epsilon so far: 159
+------New Lambda total coding dependence: 66.5506, 86.6874
+
+-----------
+166) lambda Cathy: TEncSlice Muuuu: Lambda = 49.528, qp = 32, qpFactor: 0.4624
+-----------
+
+updateREf12: Ref1: 0, Ref2: 0
+
+Accumlating bits for the slice: 45443, 0, greater than hashtaka: 0
+------------
+
+
+
+166) UUUUUUUUUU Bits and PSNRY and MSEY 46232, 39.1386, 7.92904
+POC  166 TId: 0 ( P-SLICE, nQP 32 QP 32 )      46232 bits [Y 39.1386 dB    U 42.0995 dB    V 42.8108 dB] [ET    80 ] [L0 165 164 160 156 ] [L1 ] [MD5:992e1390321e668ffe2cb6eeda7542e5,e0b34b0e27c4971f46f90881945b2172,6cbf159b968c63bc19dc16d4f99c6f01]
+PIC: 167
+Size of distortion so far: 167
+Size of epsilon so far: 160
+------New Lambda total coding dependence: 88.7808, 115.928
+
+-----------
+167) lambda Cathy: TEncSlice Muuuu: Lambda = 72.763, qp = 34, qpFactor: 0.4624
+-----------
+
+updateREf12: Ref1: 0, Ref2: 0
+
+Accumlating bits for the slice: 28861, 0, greater than hashtaka: 0
+------------
+
+
+
+167) UUUUUUUUUU Bits and PSNRY and MSEY 29448, 38.7488, 8.67367
+POC  167 TId: 0 ( P-SLICE, nQP 34 QP 34 )      29448 bits [Y 38.7488 dB    U 42.0116 dB    V 42.7456 dB] [ET    76 ] [L0 166 164 160 156 ] [L1 ] [MD5:c70a3819ceb752fbb3c0b135dd230201,1300d788cfde839504339aab72ceafea,2892e772b4c8c281a0c9a2ea21eab616]
+PIC: 168
+Size of distortion so far: 168
+Size of epsilon so far: 161
+------New Lambda total coding dependence: 23.3035, 30.4814
+
+-----------
+168) lambda Cathy: TEncSlice Muuuu: Lambda = 16.8211, qp = 27, qpFactor: 0.578
+-----------
+
+updateREf12: Ref1: 0, Ref2: 0
+
+Accumlating bits for the slice: 193639, 0, greater than hashtaka: 0
+------------
+
+
+
+168) UUUUUUUUUU Bits and PSNRY and MSEY 197216, 39.9827, 6.52849
+POC  168 TId: 0 ( P-SLICE, nQP 27 QP 27 )     197216 bits [Y 39.9827 dB    U 42.2822 dB    V 43.0012 dB] [ET   112 ] [L0 167 164 160 156 ] [L1 ] [MD5:1b516b184d3984f18fbeed5af968a909,fc29c07683b7abb1725425f36aed4f02,dad0c1c712bf1616a83e36c2fa3de97b]
+PIC: 169
+Size of distortion so far: 169
+Size of epsilon so far: 162
+------New Lambda total coding dependence: 88.7808, 116.387
+
+-----------
+169) lambda Cathy: TEncSlice Muuuu: Lambda = 65.2244, qp = 33, qpFactor: 0.4624
+-----------
+
+updateREf12: Ref1: 0, Ref2: 0
+
+Accumlating bits for the slice: 22250, 0, greater than hashtaka: 0
+------------
+
+
+
+169) UUUUUUUUUU Bits and PSNRY and MSEY 22792, 39.1613, 7.88774
+POC  169 TId: 0 ( P-SLICE, nQP 33 QP 33 )      22792 bits [Y 39.1613 dB    U 42.1240 dB    V 42.8840 dB] [ET    76 ] [L0 168 164 160 156 ] [L1 ] [MD5:fd2181151205963f9cb570c95c4828ed,3aa3fc0214a85e314db179e76fd36dbd,b0e663d5ddf5c9852ea1b3e024e0d77d]
+PIC: 170
+Size of distortion so far: 170
+Size of epsilon so far: 163
+------New Lambda total coding dependence: 66.5506, 87.464
+
+-----------
+170) lambda Cathy: TEncSlice Muuuu: Lambda = 48.5929, qp = 32, qpFactor: 0.4624
+-----------
+
+updateREf12: Ref1: 0, Ref2: 0
+
+Accumlating bits for the slice: 44957, 0, greater than hashtaka: 0
+------------
+
+
+
+170) UUUUUUUUUU Bits and PSNRY and MSEY 45808, 39.1143, 7.97357
+POC  170 TId: 0 ( P-SLICE, nQP 32 QP 32 )      45808 bits [Y 39.1143 dB    U 42.0595 dB    V 42.7976 dB] [ET    79 ] [L0 169 168 164 160 ] [L1 ] [MD5:78d2da715bd9a6081d06bc25a8257686,e5f878da9f06264fc8e1d89a9d6441d6,8bf56fe19df4a1e259a1ed95f91d3d87]
+PIC: 171
+Size of distortion so far: 171
+Size of epsilon so far: 164
+------New Lambda total coding dependence: 88.7808, 116.982
+
+-----------
+171) lambda Cathy: TEncSlice Muuuu: Lambda = 69.9553, qp = 34, qpFactor: 0.4624
+-----------
+
+updateREf12: Ref1: 0, Ref2: 0
+
+Accumlating bits for the slice: 28427, 0, greater than hashtaka: 0
+------------
+
+
+
+171) UUUUUUUUUU Bits and PSNRY and MSEY 29016, 38.7417, 8.68789
+POC  171 TId: 0 ( P-SLICE, nQP 34 QP 34 )      29016 bits [Y 38.7417 dB    U 41.9711 dB    V 42.7183 dB] [ET    76 ] [L0 170 168 164 160 ] [L1 ] [MD5:4436da9a647d619fa8f9065ed9ac4579,86e5b739af2c195b750395fff71abfd7,64c9d94ccbfee26a04bb86265ac90523]
+PIC: 172
+Size of distortion so far: 172
+Size of epsilon so far: 165
+------New Lambda total coding dependence: 23.3035, 30.7684
+
+-----------
+172) lambda Cathy: TEncSlice Muuuu: Lambda = 16.1984, qp = 26, qpFactor: 0.578
+-----------
+
+updateREf12: Ref1: 0, Ref2: 0
+
+Accumlating bits for the slice: 219675, 0, greater than hashtaka: 0
+------------
+
+
+
+172) UUUUUUUUUU Bits and PSNRY and MSEY 222864, 40.1449, 6.28908
+POC  172 TId: 0 ( P-SLICE, nQP 26 QP 26 )     222864 bits [Y 40.1449 dB    U 42.3751 dB    V 43.0429 dB] [ET   114 ] [L0 171 168 164 160 ] [L1 ] [MD5:28b474721ddf03207842976065096711,6e47b5aafd649ee84ca03f1288757ad7,85e1a6aa61abd2c7b14541460fda340f]
+PIC: 173
+Size of distortion so far: 173
+Size of epsilon so far: 166
+------New Lambda total coding dependence: 88.7808, 117.5
+
+-----------
+173) lambda Cathy: TEncSlice Muuuu: Lambda = 64.5985, qp = 33, qpFactor: 0.4624
+-----------
+
+updateREf12: Ref1: 0, Ref2: 0
+
+Accumlating bits for the slice: 23202, 0, greater than hashtaka: 0
+------------
+
+
+
+173) UUUUUUUUUU Bits and PSNRY and MSEY 23752, 39.2703, 7.69214
+POC  173 TId: 0 ( P-SLICE, nQP 33 QP 33 )      23752 bits [Y 39.2703 dB    U 42.1574 dB    V 42.8941 dB] [ET    76 ] [L0 172 168 164 160 ] [L1 ] [MD5:995e91b6962092c8c73cbce232e8e505,9c788d55e2d0e3ee2e6c18d93894f619,240b62e848825bbfa245474dd9f759ce]
+PIC: 174
+Size of distortion so far: 174
+Size of epsilon so far: 167
+------New Lambda total coding dependence: 66.5506, 88.2973
+
+-----------
+174) lambda Cathy: TEncSlice Muuuu: Lambda = 49.4088, qp = 32, qpFactor: 0.4624
+-----------
+
+updateREf12: Ref1: 0, Ref2: 0
+
+Accumlating bits for the slice: 47575, 0, greater than hashtaka: 0
+------------
+
+
+
+174) UUUUUUUUUU Bits and PSNRY and MSEY 48384, 39.1925, 7.83123
+POC  174 TId: 0 ( P-SLICE, nQP 32 QP 32 )      48384 bits [Y 39.1925 dB    U 42.0782 dB    V 42.8027 dB] [ET    81 ] [L0 173 172 168 164 ] [L1 ] [MD5:def68a078f1a9cf8a8608e30ac811094,b84588ee073a8adaa2ffa155bbab80e8,b07c8ced21bcf07388dff499553cdacf]
+PIC: 175
+Size of distortion so far: 175
+Size of epsilon so far: 168
+------New Lambda total coding dependence: 88.7808, 118.065
+
+-----------
+175) lambda Cathy: TEncSlice Muuuu: Lambda = 73.2873, qp = 34, qpFactor: 0.4624
+-----------
+
+updateREf12: Ref1: 0, Ref2: 0
+
+Accumlating bits for the slice: 28170, 0, greater than hashtaka: 0
+------------
+
+
+
+175) UUUUUUUUUU Bits and PSNRY and MSEY 28376, 38.7428, 8.68567
+POC  175 TId: 0 ( P-SLICE, nQP 34 QP 34 )      28376 bits [Y 38.7428 dB    U 41.9688 dB    V 42.7033 dB] [ET    76 ] [L0 174 172 168 164 ] [L1 ] [MD5:774b81b9d52e51b0c4a7cc8f0067e3d5,987e2eb0eab62b967df87b6e14e4cf8d,4658eb25b5f474b9642ad191dd2389e9]
+PIC: 176
+Size of distortion so far: 176
+Size of epsilon so far: 169
+------New Lambda total coding dependence: 23.3035, 31.0385
+
+-----------
+176) lambda Cathy: TEncSlice Muuuu: Lambda = 17.0725, qp = 27, qpFactor: 0.578
+-----------
+
+updateREf12: Ref1: 0, Ref2: 0
+
+Accumlating bits for the slice: 191881, 0, greater than hashtaka: 0
+------------
+
+
+
+176) UUUUUUUUUU Bits and PSNRY and MSEY 194920, 39.9912, 6.51564
+POC  176 TId: 0 ( P-SLICE, nQP 27 QP 27 )     194920 bits [Y 39.9912 dB    U 42.2817 dB    V 42.9540 dB] [ET   111 ] [L0 175 172 168 164 ] [L1 ] [MD5:47f8ff5dd48069b4e43729ff91e93788,447cf594a5fab79eacd47e8203959070,941ef18a7487ac1b1ea287dd6d26779d]
+PIC: 177
+Size of distortion so far: 177
+Size of epsilon so far: 170
+------New Lambda total coding dependence: 88.7808, 118.487
+
+-----------
+177) lambda Cathy: TEncSlice Muuuu: Lambda = 66.3901, qp = 33, qpFactor: 0.4624
+-----------
+
+updateREf12: Ref1: 0, Ref2: 0
+
+Accumlating bits for the slice: 21883, 0, greater than hashtaka: 0
+------------
+
+
+
+177) UUUUUUUUUU Bits and PSNRY and MSEY 22072, 39.18, 7.8538
+POC  177 TId: 0 ( P-SLICE, nQP 33 QP 33 )      22072 bits [Y 39.1800 dB    U 42.1416 dB    V 42.8481 dB] [ET    76 ] [L0 176 172 168 164 ] [L1 ] [MD5:031e56e93c31f210ec3ed4bc23096cf0,14f43f78f195f78cc16199bd454aa395,9c100beb8435d0dccbaa31b450bfc3de]
+PIC: 178
+Size of distortion so far: 178
+Size of epsilon so far: 171
+------New Lambda total coding dependence: 66.5506, 89.0156
+
+-----------
+178) lambda Cathy: TEncSlice Muuuu: Lambda = 49.6793, qp = 32, qpFactor: 0.4624
+-----------
+
+updateREf12: Ref1: 0, Ref2: 0
+
+Accumlating bits for the slice: 44322, 0, greater than hashtaka: 0
+------------
+
+
+
+178) UUUUUUUUUU Bits and PSNRY and MSEY 45120, 39.1726, 7.86726
+POC  178 TId: 0 ( P-SLICE, nQP 32 QP 32 )      45120 bits [Y 39.1726 dB    U 42.0936 dB    V 42.8168 dB] [ET    80 ] [L0 177 176 172 168 ] [L1 ] [MD5:efffe4f98a7ed5ad2c20fc7df9b70e14,738faceed967b7c64f9c8f155d33f8d4,43a394a1523e8c8486384d55a36ad90d]
+PIC: 179
+Size of distortion so far: 179
+Size of epsilon so far: 172
+------New Lambda total coding dependence: 88.7808, 119.014
+
+-----------
+179) lambda Cathy: TEncSlice Muuuu: Lambda = 72.1973, qp = 34, qpFactor: 0.4624
+-----------
+
+updateREf12: Ref1: 0, Ref2: 0
+
+Accumlating bits for the slice: 26516, 0, greater than hashtaka: 0
+------------
+
+
+
+179) UUUUUUUUUU Bits and PSNRY and MSEY 27168, 38.8028, 8.5665
+POC  179 TId: 0 ( P-SLICE, nQP 34 QP 34 )      27168 bits [Y 38.8028 dB    U 42.0095 dB    V 42.7378 dB] [ET    78 ] [L0 178 176 172 168 ] [L1 ] [MD5:590dc56b49cd89b61f8e073c1b106a14,14aef53f6ed47c72d3ee785a7e4724ba,382b7f7b694631e61392cc9e338ca953]
+PIC: 180
+Size of distortion so far: 180
+Size of epsilon so far: 173
+------New Lambda total coding dependence: 23.3035, 31.2901
+
+-----------
+180) lambda Cathy: TEncSlice Muuuu: Lambda = 16.7703, qp = 27, qpFactor: 0.578
+-----------
+
+updateREf12: Ref1: 0, Ref2: 0
+
+Accumlating bits for the slice: 190859, 0, greater than hashtaka: 0
+------------
+
+
+
+180) UUUUUUUUUU Bits and PSNRY and MSEY 194840, 40.0319, 6.45498
+POC  180 TId: 0 ( P-SLICE, nQP 27 QP 27 )     194840 bits [Y 40.0319 dB    U 42.3066 dB    V 43.0066 dB] [ET   115 ] [L0 179 176 172 168 ] [L1 ] [MD5:c09b93a232280c3cc1588a2c25f382cd,2ff97e57edaa31f97dc91b9278dabb37,f1a7e8449da3e8801b118b026b68da25]
+PIC: 181
+Size of distortion so far: 181
+Size of epsilon so far: 174
+------New Lambda total coding dependence: 88.7808, 119.454
+
+-----------
+181) lambda Cathy: TEncSlice Muuuu: Lambda = 66.3303, qp = 33, qpFactor: 0.4624
+-----------
+
+updateREf12: Ref1: 0, Ref2: 0
+
+Accumlating bits for the slice: 22479, 0, greater than hashtaka: 0
+------------
+
+
+
+181) UUUUUUUUUU Bits and PSNRY and MSEY 23168, 39.2437, 7.7394
+POC  181 TId: 0 ( P-SLICE, nQP 33 QP 33 )      23168 bits [Y 39.2437 dB    U 42.1307 dB    V 42.8542 dB] [ET    78 ] [L0 180 176 172 168 ] [L1 ] [MD5:54bf34e554962e7c58a3584559368bbc,6466d7bd95ea9501c83c7aa2c734f98f,3d7a2991cd982440c46f6f4e702279c9]
+PIC: 182
+Size of distortion so far: 182
+Size of epsilon so far: 175
+------New Lambda total coding dependence: 66.5506, 89.7355
+
+-----------
+182) lambda Cathy: TEncSlice Muuuu: Lambda = 49.5748, qp = 32, qpFactor: 0.4624
+-----------
+
+updateREf12: Ref1: 0, Ref2: 0
+
+Accumlating bits for the slice: 43456, 0, greater than hashtaka: 0
+------------
+
+
+
+182) UUUUUUUUUU Bits and PSNRY and MSEY 44384, 39.165, 7.881
+POC  182 TId: 0 ( P-SLICE, nQP 32 QP 32 )      44384 bits [Y 39.1650 dB    U 42.0558 dB    V 42.7838 dB] [ET    80 ] [L0 181 180 176 172 ] [L1 ] [MD5:77a501b193ef4c2f8692b8d472d9012a,9fdb4d6e181e3645f7f6b8963e124409,299231b0629b83d565bc37dab793f9b6]
+PIC: 183
+Size of distortion so far: 183
+Size of epsilon so far: 176
+------New Lambda total coding dependence: 88.7808, 119.973
+
+-----------
+183) lambda Cathy: TEncSlice Muuuu: Lambda = 72.4046, qp = 34, qpFactor: 0.4624
+-----------
+
+updateREf12: Ref1: 0, Ref2: 0
+
+Accumlating bits for the slice: 25996, 0, greater than hashtaka: 0
+------------
+
+
+
+183) UUUUUUUUUU Bits and PSNRY and MSEY 26232, 38.746, 8.67922
+POC  183 TId: 0 ( P-SLICE, nQP 34 QP 34 )      26232 bits [Y 38.7460 dB    U 41.9685 dB    V 42.6696 dB] [ET    76 ] [L0 182 180 176 172 ] [L1 ] [MD5:f8eacd472366169df5c742ca8c2beb8e,5b13b4c7d6f4773347b58654fc5e83a1,530c99ee12fa8dab5c335fbea4c126e9]
+PIC: 184
+Size of distortion so far: 184
+Size of epsilon so far: 177
+------New Lambda total coding dependence: 23.3035, 31.5407
+
+-----------
+184) lambda Cathy: TEncSlice Muuuu: Lambda = 16.9962, qp = 27, qpFactor: 0.578
+-----------
+
+updateREf12: Ref1: 0, Ref2: 0
+
+Accumlating bits for the slice: 189405, 0, greater than hashtaka: 0
+------------
+
+
+
+184) UUUUUUUUUU Bits and PSNRY and MSEY 192984, 40.0151, 6.47998
+POC  184 TId: 0 ( P-SLICE, nQP 27 QP 27 )     192984 bits [Y 40.0151 dB    U 42.3179 dB    V 42.9819 dB] [ET   111 ] [L0 183 180 176 172 ] [L1 ] [MD5:3ade3c6b670854df9b687053320b6842,fd0d2095cf9163a3b1398ab62fa942eb,7513623f9f87ea093224fc21beb52394]
+PIC: 185
+Size of distortion so far: 185
+Size of epsilon so far: 178
+------New Lambda total coding dependence: 88.7808, 120.395
+
+-----------
+185) lambda Cathy: TEncSlice Muuuu: Lambda = 66.7107, qp = 34, qpFactor: 0.4624
+-----------
+
+updateREf12: Ref1: 0, Ref2: 0
+
+Accumlating bits for the slice: 20118, 0, greater than hashtaka: 0
+------------
+
+
+
+185) UUUUUUUUUU Bits and PSNRY and MSEY 20304, 39.2423, 7.74198
+POC  185 TId: 0 ( P-SLICE, nQP 34 QP 34 )      20304 bits [Y 39.2423 dB    U 42.1433 dB    V 42.8748 dB] [ET    75 ] [L0 184 180 176 172 ] [L1 ] [MD5:246506e50c8b6d3c04821c71f8541a08,8b7f73cbf25ff8264e672d8cef51a2a3,a0e6ce3bec1ca0d13358cef2754c2096]
+PIC: 186
+Size of distortion so far: 186
+Size of epsilon so far: 179
+------New Lambda total coding dependence: 66.5506, 90.4328
+
+-----------
+186) lambda Cathy: TEncSlice Muuuu: Lambda = 50.3345, qp = 32, qpFactor: 0.4624
+-----------
+
+updateREf12: Ref1: 0, Ref2: 0
+
+Accumlating bits for the slice: 41566, 0, greater than hashtaka: 0
+------------
+
+
+
+186) UUUUUUUUUU Bits and PSNRY and MSEY 42512, 39.202, 7.81418
+POC  186 TId: 0 ( P-SLICE, nQP 32 QP 32 )      42512 bits [Y 39.2020 dB    U 42.0804 dB    V 42.8003 dB] [ET    78 ] [L0 185 184 180 176 ] [L1 ] [MD5:7588003a2cafafd0cb243cbc5ebcf7b1,46e6fcec3962376643d89ab276a079b9,ee42b9285d35878db506113b6d7ab07c]
+PIC: 187
+Size of distortion so far: 187
+Size of epsilon so far: 180
+------New Lambda total coding dependence: 88.7808, 120.881
+
+-----------
+187) lambda Cathy: TEncSlice Muuuu: Lambda = 73.6578, qp = 34, qpFactor: 0.4624
+-----------
+
+updateREf12: Ref1: 0, Ref2: 0
+
+Accumlating bits for the slice: 25058, 0, greater than hashtaka: 0
+------------
+
+
+
+187) UUUUUUUUUU Bits and PSNRY and MSEY 25608, 38.8255, 8.52179
+POC  187 TId: 0 ( P-SLICE, nQP 34 QP 34 )      25608 bits [Y 38.8255 dB    U 41.9836 dB    V 42.6938 dB] [ET    75 ] [L0 186 184 180 176 ] [L1 ] [MD5:80a396bb98e704758921aa243f03ac1a,bf07b8cb4145a1b25d7d160e82374813,a0a4062178981715202d224b44d2a3f4]
+PIC: 188
+Size of distortion so far: 188
+Size of epsilon so far: 181
+------New Lambda total coding dependence: 23.3035, 31.773
+
+-----------
+188) lambda Cathy: TEncSlice Muuuu: Lambda = 17.2585, qp = 27, qpFactor: 0.578
+-----------
+
+updateREf12: Ref1: 0, Ref2: 0
+
+Accumlating bits for the slice: 179735, 0, greater than hashtaka: 0
+------------
+
+
+
+188) UUUUUUUUUU Bits and PSNRY and MSEY 183320, 40.0032, 6.49775
+POC  188 TId: 0 ( P-SLICE, nQP 27 QP 27 )     183320 bits [Y 40.0032 dB    U 42.3203 dB    V 42.9793 dB] [ET   109 ] [L0 187 184 180 176 ] [L1 ] [MD5:495e1aeba4f2d6be29c29b248075e029,72cb1b80a8e07938b9f5084b2de1f54f,98c8f72a9505f4b91bbd2e9ab9befef6]
+PIC: 189
+Size of distortion so far: 189
+Size of epsilon so far: 182
+------New Lambda total coding dependence: 88.7808, 121.263
+
+-----------
+189) lambda Cathy: TEncSlice Muuuu: Lambda = 68.6727, qp = 34, qpFactor: 0.4624
+-----------
+
+updateREf12: Ref1: 0, Ref2: 0
+
+Accumlating bits for the slice: 18670, 0, greater than hashtaka: 0
+------------
+
+
+
+189) UUUUUUUUUU Bits and PSNRY and MSEY 19160, 39.23, 7.76389
+POC  189 TId: 0 ( P-SLICE, nQP 34 QP 34 )      19160 bits [Y 39.2300 dB    U 42.1423 dB    V 42.8730 dB] [ET    73 ] [L0 188 184 180 176 ] [L1 ] [MD5:4d135d68d11484d8cd863596f5bb935c,cdfc5fb566cd42810849f8d91d8cbdb8,914d275118d131be134ae550de09b30f]
+PIC: 190
+Size of distortion so far: 190
+Size of epsilon so far: 183
+------New Lambda total coding dependence: 66.5506, 91.0607
+
+-----------
+190) lambda Cathy: TEncSlice Muuuu: Lambda = 50.9314, qp = 32, qpFactor: 0.4624
+-----------
+
+updateREf12: Ref1: 0, Ref2: 0
+
+Accumlating bits for the slice: 38149, 0, greater than hashtaka: 0
+------------
+
+
+
+190) UUUUUUUUUU Bits and PSNRY and MSEY 38704, 39.1665, 7.87817
+POC  190 TId: 0 ( P-SLICE, nQP 32 QP 32 )      38704 bits [Y 39.1665 dB    U 42.0990 dB    V 42.8046 dB] [ET    77 ] [L0 189 188 184 180 ] [L1 ] [MD5:601f93857b99fd916e8d0634481f4b2f,2ded28759683769ee8213be774aebf8d,d83d05058d07244ad1c71a7975732538]
+PIC: 191
+Size of distortion so far: 191
+Size of epsilon so far: 184
+------New Lambda total coding dependence: 88.7808, 121.705
+
+-----------
+191) lambda Cathy: TEncSlice Muuuu: Lambda = 73.5454, qp = 34, qpFactor: 0.4624
+-----------
+
+updateREf12: Ref1: 0, Ref2: 0
+
+Accumlating bits for the slice: 25251, 0, greater than hashtaka: 0
+------------
+
+
+
+191) UUUUUUUUUU Bits and PSNRY and MSEY 25808, 38.794, 8.58388
+POC  191 TId: 0 ( P-SLICE, nQP 34 QP 34 )      25808 bits [Y 38.7940 dB    U 41.9980 dB    V 42.7106 dB] [ET    70 ] [L0 190 188 184 180 ] [L1 ] [MD5:febe2117e6bdb7a9ba905e7fd3bd5965,d5629155d95b96e46fdca1b7bba5175f,7c801f5ce3af5f663643bfe1307a8256]
+PIC: 192
+Size of distortion so far: 192
+Size of epsilon so far: 185
+------New Lambda total coding dependence: 23.3035, 31.9893
+
+-----------
+192) lambda Cathy: TEncSlice Muuuu: Lambda = 17.3437, qp = 27, qpFactor: 0.578
+-----------
+
+updateREf12: Ref1: 0, Ref2: 0
+
+Accumlating bits for the slice: 177819, 0, greater than hashtaka: 0
+------------
+
+
+
+192) UUUUUUUUUU Bits and PSNRY and MSEY 181008, 39.9821, 6.5294
+POC  192 TId: 0 ( P-SLICE, nQP 27 QP 27 )     181008 bits [Y 39.9821 dB    U 42.3143 dB    V 42.9606 dB] [ET   101 ] [L0 191 188 184 180 ] [L1 ] [MD5:2a75a234244bfdae4d28c2009a09c4e0,45e6ef68593108053cb124927c3424ae,831fb35376d7340859d2ac88de07249b]
+PIC: 193
+Size of distortion so far: 193
+Size of epsilon so far: 186
+------New Lambda total coding dependence: 88.7808, 122.081
+
+-----------
+193) lambda Cathy: TEncSlice Muuuu: Lambda = 67.8641, qp = 34, qpFactor: 0.4624
+-----------
+
+updateREf12: Ref1: 0, Ref2: 0
+
+Accumlating bits for the slice: 19391, 0, greater than hashtaka: 0
+------------
+
+
+
+193) UUUUUUUUUU Bits and PSNRY and MSEY 19848, 39.2206, 7.78069
+POC  193 TId: 0 ( P-SLICE, nQP 34 QP 34 )      19848 bits [Y 39.2206 dB    U 42.1096 dB    V 42.8500 dB] [ET    69 ] [L0 192 188 184 180 ] [L1 ] [MD5:03c748eefeb63b7b302e678f77717783,1eaf0f728e6db25ec8f717acfa992754,e5ec79b5c956b31a428b370af6a24fe4]
+PIC: 194
+Size of distortion so far: 194
+Size of epsilon so far: 187
+------New Lambda total coding dependence: 66.5506, 91.6792
+
+-----------
+194) lambda Cathy: TEncSlice Muuuu: Lambda = 52.1706, qp = 32, qpFactor: 0.4624
+-----------
+
+updateREf12: Ref1: 0, Ref2: 0
+
+Accumlating bits for the slice: 39438, 0, greater than hashtaka: 0
+------------
+
+
+
+194) UUUUUUUUUU Bits and PSNRY and MSEY 40136, 39.1298, 7.94515
+POC  194 TId: 0 ( P-SLICE, nQP 32 QP 32 )      40136 bits [Y 39.1298 dB    U 42.0325 dB    V 42.7646 dB] [ET    72 ] [L0 193 192 188 184 ] [L1 ] [MD5:3697c254c7178b8d94ccc10c3ab67fb9,961bcff186d6eaa57713a5ac1292d88c,c45626a36d8013c12cd286dd67d6f384]
+PIC: 195
+Size of distortion so far: 195
+Size of epsilon so far: 188
+------New Lambda total coding dependence: 88.7808, 122.506
+
+-----------
+195) lambda Cathy: TEncSlice Muuuu: Lambda = 76.7159, qp = 34, qpFactor: 0.4624
+-----------
+
+updateREf12: Ref1: 0, Ref2: 0
+
+Accumlating bits for the slice: 23058, 0, greater than hashtaka: 0
+------------
+
+
+
+195) UUUUUUUUUU Bits and PSNRY and MSEY 23216, 38.7609, 8.64942
+POC  195 TId: 0 ( P-SLICE, nQP 34 QP 34 )      23216 bits [Y 38.7609 dB    U 41.9269 dB    V 42.6777 dB] [ET    68 ] [L0 194 192 188 184 ] [L1 ] [MD5:0eb8cc8e860129dac4d1551f58493390,bc591a5d27b23c2ff42697b6271df2ff,95cd6263d4727c12d37115a02b1e9068]
+PIC: 196
+Size of distortion so far: 196
+Size of epsilon so far: 189
+------New Lambda total coding dependence: 23.3035, 32.1885
+
+-----------
+196) lambda Cathy: TEncSlice Muuuu: Lambda = 17.9638, qp = 27, qpFactor: 0.578
+-----------
+
+updateREf12: Ref1: 0, Ref2: 0
+
+Accumlating bits for the slice: 175554, 0, greater than hashtaka: 0
+------------
+
+
+
+196) UUUUUUUUUU Bits and PSNRY and MSEY 178560, 39.9648, 6.55547
+POC  196 TId: 0 ( P-SLICE, nQP 27 QP 27 )     178560 bits [Y 39.9648 dB    U 42.2570 dB    V 42.9296 dB] [ET   100 ] [L0 195 192 188 184 ] [L1 ] [MD5:8261f9b39fdcdec1d96230d80982de2c,82bd11b5b148cdb4bf4ea7e12737998e,c266dcae586e08511229d6802c14c598]
+PIC: 197
+Size of distortion so far: 197
+Size of epsilon so far: 190
+------New Lambda total coding dependence: 88.7808, 122.809
+
+-----------
+197) lambda Cathy: TEncSlice Muuuu: Lambda = 68.6022, qp = 34, qpFactor: 0.4624
+-----------
+
+updateREf12: Ref1: 0, Ref2: 0
+
+Accumlating bits for the slice: 17421, 0, greater than hashtaka: 0
+------------
+
+
+
+197) UUUUUUUUUU Bits and PSNRY and MSEY 17592, 39.2082, 7.80296
+POC  197 TId: 0 ( P-SLICE, nQP 34 QP 34 )      17592 bits [Y 39.2082 dB    U 42.0910 dB    V 42.8267 dB] [ET    68 ] [L0 196 192 188 184 ] [L1 ] [MD5:6440bce7504c74d49a6416d88fd14a52,67f27dafc522ec5a91956868ff7e8a58,a031b1940a664d40796597f2e4d94342]
+PIC: 198
+Size of distortion so far: 198
+Size of epsilon so far: 191
+------New Lambda total coding dependence: 66.5506, 92.2155
+
+-----------
+198) lambda Cathy: TEncSlice Muuuu: Lambda = 50.7594, qp = 32, qpFactor: 0.4624
+-----------
+
+updateREf12: Ref1: 0, Ref2: 0
+
+Accumlating bits for the slice: 38757, 0, greater than hashtaka: 0
+------------
+
+
+
+198) UUUUUUUUUU Bits and PSNRY and MSEY 39496, 39.1976, 7.8221
+POC  198 TId: 0 ( P-SLICE, nQP 32 QP 32 )      39496 bits [Y 39.1976 dB    U 42.0488 dB    V 42.7633 dB] [ET    72 ] [L0 197 196 192 188 ] [L1 ] [MD5:aa9af2449fd1dd5744475a1d4e73ab18,2dd2d6152ed4b350a32133e613f65657,abca107cc14f06f7404d9b8dcd1cc33b]
+PIC: 199
+Size of distortion so far: 199
+Size of epsilon so far: 192
+------New Lambda total coding dependence: 88.7808, 123.24
+
+-----------
+199) lambda Cathy: TEncSlice Muuuu: Lambda = 73.7474, qp = 34, qpFactor: 0.4624
+-----------
+
+updateREf12: Ref1: 0, Ref2: 0
+
+Accumlating bits for the slice: 22040, 0, greater than hashtaka: 0
+------------
+
+
+
+199) UUUUUUUUUU Bits and PSNRY and MSEY 22584, 38.8186, 8.5354
+POC  199 TId: 0 ( P-SLICE, nQP 34 QP 34 )      22584 bits [Y 38.8186 dB    U 41.9731 dB    V 42.6899 dB] [ET    69 ] [L0 198 196 192 188 ] [L1 ] [MD5:2135c0400b037e263e759a40c47733e0,b7dd225363811afe4b8630c57c002a91,8d721a4b4b276e5e46225353a7a18478]
+PIC: 200
+Size of distortion so far: 200
+Size of epsilon so far: 193
+------New Lambda total coding dependence: 23.3035, 32.3897
+
+-----------
+200) lambda Cathy: TEncSlice Muuuu: Lambda = 17.273, qp = 27, qpFactor: 0.578
+-----------
+
+updateREf12: Ref1: 0, Ref2: 0
+
+Accumlating bits for the slice: 178395, 0, greater than hashtaka: 0
+------------
+
+
+
+200) UUUUUUUUUU Bits and PSNRY and MSEY 182032, 39.9608, 6.56151
+POC  200 TId: 0 ( P-SLICE, nQP 27 QP 27 )     182032 bits [Y 39.9608 dB    U 42.2923 dB    V 42.9516 dB] [ET   101 ] [L0 199 196 192 188 ] [L1 ] [MD5:e64d6fe960dddc9d541c5040e3c73206,da83b9e5db2f2a6dbf3edf29a2817a18,bf943502b211732e289d32d3fdac23e2]
+PIC: 201
+Size of distortion so far: 201
+Size of epsilon so far: 194
+------New Lambda total coding dependence: 88.7808, 123.604
+
+-----------
+201) lambda Cathy: TEncSlice Muuuu: Lambda = 67.6607, qp = 34, qpFactor: 0.4624
+-----------
+
+updateREf12: Ref1: 0, Ref2: 0
+
+Accumlating bits for the slice: 16864, 0, greater than hashtaka: 0
+------------
+
+
+
+201) UUUUUUUUUU Bits and PSNRY and MSEY 17208, 39.2853, 7.66573
+POC  201 TId: 0 ( P-SLICE, nQP 34 QP 34 )      17208 bits [Y 39.2853 dB    U 42.1586 dB    V 42.8528 dB] [ET    67 ] [L0 200 196 192 188 ] [L1 ] [MD5:cfd4937c6c6e6a87977b81c3981e4e7d,4b1e501825f10fded3e9bb242bcfe149,b2216029b1ad7b6bb19858ba5213ada4]
+PIC: 202
+Size of distortion so far: 202
+Size of epsilon so far: 195
+------New Lambda total coding dependence: 66.5506, 92.8149
+
+-----------
+202) lambda Cathy: TEncSlice Muuuu: Lambda = 50.5625, qp = 32, qpFactor: 0.4624
+-----------
+
+updateREf12: Ref1: 0, Ref2: 0
+
+Accumlating bits for the slice: 35264, 0, greater than hashtaka: 0
+------------
+
+
+
+202) UUUUUUUUUU Bits and PSNRY and MSEY 35952, 39.2254, 7.7722
+POC  202 TId: 0 ( P-SLICE, nQP 32 QP 32 )      35952 bits [Y 39.2254 dB    U 42.1265 dB    V 42.8226 dB] [ET    71 ] [L0 201 200 196 192 ] [L1 ] [MD5:8a6a9f75ab26ebd9a26695f0f78ae590,a26b4bead88adbb098e4d9d0e27e047f,1a423e9697893bb8200bb3bca8e1239f]
+PIC: 203
+Size of distortion so far: 203
+Size of epsilon so far: 196
+------New Lambda total coding dependence: 88.7808, 124.038
+
+-----------
+203) lambda Cathy: TEncSlice Muuuu: Lambda = 72.9571, qp = 34, qpFactor: 0.4624
+-----------
+
+updateREf12: Ref1: 0, Ref2: 0
+
+Accumlating bits for the slice: 21262, 0, greater than hashtaka: 0
+------------
+
+
+
+203) UUUUUUUUUU Bits and PSNRY and MSEY 21656, 38.8866, 8.40281
+POC  203 TId: 0 ( P-SLICE, nQP 34 QP 34 )      21656 bits [Y 38.8866 dB    U 42.0491 dB    V 42.7487 dB] [ET    69 ] [L0 202 200 196 192 ] [L1 ] [MD5:03459278f158ee1dfedc9700fae36d97,4e61991a6b0d60c0ba2d81750b746cf9,fdbe8a067a01fc7fb6d33e819459229c]
+PIC: 204
+Size of distortion so far: 204
+Size of epsilon so far: 197
+------New Lambda total coding dependence: 23.3035, 32.6006
+
+-----------
+204) lambda Cathy: TEncSlice Muuuu: Lambda = 17.1191, qp = 27, qpFactor: 0.578
+-----------
+
+updateREf12: Ref1: 0, Ref2: 0
+
+Accumlating bits for the slice: 163660, 0, greater than hashtaka: 0
+------------
+
+
+
+204) UUUUUUUUUU Bits and PSNRY and MSEY 167320, 40.0077, 6.49096
+POC  204 TId: 0 ( P-SLICE, nQP 27 QP 27 )     167320 bits [Y 40.0077 dB    U 42.3676 dB    V 43.0393 dB] [ET   102 ] [L0 203 200 196 192 ] [L1 ] [MD5:843281d518991af90304d27dcaacacef,5e8f9023cf8bef121f39fc89972f0a7a,6993cc23d9815de68d2656eeefaac43b]
+PIC: 205
+Size of distortion so far: 205
+Size of epsilon so far: 198
+------New Lambda total coding dependence: 88.7808, 124.408
+
+-----------
+205) lambda Cathy: TEncSlice Muuuu: Lambda = 66.7963, qp = 34, qpFactor: 0.4624
+-----------
+
+updateREf12: Ref1: 0, Ref2: 0
+
+Accumlating bits for the slice: 15116, 0, greater than hashtaka: 0
+------------
+
+
+
+205) UUUUUUUUUU Bits and PSNRY and MSEY 15528, 39.3244, 7.59689
+POC  205 TId: 0 ( P-SLICE, nQP 34 QP 34 )      15528 bits [Y 39.3244 dB    U 42.1867 dB    V 42.9114 dB] [ET    68 ] [L0 204 200 196 192 ] [L1 ] [MD5:05539d4fd8564fc2e25a665af2a8e505,e37dacf533059cc241f4d3b80b12ac0c,bdd905b54165c458cd899cdf42188ac3]
+PIC: 206
+Size of distortion so far: 206
+Size of epsilon so far: 199
+------New Lambda total coding dependence: 66.5506, 93.423
+
+-----------
+206) lambda Cathy: TEncSlice Muuuu: Lambda = 49.9391, qp = 32, qpFactor: 0.4624
+-----------
+
+updateREf12: Ref1: 0, Ref2: 0
+
+Accumlating bits for the slice: 34155, 0, greater than hashtaka: 0
+------------
+
+
+
+206) UUUUUUUUUU Bits and PSNRY and MSEY 34816, 39.242, 7.74256
+POC  206 TId: 0 ( P-SLICE, nQP 32 QP 32 )      34816 bits [Y 39.2420 dB    U 42.1424 dB    V 42.8740 dB] [ET    72 ] [L0 205 204 200 196 ] [L1 ] [MD5:4e38d90a422081b6cb5a83193a7b0153,0b4c1b802e5907ceae327ecb3e44900f,b54036abb0b8271e3aaae40388141363]
+PIC: 207
+Size of distortion so far: 207
+Size of epsilon so far: 200
+------New Lambda total coding dependence: 88.7808, 124.856
+
+-----------
+207) lambda Cathy: TEncSlice Muuuu: Lambda = 71.6625, qp = 34, qpFactor: 0.4624
+-----------
+
+updateREf12: Ref1: 0, Ref2: 0
+
+Accumlating bits for the slice: 21031, 0, greater than hashtaka: 0
+------------
+
+
+
+207) UUUUUUUUUU Bits and PSNRY and MSEY 21432, 38.9109, 8.35581
+POC  207 TId: 0 ( P-SLICE, nQP 34 QP 34 )      21432 bits [Y 38.9109 dB    U 42.0727 dB    V 42.7620 dB] [ET    69 ] [L0 206 204 200 196 ] [L1 ] [MD5:b22fd13a318869a77010e88396fc479b,07501c8ee80de0189d2c5c18df2e37de,36de8b5c47e34c9984055dd14f9a18bc]
+PIC: 208
+Size of distortion so far: 208
+Size of epsilon so far: 201
+------New Lambda total coding dependence: 23.3035, 32.8187
+
+-----------
+208) lambda Cathy: TEncSlice Muuuu: Lambda = 16.7215, qp = 27, qpFactor: 0.578
+-----------
+
+updateREf12: Ref1: 0, Ref2: 0
+
+Accumlating bits for the slice: 163456, 0, greater than hashtaka: 0
+------------
+
+
+
+208) UUUUUUUUUU Bits and PSNRY and MSEY 167128, 40.0438, 6.43721
+POC  208 TId: 0 ( P-SLICE, nQP 27 QP 27 )     167128 bits [Y 40.0438 dB    U 42.4054 dB    V 43.0340 dB] [ET   101 ] [L0 207 204 200 196 ] [L1 ] [MD5:5c3d50a4f24bfcc5c2326e9a26baef24,43d167b645adbde283f257581aa3c927,114d21eb08bd2b601696ccdfb6d3ad5e]
+PIC: 209
+Size of distortion so far: 209
+Size of epsilon so far: 202
+------New Lambda total coding dependence: 88.7808, 125.253
+
+-----------
+209) lambda Cathy: TEncSlice Muuuu: Lambda = 66.2635, qp = 33, qpFactor: 0.4624
+-----------
+
+updateREf12: Ref1: 0, Ref2: 0
+
+Accumlating bits for the slice: 15744, 0, greater than hashtaka: 0
+------------
+
+
+
+209) UUUUUUUUUU Bits and PSNRY and MSEY 16064, 39.4029, 7.46091
+POC  209 TId: 0 ( P-SLICE, nQP 33 QP 33 )      16064 bits [Y 39.4029 dB    U 42.2365 dB    V 42.9714 dB] [ET    69 ] [L0 208 204 200 196 ] [L1 ] [MD5:dde8a716dbbcca8e99528fadc8e65276,d481003fabaa51a264cbf4c46c1bdde5,f6fb40ae943e3f35e6759d68f8d856f7]
+PIC: 210
+Size of distortion so far: 210
+Size of epsilon so far: 203
+------New Lambda total coding dependence: 66.5506, 94.0561
+
+-----------
+210) lambda Cathy: TEncSlice Muuuu: Lambda = 50.1832, qp = 32, qpFactor: 0.4624
+-----------
+
+updateREf12: Ref1: 0, Ref2: 0
+
+Accumlating bits for the slice: 32194, 0, greater than hashtaka: 0
+------------
+
+
+
+210) UUUUUUUUUU Bits and PSNRY and MSEY 32784, 39.3218, 7.60146
+POC  210 TId: 0 ( P-SLICE, nQP 32 QP 32 )      32784 bits [Y 39.3218 dB    U 42.1887 dB    V 42.9458 dB] [ET    72 ] [L0 209 208 204 200 ] [L1 ] [MD5:b8d86d79506a4d7a919d2bd2cc103d0c,086815cafb6fb6d4eaf84eb662afece2,e2ae3e92f91298190dba94308739a4a2]
+PIC: 211
+Size of distortion so far: 211
+Size of epsilon so far: 204
+------New Lambda total coding dependence: 88.7808, 125.689
+
+-----------
+211) lambda Cathy: TEncSlice Muuuu: Lambda = 72.5256, qp = 34, qpFactor: 0.4624
+-----------
+
+updateREf12: Ref1: 0, Ref2: 0
+
+Accumlating bits for the slice: 19887, 0, greater than hashtaka: 0
+------------
+
+
+
+211) UUUUUUUUUU Bits and PSNRY and MSEY 20392, 39.0124, 8.16287
+POC  211 TId: 0 ( P-SLICE, nQP 34 QP 34 )      20392 bits [Y 39.0124 dB    U 42.1038 dB    V 42.8769 dB] [ET    69 ] [L0 210 208 204 200 ] [L1 ] [MD5:32c1a017a810bceeffce4c47b430874a,80640fabc4fb83eb92de51355710cac7,0a28229a5b36eded61127c969db64e81]
+PIC: 212
+Size of distortion so far: 212
+Size of epsilon so far: 205
+------New Lambda total coding dependence: 23.3035, 33.0329
+
+-----------
+212) lambda Cathy: TEncSlice Muuuu: Lambda = 17.1984, qp = 27, qpFactor: 0.578
+-----------
+
+updateREf12: Ref1: 0, Ref2: 0
+
+Accumlating bits for the slice: 150697, 0, greater than hashtaka: 0
+------------
+
+
+
+212) UUUUUUUUUU Bits and PSNRY and MSEY 153400, 40.032, 6.45471
+POC  212 TId: 0 ( P-SLICE, nQP 27 QP 27 )     153400 bits [Y 40.0320 dB    U 42.4220 dB    V 43.1441 dB] [ET   100 ] [L0 211 208 204 200 ] [L1 ] [MD5:f118e24eeaf3ff241207065f1ff8d9bd,af6652c495d78eefb0c76d446d0a760b,8552b64213c55e5981413dec82e6a00d]
+PIC: 213
+Size of distortion so far: 213
+Size of epsilon so far: 206
+------New Lambda total coding dependence: 88.7808, 126.045
+
+-----------
+213) lambda Cathy: TEncSlice Muuuu: Lambda = 67.407, qp = 34, qpFactor: 0.4624
+-----------
+
+updateREf12: Ref1: 0, Ref2: 0
+
+Accumlating bits for the slice: 13930, 0, greater than hashtaka: 0
+------------
+
+
+
+213) UUUUUUUUUU Bits and PSNRY and MSEY 14296, 39.4019, 7.46263
+POC  213 TId: 0 ( P-SLICE, nQP 34 QP 34 )      14296 bits [Y 39.4019 dB    U 42.2710 dB    V 43.0066 dB] [ET    68 ] [L0 212 208 204 200 ] [L1 ] [MD5:a62a9e942d477acf8dc6bdba885dc4e6,705eae6b57779478a6c93d6befbafd40,3b08af851df2886c6d61c79c5dd00805]
+PIC: 214
+Size of distortion so far: 214
+Size of epsilon so far: 207
+------New Lambda total coding dependence: 66.5506, 94.6367
+
+-----------
+214) lambda Cathy: TEncSlice Muuuu: Lambda = 50.6985, qp = 32, qpFactor: 0.4624
+-----------
+
+updateREf12: Ref1: 0, Ref2: 0
+
+Accumlating bits for the slice: 29376, 0, greater than hashtaka: 0
+------------
+
+
+
+214) UUUUUUUUUU Bits and PSNRY and MSEY 29944, 39.3344, 7.57945
+POC  214 TId: 0 ( P-SLICE, nQP 32 QP 32 )      29944 bits [Y 39.3344 dB    U 42.2204 dB    V 42.9811 dB] [ET    69 ] [L0 213 212 208 204 ] [L1 ] [MD5:b33e502dc4b2e5cf5b3a10f8b7ce6f84,0005f7ace1e5df05d7fde183b9cf88cd,3f22fe923e22ec893890918c9afb071f]
+PIC: 215
+Size of distortion so far: 215
+Size of epsilon so far: 208
+------New Lambda total coding dependence: 88.7808, 126.452
+
+-----------
+215) lambda Cathy: TEncSlice Muuuu: Lambda = 72.2275, qp = 34, qpFactor: 0.4624
+-----------
+
+updateREf12: Ref1: 0, Ref2: 0
+
+Accumlating bits for the slice: 19610, 0, greater than hashtaka: 0
+------------
+
+
+
+215) UUUUUUUUUU Bits and PSNRY and MSEY 19784, 39.0312, 8.12751
+POC  215 TId: 0 ( P-SLICE, nQP 34 QP 34 )      19784 bits [Y 39.0312 dB    U 42.1467 dB    V 42.9209 dB] [ET    67 ] [L0 214 212 208 204 ] [L1 ] [MD5:daaac1c7d7a38b53c1ee1a13222d3c38,68a4071e55561ce4261222dcbb014ecf,50c77a9b3ab1b17ac2a1f22355b2df80]
+PIC: 216
+Size of distortion so far: 216
+Size of epsilon so far: 209
+------New Lambda total coding dependence: 23.3035, 33.2332
+
+-----------
+216) lambda Cathy: TEncSlice Muuuu: Lambda = 17.0852, qp = 27, qpFactor: 0.578
+-----------
+
+updateREf12: Ref1: 0, Ref2: 0
+
+Accumlating bits for the slice: 150385, 0, greater than hashtaka: 0
+------------
+
+
+
+216) UUUUUUUUUU Bits and PSNRY and MSEY 153816, 40.0665, 6.40374
+POC  216 TId: 0 ( P-SLICE, nQP 27 QP 27 )     153816 bits [Y 40.0665 dB    U 42.4349 dB    V 43.2014 dB] [ET    99 ] [L0 215 212 208 204 ] [L1 ] [MD5:506f52e5b6dda1830b1be0651e094b8c,78ef1fe37766fcefdbea7a416b6ea8aa,7512d23304c0d135b9885dc7069aae56]
+PIC: 217
+Size of distortion so far: 217
+Size of epsilon so far: 210
+------New Lambda total coding dependence: 88.7808, 126.809
+
+-----------
+217) lambda Cathy: TEncSlice Muuuu: Lambda = 67.4816, qp = 34, qpFactor: 0.4624
+-----------
+
+updateREf12: Ref1: 0, Ref2: 0
+
+Accumlating bits for the slice: 14685, 0, greater than hashtaka: 0
+------------
+
+
+
+217) UUUUUUUUUU Bits and PSNRY and MSEY 14824, 39.4389, 7.39932
+POC  217 TId: 0 ( P-SLICE, nQP 34 QP 34 )      14824 bits [Y 39.4389 dB    U 42.2581 dB    V 43.1092 dB] [ET    66 ] [L0 216 212 208 204 ] [L1 ] [MD5:51e1b8852bbafb953ee2a0bd034b1b69,1b379c07b609257886d9d4eaaf4772a8,cd1bdd49d337ac44ad378a1d62b692d1]
+PIC: 218
+Size of distortion so far: 218
+Size of epsilon so far: 211
+------New Lambda total coding dependence: 66.5506, 95.2048
+
+-----------
+218) lambda Cathy: TEncSlice Muuuu: Lambda = 50.5068, qp = 32, qpFactor: 0.4624
+-----------
+
+updateREf12: Ref1: 0, Ref2: 0
+
+Accumlating bits for the slice: 30687, 0, greater than hashtaka: 0
+------------
+
+
+
+218) UUUUUUUUUU Bits and PSNRY and MSEY 31448, 39.3654, 7.52559
+POC  218 TId: 0 ( P-SLICE, nQP 32 QP 32 )      31448 bits [Y 39.3654 dB    U 42.1983 dB    V 43.0376 dB] [ET    69 ] [L0 217 216 212 208 ] [L1 ] [MD5:9d937528143f3a139c29932ff1e71240,bf2d5be5504ea9dbe670b68940a0b7f1,f91a6b4523493d5b9efa72392960c964]
+PIC: 219
+Size of distortion so far: 219
+Size of epsilon so far: 212
+------New Lambda total coding dependence: 88.7808, 127.208
+
+-----------
+219) lambda Cathy: TEncSlice Muuuu: Lambda = 73.157, qp = 34, qpFactor: 0.4624
+-----------
+
+updateREf12: Ref1: 0, Ref2: 0
+
+Accumlating bits for the slice: 19012, 0, greater than hashtaka: 0
+------------
+
+
+
+219) UUUUUUUUUU Bits and PSNRY and MSEY 19144, 39.044, 8.10358
+POC  219 TId: 0 ( P-SLICE, nQP 34 QP 34 )      19144 bits [Y 39.0440 dB    U 42.1236 dB    V 42.9777 dB] [ET    67 ] [L0 218 216 212 208 ] [L1 ] [MD5:417ca697f22862eed4c67e418b934ca9,60d02cf0ebc71f762b2cb53e66d713d8,18178e706c845948cded134c2f4fb2d3]
+PIC: 220
+Size of distortion so far: 220
+Size of epsilon so far: 213
+------New Lambda total coding dependence: 23.3035, 33.4283
+
+-----------
+220) lambda Cathy: TEncSlice Muuuu: Lambda = 17.4958, qp = 27, qpFactor: 0.578
+-----------
+
+updateREf12: Ref1: 0, Ref2: 0
+
+Accumlating bits for the slice: 145637, 0, greater than hashtaka: 0
+------------
+
+
+
+220) UUUUUUUUUU Bits and PSNRY and MSEY 148720, 40.0463, 6.43353
+POC  220 TId: 0 ( P-SLICE, nQP 27 QP 27 )     148720 bits [Y 40.0463 dB    U 42.4468 dB    V 43.2144 dB] [ET    96 ] [L0 219 216 212 208 ] [L1 ] [MD5:430e41ecda855f27a65c04a360e3793a,42edde95e698bfa41aece2462d0b778a,ad0929d4f3a22c348c8de5b5a9969b78]
+PIC: 221
+Size of distortion so far: 221
+Size of epsilon so far: 214
+------New Lambda total coding dependence: 88.7808, 127.533
+
+-----------
+221) lambda Cathy: TEncSlice Muuuu: Lambda = 68.8014, qp = 34, qpFactor: 0.4624
+-----------
+
+updateREf12: Ref1: 0, Ref2: 0
+
+Accumlating bits for the slice: 11793, 0, greater than hashtaka: 0
+------------
+
+
+
+221) UUUUUUUUUU Bits and PSNRY and MSEY 11960, 39.4057, 7.45614
+POC  221 TId: 0 ( P-SLICE, nQP 34 QP 34 )      11960 bits [Y 39.4057 dB    U 42.2776 dB    V 43.0783 dB] [ET    65 ] [L0 220 216 212 208 ] [L1 ] [MD5:5cdb54d14ab216c56459793748f3f6a8,01fdfb49e9fa6df485b5413203c5926e,5079ea8ae2a90f5a7581104965ccb378]
+PIC: 222
+Size of distortion so far: 222
+Size of epsilon so far: 215
+------New Lambda total coding dependence: 66.5506, 95.7353
+
+-----------
+222) lambda Cathy: TEncSlice Muuuu: Lambda = 51.2404, qp = 32, qpFactor: 0.4624
+-----------
+
+updateREf12: Ref1: 0, Ref2: 0
+
+Accumlating bits for the slice: 26839, 0, greater than hashtaka: 0
+------------
+
+
+
+222) UUUUUUUUUU Bits and PSNRY and MSEY 27704, 39.3832, 7.49473
+POC  222 TId: 0 ( P-SLICE, nQP 32 QP 32 )      27704 bits [Y 39.3832 dB    U 42.2314 dB    V 43.0561 dB] [ET    69 ] [L0 221 220 216 212 ] [L1 ] [MD5:4651a3147325047445bf6d0604e13cde,24a3ec7fc62c394f92c0d69e502d21f5,e26e0ba978883a9b730a66b412842846]
+PIC: 223
+Size of distortion so far: 223
+Size of epsilon so far: 216
+------New Lambda total coding dependence: 88.7808, 127.901
+
+-----------
+223) lambda Cathy: TEncSlice Muuuu: Lambda = 72.5517, qp = 34, qpFactor: 0.4624
+-----------
+
+updateREf12: Ref1: 0, Ref2: 0
+
+Accumlating bits for the slice: 18885, 0, greater than hashtaka: 0
+------------
+
+
+
+223) UUUUUUUUUU Bits and PSNRY and MSEY 19048, 39.0832, 8.03074
+POC  223 TId: 0 ( P-SLICE, nQP 34 QP 34 )      19048 bits [Y 39.0832 dB    U 42.1700 dB    V 42.9747 dB] [ET    68 ] [L0 222 220 216 212 ] [L1 ] [MD5:637e83bccc26398408b629368b9663e8,269ec2973f1f9cac33be1dff7e316a60,daf3b0423fc86c51e39eb7862403f11e]
+PIC: 224
+Size of distortion so far: 224
+Size of epsilon so far: 217
+------New Lambda total coding dependence: 23.3035, 33.6109
+
+-----------
+224) lambda Cathy: TEncSlice Muuuu: Lambda = 17.0243, qp = 27, qpFactor: 0.578
+-----------
+
+updateREf12: Ref1: 0, Ref2: 0
+
+Accumlating bits for the slice: 145061, 0, greater than hashtaka: 0
+------------
+
+
+
+224) UUUUUUUUUU Bits and PSNRY and MSEY 148256, 40.0621, 6.41022
+POC  224 TId: 0 ( P-SLICE, nQP 27 QP 27 )     148256 bits [Y 40.0621 dB    U 42.4690 dB    V 43.2964 dB] [ET    98 ] [L0 223 220 216 212 ] [L1 ] [MD5:82ebcf8932ed3c6dbad4dcdb5745d8d7,5fdcfdd32a03882eb46f8665fe41910b,d88c256d16c1df95f7802c297a094258]
+PIC: 225
+Size of distortion so far: 225
+Size of epsilon so far: 218
+------New Lambda total coding dependence: 88.7808, 128.245
+
+-----------
+225) lambda Cathy: TEncSlice Muuuu: Lambda = 67.1588, qp = 34, qpFactor: 0.4624
+-----------
+
+updateREf12: Ref1: 0, Ref2: 0
+
+Accumlating bits for the slice: 11669, 0, greater than hashtaka: 0
+------------
+
+
+
+225) UUUUUUUUUU Bits and PSNRY and MSEY 11848, 39.4705, 7.34565
+POC  225 TId: 0 ( P-SLICE, nQP 34 QP 34 )      11848 bits [Y 39.4705 dB    U 42.3242 dB    V 43.1550 dB] [ET    65 ] [L0 224 220 216 212 ] [L1 ] [MD5:0fb319679b0fa3c39c0754139e69e37d,3379e9461705d2be5979129797432638,21ca19ca93ecd32456ae903079a7cfdf]
+PIC: 226
+Size of distortion so far: 226
+Size of epsilon so far: 219
+------New Lambda total coding dependence: 66.5506, 96.2796
+
+-----------
+226) lambda Cathy: TEncSlice Muuuu: Lambda = 51.0666, qp = 32, qpFactor: 0.4624
+-----------
+
+updateREf12: Ref1: 0, Ref2: 0
+
+Accumlating bits for the slice: 26972, 0, greater than hashtaka: 0
+------------
+
+
+
+226) UUUUUUUUUU Bits and PSNRY and MSEY 27512, 39.4083, 7.4516
+POC  226 TId: 0 ( P-SLICE, nQP 32 QP 32 )      27512 bits [Y 39.4083 dB    U 42.2888 dB    V 43.1142 dB] [ET    68 ] [L0 225 224 220 216 ] [L1 ] [MD5:8db61609a3a6da6503d15a97727f3506,24b5c69cc159bb2defdc44a9fecc62cd,853e8a0787d74304422d6ef168b0a54e]
+PIC: 227
+Size of distortion so far: 227
+Size of epsilon so far: 220
+------New Lambda total coding dependence: 88.7808, 128.626
+
+-----------
+227) lambda Cathy: TEncSlice Muuuu: Lambda = 73.3852, qp = 34, qpFactor: 0.4624
+-----------
+
+updateREf12: Ref1: 0, Ref2: 0
+
+Accumlating bits for the slice: 16043, 0, greater than hashtaka: 0
+------------
+
+
+
+227) UUUUUUUUUU Bits and PSNRY and MSEY 16336, 39.1352, 7.93516
+POC  227 TId: 0 ( P-SLICE, nQP 34 QP 34 )      16336 bits [Y 39.1352 dB    U 42.2327 dB    V 43.0637 dB] [ET    65 ] [L0 226 224 220 216 ] [L1 ] [MD5:4adf246fbdba86fb42919b77e15d8968,090be029fcb35e7ba95cf899de641698,da49ea8e06603befb27401f166a52b38]
+PIC: 228
+Size of distortion so far: 228
+Size of epsilon so far: 221
+------New Lambda total coding dependence: 23.3035, 33.798
+
+-----------
+228) lambda Cathy: TEncSlice Muuuu: Lambda = 17.5009, qp = 27, qpFactor: 0.578
+-----------
+
+updateREf12: Ref1: 0, Ref2: 0
+
+Accumlating bits for the slice: 129955, 0, greater than hashtaka: 0
+------------
+
+
+
+228) UUUUUUUUUU Bits and PSNRY and MSEY 133136, 40.0632, 6.40862
+POC  228 TId: 0 ( P-SLICE, nQP 27 QP 27 )     133136 bits [Y 40.0632 dB    U 42.4698 dB    V 43.3278 dB] [ET    94 ] [L0 227 224 220 216 ] [L1 ] [MD5:e4640e9adda3544ac6c9e9da032cca4c,995038228793e535deed95b74464623d,6a23de8a4c89b863f45307cfde61620f]
+PIC: 229
+Size of distortion so far: 229
+Size of epsilon so far: 222
+------New Lambda total coding dependence: 88.7808, 128.936
+
+-----------
+229) lambda Cathy: TEncSlice Muuuu: Lambda = 67.6425, qp = 34, qpFactor: 0.4624
+-----------
+
+updateREf12: Ref1: 0, Ref2: 0
+
+Accumlating bits for the slice: 11866, 0, greater than hashtaka: 0
+------------
+
+
+
+229) UUUUUUUUUU Bits and PSNRY and MSEY 12216, 39.4987, 7.29816
+POC  229 TId: 0 ( P-SLICE, nQP 34 QP 34 )      12216 bits [Y 39.4987 dB    U 42.3422 dB    V 43.2093 dB] [ET    65 ] [L0 228 224 220 216 ] [L1 ] [MD5:dc5d3c6d6686ac38f1088d6c97324ff0,75d7523d15deed9fc8260375ace1601d,f82c16b3bb3cae1cc82ebcea142dfe8f]
+PIC: 230
+Size of distortion so far: 230
+Size of epsilon so far: 223
+------New Lambda total coding dependence: 66.5506, 96.7903
+
+-----------
+230) lambda Cathy: TEncSlice Muuuu: Lambda = 51.024, qp = 32, qpFactor: 0.4624
+-----------
+
+updateREf12: Ref1: 0, Ref2: 0
+
+Accumlating bits for the slice: 25512, 0, greater than hashtaka: 0
+------------
+
+
+
+230) UUUUUUUUUU Bits and PSNRY and MSEY 25944, 39.4273, 7.41902
+POC  230 TId: 0 ( P-SLICE, nQP 32 QP 32 )      25944 bits [Y 39.4273 dB    U 42.2893 dB    V 43.1801 dB] [ET    68 ] [L0 229 228 224 220 ] [L1 ] [MD5:5e16cdbd5c4745821460f844e124ed12,1ec2e7d4fe09762c188802567cbe10b6,26f914bc88251a5d3a7240227b15aad7]
+PIC: 231
+Size of distortion so far: 231
+Size of epsilon so far: 224
+------New Lambda total coding dependence: 88.7808, 129.305
+
+-----------
+231) lambda Cathy: TEncSlice Muuuu: Lambda = 72.2256, qp = 34, qpFactor: 0.4624
+-----------
+
+updateREf12: Ref1: 0, Ref2: 0
+
+Accumlating bits for the slice: 15730, 0, greater than hashtaka: 0
+------------
+
+
+
+231) UUUUUUUUUU Bits and PSNRY and MSEY 16144, 39.1357, 7.93429
+POC  231 TId: 0 ( P-SLICE, nQP 34 QP 34 )      16144 bits [Y 39.1357 dB    U 42.2099 dB    V 43.1199 dB] [ET    65 ] [L0 230 228 224 220 ] [L1 ] [MD5:f8cd2e21c284d5446a8d1e74276a8ec0,84489d8d5b78cd9441e0d263fed9c857,fd2a26ba0bac6c57cd774b229508b336]
+PIC: 232
+Size of distortion so far: 232
+Size of epsilon so far: 225
+------New Lambda total coding dependence: 23.3035, 33.9789
+
+-----------
+232) lambda Cathy: TEncSlice Muuuu: Lambda = 17.2423, qp = 27, qpFactor: 0.578
+-----------
+
+updateREf12: Ref1: 0, Ref2: 0
+
+Accumlating bits for the slice: 131650, 0, greater than hashtaka: 0
+------------
+
+
+
+232) UUUUUUUUUU Bits and PSNRY and MSEY 134200, 40.0689, 6.40009
+POC  232 TId: 0 ( P-SLICE, nQP 27 QP 27 )     134200 bits [Y 40.0689 dB    U 42.4828 dB    V 43.3575 dB] [ET    90 ] [L0 231 228 224 220 ] [L1 ] [MD5:04ee337535581f379029e7e3c3195466,dee0aa02eb7ffbedcd0da4e5663ed1b5,e070a864f7a34975ae2f2ce76597be1c]
+PIC: 233
+Size of distortion so far: 233
+Size of epsilon so far: 226
+------New Lambda total coding dependence: 88.7808, 129.633
+
+-----------
+233) lambda Cathy: TEncSlice Muuuu: Lambda = 67.4251, qp = 34, qpFactor: 0.4624
+-----------
+
+updateREf12: Ref1: 0, Ref2: 0
+
+Accumlating bits for the slice: 10726, 0, greater than hashtaka: 0
+------------
+
+
+
+233) UUUUUUUUUU Bits and PSNRY and MSEY 11072, 39.5092, 7.28054
+POC  233 TId: 0 ( P-SLICE, nQP 34 QP 34 )      11072 bits [Y 39.5092 dB    U 42.3495 dB    V 43.2559 dB] [ET    60 ] [L0 232 228 224 220 ] [L1 ] [MD5:b289ccfa8ab647c07647c8448308a041,a0f0c3891f0e628de9cde0b9c95c0652,7b80327ab26d60a181de0819a3ef93bf]
+PIC: 234
+Size of distortion so far: 234
+Size of epsilon so far: 227
+------New Lambda total coding dependence: 66.5506, 97.3126
+
+-----------
+234) lambda Cathy: TEncSlice Muuuu: Lambda = 51.1025, qp = 32, qpFactor: 0.4624
+-----------
+
+updateREf12: Ref1: 0, Ref2: 0
+
+Accumlating bits for the slice: 22949, 0, greater than hashtaka: 0
+------------
+
+
+
+234) UUUUUUUUUU Bits and PSNRY and MSEY 23488, 39.4494, 7.38146
+POC  234 TId: 0 ( P-SLICE, nQP 32 QP 32 )      23488 bits [Y 39.4494 dB    U 42.3065 dB    V 43.2107 dB] [ET    63 ] [L0 233 232 228 224 ] [L1 ] [MD5:99680fa0b27be821e7453522e992086b,a10662a7ef453ab858c1d261fa962fbd,6a242df69b3247874d8d4930044184b4]
+PIC: 235
+Size of distortion so far: 235
+Size of epsilon so far: 228
+------New Lambda total coding dependence: 88.7808, 129.997
+
+-----------
+235) lambda Cathy: TEncSlice Muuuu: Lambda = 73.0557, qp = 34, qpFactor: 0.4624
+-----------
+
+updateREf12: Ref1: 0, Ref2: 0
+
+Accumlating bits for the slice: 14967, 0, greater than hashtaka: 0
+------------
+
+
+
+235) UUUUUUUUUU Bits and PSNRY and MSEY 15120, 39.1847, 7.84527
+POC  235 TId: 0 ( P-SLICE, nQP 34 QP 34 )      15120 bits [Y 39.1847 dB    U 42.2629 dB    V 43.1357 dB] [ET    61 ] [L0 234 232 228 224 ] [L1 ] [MD5:e8d167d25feb2d0a4ede0d97821b20af,e2b7f156003b7a332b68c4b5b401e4dc,253f11d7488e64dd0c546a633c422ea9]
+PIC: 236
+Size of distortion so far: 236
+Size of epsilon so far: 229
+------New Lambda total coding dependence: 23.3035, 34.1575
+
+-----------
+236) lambda Cathy: TEncSlice Muuuu: Lambda = 17.2368, qp = 27, qpFactor: 0.578
+-----------
+
+updateREf12: Ref1: 0, Ref2: 0
+
+Accumlating bits for the slice: 132036, 0, greater than hashtaka: 0
+------------
+
+
+
+236) UUUUUUUUUU Bits and PSNRY and MSEY 134840, 40.0832, 6.37905
+POC  236 TId: 0 ( P-SLICE, nQP 27 QP 27 )     134840 bits [Y 40.0832 dB    U 42.4725 dB    V 43.3729 dB] [ET    88 ] [L0 235 232 228 224 ] [L1 ] [MD5:cd0100b6abdccc13b2d9e2583a169b7a,bedd353be820564a3ce07c385af00909,84d858abf401e73e8a4c54cb692164fb]
+PIC: 237
+Size of distortion so far: 237
+Size of epsilon so far: 230
+------New Lambda total coding dependence: 88.7808, 130.311
+
+-----------
+237) lambda Cathy: TEncSlice Muuuu: Lambda = 67.1471, qp = 34, qpFactor: 0.4624
+-----------
+
+updateREf12: Ref1: 0, Ref2: 0
+
+Accumlating bits for the slice: 9458, 0, greater than hashtaka: 0
+------------
+
+
+
+237) UUUUUUUUUU Bits and PSNRY and MSEY 9616, 39.5611, 7.19393
+POC  237 TId: 0 ( P-SLICE, nQP 34 QP 34 )       9616 bits [Y 39.5611 dB    U 42.3256 dB    V 43.2714 dB] [ET    60 ] [L0 236 232 228 224 ] [L1 ] [MD5:c5c2f236cb26ec1a5e533c5d73a9ea15,b28f0cabe50019f8b28e269b2f5dcaf2,ff6f237a383465a4e3c24b0b3b66827e]
+PIC: 238
+Size of distortion so far: 238
+Size of epsilon so far: 231
+------New Lambda total coding dependence: 66.5506, 97.8195
+
+-----------
+238) lambda Cathy: TEncSlice Muuuu: Lambda = 50.8187, qp = 32, qpFactor: 0.4624
+-----------
+
+updateREf12: Ref1: 0, Ref2: 0
+
+Accumlating bits for the slice: 22394, 0, greater than hashtaka: 0
+------------
+
+
+
+238) UUUUUUUUUU Bits and PSNRY and MSEY 23192, 39.4879, 7.31624
+POC  238 TId: 0 ( P-SLICE, nQP 32 QP 32 )      23192 bits [Y 39.4879 dB    U 42.3344 dB    V 43.2055 dB] [ET    62 ] [L0 237 236 232 228 ] [L1 ] [MD5:a321a742ecf020b53f5d75519489eb59,fae0c3d8b69b24d122229d9d281fcb80,3b658312cca5942d7dbf4fec0f980772]
+PIC: 239
+Size of distortion so far: 239
+Size of epsilon so far: 232
+------New Lambda total coding dependence: 88.7808, 130.674
+
+-----------
+239) lambda Cathy: TEncSlice Muuuu: Lambda = 72.7718, qp = 34, qpFactor: 0.4624
+-----------
+
+updateREf12: Ref1: 0, Ref2: 0
+
+Accumlating bits for the slice: 13252, 0, greater than hashtaka: 0
+------------
+
+
+
+239) UUUUUUUUUU Bits and PSNRY and MSEY 13440, 39.2151, 7.79052
+POC  239 TId: 0 ( P-SLICE, nQP 34 QP 34 )      13440 bits [Y 39.2151 dB    U 42.2454 dB    V 43.1535 dB] [ET    61 ] [L0 238 236 232 228 ] [L1 ] [MD5:a64847e03834baa152003d50a6ed8204,07d33eeb07ef24212569e3a845de3265,9f4f9caced29a64f4881c5c3341f11c3]
+
+
+SUMMARY --------------------------------------------------------
+	Total Frames |   Bitrate     Y-PSNR    U-PSNR    V-PSNR    YUV-PSNR 
+	      240    a    2488.9528   39.6733   41.7984   43.0525   40.3494
+
+
+I Slices--------------------------------------------------------
+	Total Frames |   Bitrate     Y-PSNR    U-PSNR    V-PSNR    YUV-PSNR 
+	        1    i   18539.7120   43.1628   44.6637   46.4637   43.8049
+
+
+P Slices--------------------------------------------------------
+	Total Frames |   Bitrate     Y-PSNR    U-PSNR    V-PSNR    YUV-PSNR 
+	      239    p    2421.7948   39.6587   41.7864   43.0382   40.3394
+
+
+B Slices--------------------------------------------------------
+	Total Frames |   Bitrate     Y-PSNR    U-PSNR    V-PSNR    YUV-PSNR 
+	        0    b          nan       nan       nan       nan       nan
+
+RVM: 0.000
+Bytes written to file: 3125842 (2500.674 kbps)
+
+ Total Time:    27955.208 sec.

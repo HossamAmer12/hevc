@@ -1,0 +1,4 @@
+SequenceNameCaseID noPocs {Pocs}
+Keiba_416x240_301 1 { 0 }
+Keiba_416x240_302 2 { 0 1 }
+hall_monitor_CIF1 2 { 0 1 }

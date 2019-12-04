@@ -1,0 +1,394 @@
+
+HM software: Encoder Version [16.0] (including RExt)[Mac OS X][GCC 4.2.1][64 bit] 
+
+
+Input          File               : /Volumes/DATA/TS/BasketballPass_416x240_50.yuv
+Bitstream      File               : Gen/Seq-265/BasketballPass_416x240_50_22_1.265
+Reconstruction File               : rec.yuv
+Real     Format                   : 416x240 50Hz
+Internal Format                   : 416x240 50Hz
+Sequence PSNR output              : Linear average only
+Sequence MSE output               : Disabled
+Frame MSE output                  : Disabled
+Frame/Field                       : Frame based coding
+Frame index                       : 0 - 49 (50 frames)
+Profile                           : main
+CU size / depth                   : 64 / 4
+RQT trans. size (min / max)       : 4 / 32
+Max RQT depth inter               : 3
+Max RQT depth intra               : 3
+Min PCM size                      : 8
+Motion search range               : 64
+Intra period                      : -1
+Decoding refresh type             : 0
+QP                                : 22.00
+Max dQP signaling depth           : 0
+Cb QP Offset                      : 0
+Cr QP Offset                      : 0
+Max CU chroma QP adjustment depth : -1
+QP adaptation                     : 0 (range=0)
+GOP size                          : 4
+Input bit depth                   : (Y:8, C:8)
+MSB-extended bit depth            : (Y:8, C:8)
+Internal bit depth                : (Y:8, C:8)
+PCM sample bit depth              : (Y:8, C:8)
+Extended precision processing     : Disabled
+Intra reference smoothing         : Enabled
+Implicit residual DPCM            : Disabled
+Explicit residual DPCM            : Disabled
+Residual rotation                 : Disabled
+Single significance map context   : Disabled
+Cross-component prediction        : Disabled
+High-precision prediction weight  : Disabled
+Golomb-Rice parameter adaptation  : Disabled
+CABAC bypass bit alignment        : Disabled
+Sao Luma Offset bit shifts        : 0
+Sao Chroma Offset bit shifts      : 0
+Cost function:                    : Lossy coding (default)
+RateControl                       : 0
+Max Num Merge Candidates          : 5
+
+TOOL CFG: IBD:0 HAD:1 RDQ:1 RDQTS:1 RDpenalty:0 SQP:0 ASR:0 FEN:1 ECU:0 FDM:1 CFM:0 ESD:0 RQT:1 TransformSkip:1 TransformSkipFast:1 TransformSkipLog2MaxSize:2 Slice: M=0 SliceSegment: M=0 CIP:0 SAO:1 PCM:0 TransQuantBypassEnabled:0 WPP:0 WPB:0 PME:2  WaveFrontSynchro:0 WaveFrontSubstreams:1 ScalingList:0 TMVPMode:1 AQpS:0 SignBitHidingFlag:1 RecalQP:0
+
+RExt Non-environment-variable-controlled macros set as follows: 
+
+                                RExt__DECODER_DEBUG_BIT_STATISTICS =   0
+                                      RExt__HIGH_BIT_DEPTH_SUPPORT =   0
+                            RExt__HIGH_PRECISION_FORWARD_TRANSFORM =   0
+                                  RExt__O0043_BEST_EFFORT_DECODING =   0
+                      RExt__BACKWARDS_COMPATIBILITY_HM_TICKET_1149 =   1
+                      RExt__BACKWARDS_COMPATIBILITY_HM_TICKET_1298 =   0
+           RExt__BACKWARDS_COMPATIBILITY_RBSP_EMULATION_PREVENTION =   0
+             RExt__BACKWARDS_COMPATIBILITY_MOTION_ESTIMATION_R0105 =   1
+
+Yang: TEncTop: create: I'm creating the GOP, Slice, CU Encoder 
+
+xInitRPS Inside TEncTop after the INIT: 
+                   Input ChromaFormatIDC =   4:2:0
+       Output (internal) ChromaFormatIDC =   4:2:0
+
+Yes I KNOW THAT I AM DOING ONLY PREV REFERENCE FOR ANALYSIS: find me in Top ;) 
+
+OUTPUTTING THE sigma^2 orig for frame 0 and it's equal zero
+POC    0 TId: 0 ( I-SLICE, nQP 22 QP 22 )     112048 bits [Y 42.8048 dB    U 44.8472 dB    V 45.0573 dB]
+OUTPUTTING THE MSE for per frame
+ [ET     1 ] [L0 ] [L1 ] [MD5:3b10a9277bc61bb331fda85fed813a42,769b17cddcad3f56288ec99c9c05c5ad,1aafc45ae1b2cfda3b8c9e01061c0380]
+Yes I KNOW THAT I AM DOING ONLY PREV REFERENCE FOR ANALYSIS: find me in Top ;) 
+
+OUTPUTTING THE sigma^2 orig for per frame
+POC    1 TId: 0 ( P-SLICE, nQP 25 QP 25 )      10256 bits [Y 41.1954 dB    U 44.1854 dB    V 43.9121 dB]
+OUTPUTTING THE MSE for per frame
+ [ET     2 ] [L0 0 ] [L1 ] [MD5:10eb37286bd1e3559fe48d550a52d46f,0030170440eac8437624387083ac3339,3c8bcc709d0cacdedb3ce738a27ee2d9]
+Yes I KNOW THAT I AM DOING ONLY PREV REFERENCE FOR ANALYSIS: find me in Top ;) 
+
+OUTPUTTING THE sigma^2 orig for per frame
+POC    2 TId: 0 ( P-SLICE, nQP 24 QP 24 )      17056 bits [Y 41.4286 dB    U 44.1737 dB    V 43.8087 dB]
+OUTPUTTING THE MSE for per frame
+ [ET     2 ] [L0 1 ] [L1 ] [MD5:ec6a292de1b7b0fe4ef8a9af868eee85,528aa7af778f209cebbe62feaed3393d,682c9d39a130bcb9fdff65a69dab6566]
+Yes I KNOW THAT I AM DOING ONLY PREV REFERENCE FOR ANALYSIS: find me in Top ;) 
+
+OUTPUTTING THE sigma^2 orig for per frame
+POC    3 TId: 0 ( P-SLICE, nQP 25 QP 25 )      11672 bits [Y 40.7217 dB    U 43.6930 dB    V 43.1373 dB]
+OUTPUTTING THE MSE for per frame
+ [ET     2 ] [L0 2 ] [L1 ] [MD5:a34e86459c50a1e622014c6bcd035df2,7dcfaa194229f1884f88d9a02959d14c,3c1568e3b5a2e97fcea0a40f169dbb59]
+Yes I KNOW THAT I AM DOING ONLY PREV REFERENCE FOR ANALYSIS: find me in Top ;) 
+
+OUTPUTTING THE sigma^2 orig for per frame
+POC    4 TId: 0 ( P-SLICE, nQP 23 QP 23 )      28000 bits [Y 42.0644 dB    U 44.4064 dB    V 44.7151 dB]
+OUTPUTTING THE MSE for per frame
+ [ET     3 ] [L0 3 ] [L1 ] [MD5:c99f9f4cb65771ba5f79798dc8de460c,005cc8e21cf581c2f1af936b28c296ef,66063455f796a3d708eec80f2f2b9b9f]
+Yes I KNOW THAT I AM DOING ONLY PREV REFERENCE FOR ANALYSIS: find me in Top ;) 
+
+OUTPUTTING THE sigma^2 orig for per frame
+POC    5 TId: 0 ( P-SLICE, nQP 25 QP 25 )      10056 bits [Y 41.0188 dB    U 43.9913 dB    V 43.8161 dB]
+OUTPUTTING THE MSE for per frame
+ [ET     2 ] [L0 4 ] [L1 ] [MD5:64b5d240d40f0c70ac99ffcd2d017fcc,6affab6d3890d1da60e67508c114ae37,6d5d66cc0aaf4c66d4e00337c64fc290]
+Yes I KNOW THAT I AM DOING ONLY PREV REFERENCE FOR ANALYSIS: find me in Top ;) 
+
+OUTPUTTING THE sigma^2 orig for per frame
+POC    6 TId: 0 ( P-SLICE, nQP 24 QP 24 )      16704 bits [Y 41.2392 dB    U 43.9173 dB    V 43.7197 dB]
+OUTPUTTING THE MSE for per frame
+ [ET     2 ] [L0 5 ] [L1 ] [MD5:891e3ffe5ac0caa019b72f2196be0394,9fd597d194137accb730d59d09d7c028,90a9a61adc0984c8f262a95385962491]
+Yes I KNOW THAT I AM DOING ONLY PREV REFERENCE FOR ANALYSIS: find me in Top ;) 
+
+OUTPUTTING THE sigma^2 orig for per frame
+POC    7 TId: 0 ( P-SLICE, nQP 25 QP 25 )      12160 bits [Y 40.7599 dB    U 43.5018 dB    V 43.1213 dB]
+OUTPUTTING THE MSE for per frame
+ [ET     2 ] [L0 6 ] [L1 ] [MD5:180b4f11ca904a57be82d0562bc54411,fdf12531084e3b23be517475185c5a04,cb9cd3481e899b5277302170a8336e45]
+Yes I KNOW THAT I AM DOING ONLY PREV REFERENCE FOR ANALYSIS: find me in Top ;) 
+
+OUTPUTTING THE sigma^2 orig for per frame
+POC    8 TId: 0 ( P-SLICE, nQP 23 QP 23 )      27888 bits [Y 41.9328 dB    U 44.4676 dB    V 44.6491 dB]
+OUTPUTTING THE MSE for per frame
+ [ET     3 ] [L0 7 ] [L1 ] [MD5:1f715cc00749fad3136c867d4a29501f,3475dddc67f64504d7016cfed186bc16,7d62305d413f74633761d03162e83ecb]
+Yes I KNOW THAT I AM DOING ONLY PREV REFERENCE FOR ANALYSIS: find me in Top ;) 
+
+OUTPUTTING THE sigma^2 orig for per frame
+POC    9 TId: 0 ( P-SLICE, nQP 25 QP 25 )      10504 bits [Y 40.9042 dB    U 44.0337 dB    V 43.7882 dB]
+OUTPUTTING THE MSE for per frame
+ [ET     2 ] [L0 8 ] [L1 ] [MD5:07d498fffbb616a78f6e4d227bd1c40b,97cd852c64ef19aac5d8094e9984898c,cf3a32cdfc1243056943fb260ef6de3f]
+Yes I KNOW THAT I AM DOING ONLY PREV REFERENCE FOR ANALYSIS: find me in Top ;) 
+
+OUTPUTTING THE sigma^2 orig for per frame
+POC   10 TId: 0 ( P-SLICE, nQP 24 QP 24 )      16712 bits [Y 41.2640 dB    U 43.9187 dB    V 43.8482 dB]
+OUTPUTTING THE MSE for per frame
+ [ET     2 ] [L0 9 ] [L1 ] [MD5:5d25ca833a9e44a14f56f56970880dd5,8b0f459d3569a30b382b562e288a1218,c0a341581b25d100be2a2c09e27bcc7f]
+Yes I KNOW THAT I AM DOING ONLY PREV REFERENCE FOR ANALYSIS: find me in Top ;) 
+
+OUTPUTTING THE sigma^2 orig for per frame
+POC   11 TId: 0 ( P-SLICE, nQP 25 QP 25 )      11392 bits [Y 40.7156 dB    U 43.6310 dB    V 43.2270 dB]
+OUTPUTTING THE MSE for per frame
+ [ET     2 ] [L0 10 ] [L1 ] [MD5:230b3e5bd6cc5fc5f49bd3380144963f,d9b65b0f09c274897f75f0d34cf50929,6c06d3758ffd063df3023a9cb853f1f2]
+Yes I KNOW THAT I AM DOING ONLY PREV REFERENCE FOR ANALYSIS: find me in Top ;) 
+
+OUTPUTTING THE sigma^2 orig for per frame
+POC   12 TId: 0 ( P-SLICE, nQP 23 QP 23 )      26848 bits [Y 41.9636 dB    U 44.5203 dB    V 44.6417 dB]
+OUTPUTTING THE MSE for per frame
+ [ET     2 ] [L0 11 ] [L1 ] [MD5:cb2c877ae8545f55c5efc4c9928b0963,0e71cf338a3daa00ca808edebf3c81e4,ee5ddcbb0c028cdc7d86d4dcd85e9629]
+Yes I KNOW THAT I AM DOING ONLY PREV REFERENCE FOR ANALYSIS: find me in Top ;) 
+
+OUTPUTTING THE sigma^2 orig for per frame
+POC   13 TId: 0 ( P-SLICE, nQP 25 QP 25 )       8504 bits [Y 40.9342 dB    U 44.1983 dB    V 43.9054 dB]
+OUTPUTTING THE MSE for per frame
+ [ET     2 ] [L0 12 ] [L1 ] [MD5:9fc560ef4bd7b35e54a06f53be29cfa5,85807c4ad6f444d5cdd9ae5b339ad624,8d193001a877b05770cccfb6b6652633]
+Yes I KNOW THAT I AM DOING ONLY PREV REFERENCE FOR ANALYSIS: find me in Top ;) 
+
+OUTPUTTING THE sigma^2 orig for per frame
+POC   14 TId: 0 ( P-SLICE, nQP 24 QP 24 )      14720 bits [Y 41.1367 dB    U 44.0817 dB    V 43.8540 dB]
+OUTPUTTING THE MSE for per frame
+ [ET     2 ] [L0 13 ] [L1 ] [MD5:a647884e26eb007398cad15e31d4d95e,506218c5d150c110b20140eac2a8dbf6,200c2d0911f28b68662862fc814d1837]
+Yes I KNOW THAT I AM DOING ONLY PREV REFERENCE FOR ANALYSIS: find me in Top ;) 
+
+OUTPUTTING THE sigma^2 orig for per frame
+POC   15 TId: 0 ( P-SLICE, nQP 25 QP 25 )       9616 bits [Y 40.6537 dB    U 43.7519 dB    V 43.3669 dB]
+OUTPUTTING THE MSE for per frame
+ [ET     2 ] [L0 14 ] [L1 ] [MD5:6203be7fef3f6443e422711c5be579a3,ad14c76dcd5f25373173338ebb580c4d,7a28a0fed2f946752002020cb750ef5c]
+Yes I KNOW THAT I AM DOING ONLY PREV REFERENCE FOR ANALYSIS: find me in Top ;) 
+
+OUTPUTTING THE sigma^2 orig for per frame
+POC   16 TId: 0 ( P-SLICE, nQP 23 QP 23 )      26768 bits [Y 41.8918 dB    U 44.5530 dB    V 44.6617 dB]
+OUTPUTTING THE MSE for per frame
+ [ET     3 ] [L0 15 ] [L1 ] [MD5:7c3e862792f33632e4372cac733f232d,416551e742eea36c63388b9980c6c4c0,f5a929f9a5c317df97d5649c9d2e53e4]
+Yes I KNOW THAT I AM DOING ONLY PREV REFERENCE FOR ANALYSIS: find me in Top ;) 
+
+OUTPUTTING THE sigma^2 orig for per frame
+POC   17 TId: 0 ( P-SLICE, nQP 25 QP 25 )       8984 bits [Y 40.8924 dB    U 44.2097 dB    V 43.8411 dB]
+OUTPUTTING THE MSE for per frame
+ [ET     2 ] [L0 16 ] [L1 ] [MD5:3d55080f2254abe88c8c4efb1684726c,a1dacf1406ea347d2ef4647712ee2a38,1a9fef4a370f0980829f466853a08592]
+Yes I KNOW THAT I AM DOING ONLY PREV REFERENCE FOR ANALYSIS: find me in Top ;) 
+
+OUTPUTTING THE sigma^2 orig for per frame
+POC   18 TId: 0 ( P-SLICE, nQP 24 QP 24 )      14840 bits [Y 41.1388 dB    U 44.0480 dB    V 43.8347 dB]
+OUTPUTTING THE MSE for per frame
+ [ET     2 ] [L0 17 ] [L1 ] [MD5:66ed6277be7a2531589831afa9b0ac2c,de8fa4c8227df5ba20f664757bc7ce6f,e9df032ebb9378f859c78c8400a59f61]
+Yes I KNOW THAT I AM DOING ONLY PREV REFERENCE FOR ANALYSIS: find me in Top ;) 
+
+OUTPUTTING THE sigma^2 orig for per frame
+POC   19 TId: 0 ( P-SLICE, nQP 25 QP 25 )       9960 bits [Y 40.5966 dB    U 43.8118 dB    V 43.2408 dB]
+OUTPUTTING THE MSE for per frame
+ [ET     2 ] [L0 18 ] [L1 ] [MD5:986ca45c5919baa5383841f870a71c87,6dffea024c7d4a36509f6d0844756fdd,d0d79ba6864a8b6ad4320300da0c7ea3]
+Yes I KNOW THAT I AM DOING ONLY PREV REFERENCE FOR ANALYSIS: find me in Top ;) 
+
+OUTPUTTING THE sigma^2 orig for per frame
+POC   20 TId: 0 ( P-SLICE, nQP 23 QP 23 )      26744 bits [Y 41.8811 dB    U 44.4543 dB    V 44.6537 dB]
+OUTPUTTING THE MSE for per frame
+ [ET     2 ] [L0 19 ] [L1 ] [MD5:183418e7a88ccb265b6b53e2888ebaea,5110967d93e7a519cbca72100d0c38b6,760c35dd50289750678ec7d8562b8f81]
+Yes I KNOW THAT I AM DOING ONLY PREV REFERENCE FOR ANALYSIS: find me in Top ;) 
+
+OUTPUTTING THE sigma^2 orig for per frame
+POC   21 TId: 0 ( P-SLICE, nQP 25 QP 25 )       8416 bits [Y 40.9243 dB    U 44.0806 dB    V 43.6498 dB]
+OUTPUTTING THE MSE for per frame
+ [ET     2 ] [L0 20 ] [L1 ] [MD5:02b992e74b3138504e6ba946baaded1c,2f9ace62293b5b0c0ac308b3af4dc9c5,6c21d92a7e59a11445dc3b269274d14c]
+Yes I KNOW THAT I AM DOING ONLY PREV REFERENCE FOR ANALYSIS: find me in Top ;) 
+
+OUTPUTTING THE sigma^2 orig for per frame
+POC   22 TId: 0 ( P-SLICE, nQP 24 QP 24 )      14816 bits [Y 41.1849 dB    U 43.9747 dB    V 43.7887 dB]
+OUTPUTTING THE MSE for per frame
+ [ET     2 ] [L0 21 ] [L1 ] [MD5:e31e5c4be073c53bfc089ebbc5106546,3a7c30ecb6e025d1fc2a804497a3fe7c,effb9f3c78556106730ee06a533ef701]
+Yes I KNOW THAT I AM DOING ONLY PREV REFERENCE FOR ANALYSIS: find me in Top ;) 
+
+OUTPUTTING THE sigma^2 orig for per frame
+POC   23 TId: 0 ( P-SLICE, nQP 25 QP 25 )      10112 bits [Y 40.6106 dB    U 43.7642 dB    V 43.2812 dB]
+OUTPUTTING THE MSE for per frame
+ [ET     2 ] [L0 22 ] [L1 ] [MD5:9b789aa7ae2428c2600a98c085188633,992f93df5605f4fa30f79b5b65a31653,b40e66d9362c458a9da397931202032b]
+Yes I KNOW THAT I AM DOING ONLY PREV REFERENCE FOR ANALYSIS: find me in Top ;) 
+
+OUTPUTTING THE sigma^2 orig for per frame
+POC   24 TId: 0 ( P-SLICE, nQP 23 QP 23 )      27000 bits [Y 41.8969 dB    U 44.5768 dB    V 44.6899 dB]
+OUTPUTTING THE MSE for per frame
+ [ET     3 ] [L0 23 ] [L1 ] [MD5:f35ceff27598146a350aa29290d0f91a,103bc12916ee0700e3847337d1f44c06,63d71d2829f1dcaecd51681d90aa2107]
+Yes I KNOW THAT I AM DOING ONLY PREV REFERENCE FOR ANALYSIS: find me in Top ;) 
+
+OUTPUTTING THE sigma^2 orig for per frame
+POC   25 TId: 0 ( P-SLICE, nQP 25 QP 25 )       8352 bits [Y 40.8221 dB    U 44.3007 dB    V 43.7634 dB]
+OUTPUTTING THE MSE for per frame
+ [ET     2 ] [L0 24 ] [L1 ] [MD5:080d0c56878d42edf85f674a15974c0a,42ece087c581725bd34715418cc7c2c7,089bdcda5e377c564399f039f45a2865]
+Yes I KNOW THAT I AM DOING ONLY PREV REFERENCE FOR ANALYSIS: find me in Top ;) 
+
+OUTPUTTING THE sigma^2 orig for per frame
+POC   26 TId: 0 ( P-SLICE, nQP 24 QP 24 )      15008 bits [Y 41.1797 dB    U 44.0758 dB    V 43.8099 dB]
+OUTPUTTING THE MSE for per frame
+ [ET     2 ] [L0 25 ] [L1 ] [MD5:5a06d58164fa091f08400a05131ba031,7ca66fd86953daa3b5be4eb926996fb2,7cccfe33cbb91b894c1306e1570b7861]
+Yes I KNOW THAT I AM DOING ONLY PREV REFERENCE FOR ANALYSIS: find me in Top ;) 
+
+OUTPUTTING THE sigma^2 orig for per frame
+POC   27 TId: 0 ( P-SLICE, nQP 25 QP 25 )      10464 bits [Y 40.6696 dB    U 43.9154 dB    V 43.2762 dB]
+OUTPUTTING THE MSE for per frame
+ [ET     2 ] [L0 26 ] [L1 ] [MD5:f672bf5323fa06c4445690b94b522109,025c13d2ef1dde80a888bbf9eb0d1b4d,2ba1f31a44046a33a65df4d9feeb4597]
+Yes I KNOW THAT I AM DOING ONLY PREV REFERENCE FOR ANALYSIS: find me in Top ;) 
+
+OUTPUTTING THE sigma^2 orig for per frame
+POC   28 TId: 0 ( P-SLICE, nQP 23 QP 23 )      26624 bits [Y 41.8645 dB    U 44.6906 dB    V 44.7903 dB]
+OUTPUTTING THE MSE for per frame
+ [ET     2 ] [L0 27 ] [L1 ] [MD5:bdf6f4b3d7af9aac682f1e611af812ab,b0cb3e4529df3c23da378ae621be72b2,8fa90d7959f03b57a900d7946296ecb7]
+Yes I KNOW THAT I AM DOING ONLY PREV REFERENCE FOR ANALYSIS: find me in Top ;) 
+
+OUTPUTTING THE sigma^2 orig for per frame
+POC   29 TId: 0 ( P-SLICE, nQP 25 QP 25 )       9048 bits [Y 40.7814 dB    U 44.3489 dB    V 43.7830 dB]
+OUTPUTTING THE MSE for per frame
+ [ET     2 ] [L0 28 ] [L1 ] [MD5:a80a43981948933656cd438ea8f67b57,aa90e8d8c2aa84eb850a23dbabfd3f85,cfe255aad4a3d6dad7ee9133e8420e19]
+Yes I KNOW THAT I AM DOING ONLY PREV REFERENCE FOR ANALYSIS: find me in Top ;) 
+
+OUTPUTTING THE sigma^2 orig for per frame
+POC   30 TId: 0 ( P-SLICE, nQP 24 QP 24 )      15896 bits [Y 41.0272 dB    U 44.1655 dB    V 44.0021 dB]
+OUTPUTTING THE MSE for per frame
+ [ET     2 ] [L0 29 ] [L1 ] [MD5:94e248f520b716005499aeed434674ef,e18f366a0f9b70d005881b1ad17792d0,0bf4d50f56d4ac9476cc379f85ae1b01]
+Yes I KNOW THAT I AM DOING ONLY PREV REFERENCE FOR ANALYSIS: find me in Top ;) 
+
+OUTPUTTING THE sigma^2 orig for per frame
+POC   31 TId: 0 ( P-SLICE, nQP 25 QP 25 )      11400 bits [Y 40.5002 dB    U 43.9465 dB    V 43.3549 dB]
+OUTPUTTING THE MSE for per frame
+ [ET     2 ] [L0 30 ] [L1 ] [MD5:840ef45d00c90dc9cd67ec9596afc8b7,e894dc2aef8a0bfcc8b8f78a6c5c4d7b,a0eaf66b3ae8c03864f41d46a9d17ff5]
+Yes I KNOW THAT I AM DOING ONLY PREV REFERENCE FOR ANALYSIS: find me in Top ;) 
+
+OUTPUTTING THE sigma^2 orig for per frame
+POC   32 TId: 0 ( P-SLICE, nQP 23 QP 23 )      28976 bits [Y 41.8506 dB    U 44.6545 dB    V 44.6919 dB]
+OUTPUTTING THE MSE for per frame
+ [ET     3 ] [L0 31 ] [L1 ] [MD5:1f29783f2dd97e904f2d1692ac27d927,63f2ddcac2dd054dc14b258f65a89870,9c2422b7764ff6c7112ba188677ff1c7]
+Yes I KNOW THAT I AM DOING ONLY PREV REFERENCE FOR ANALYSIS: find me in Top ;) 
+
+OUTPUTTING THE sigma^2 orig for per frame
+POC   33 TId: 0 ( P-SLICE, nQP 25 QP 25 )      10728 bits [Y 40.8265 dB    U 44.2026 dB    V 43.6860 dB]
+OUTPUTTING THE MSE for per frame
+ [ET     2 ] [L0 32 ] [L1 ] [MD5:24b00a39cf682e03358780a57e280522,8f1ef894db0886cdf746ab106c230fbd,83ee17b547cdb1b47dfa0f7a0a34af3e]
+Yes I KNOW THAT I AM DOING ONLY PREV REFERENCE FOR ANALYSIS: find me in Top ;) 
+
+OUTPUTTING THE sigma^2 orig for per frame
+POC   34 TId: 0 ( P-SLICE, nQP 24 QP 24 )      17224 bits [Y 40.9841 dB    U 44.1134 dB    V 43.8046 dB]
+OUTPUTTING THE MSE for per frame
+ [ET     2 ] [L0 33 ] [L1 ] [MD5:a4f5034c35b1b141b977f51c7cf07d50,03c56db6d9f6ae10b7790c81762b6903,c3cff80dcc323b52100d0fbf06e4b606]
+Yes I KNOW THAT I AM DOING ONLY PREV REFERENCE FOR ANALYSIS: find me in Top ;) 
+
+OUTPUTTING THE sigma^2 orig for per frame
+POC   35 TId: 0 ( P-SLICE, nQP 25 QP 25 )      12256 bits [Y 40.5141 dB    U 43.7552 dB    V 42.9465 dB]
+OUTPUTTING THE MSE for per frame
+ [ET     2 ] [L0 34 ] [L1 ] [MD5:6104788ae386e744e6907295b427d522,81c0fe7bc6c0acd91d5797e1c1b61fd5,70ec6ed3865d2d37b70cebd9027cf028]
+Yes I KNOW THAT I AM DOING ONLY PREV REFERENCE FOR ANALYSIS: find me in Top ;) 
+
+OUTPUTTING THE sigma^2 orig for per frame
+POC   36 TId: 0 ( P-SLICE, nQP 23 QP 23 )      29680 bits [Y 41.8068 dB    U 44.5993 dB    V 44.6392 dB]
+OUTPUTTING THE MSE for per frame
+ [ET     3 ] [L0 35 ] [L1 ] [MD5:8a72a572d765c64afc79e8a6ad3c9697,ed2938c4433318773d5321b852da6d00,c13c1582c48e37652236edc7d1a4aeaa]
+Yes I KNOW THAT I AM DOING ONLY PREV REFERENCE FOR ANALYSIS: find me in Top ;) 
+
+OUTPUTTING THE sigma^2 orig for per frame
+POC   37 TId: 0 ( P-SLICE, nQP 25 QP 25 )      11600 bits [Y 40.7720 dB    U 43.9978 dB    V 43.5289 dB]
+OUTPUTTING THE MSE for per frame
+ [ET     2 ] [L0 36 ] [L1 ] [MD5:e5556e5331bc777f2475704326c28f55,5147110caa65540ac243944f95e23592,5585e35eefa5fd613b1819266eb032cf]
+Yes I KNOW THAT I AM DOING ONLY PREV REFERENCE FOR ANALYSIS: find me in Top ;) 
+
+OUTPUTTING THE sigma^2 orig for per frame
+POC   38 TId: 0 ( P-SLICE, nQP 24 QP 24 )      20088 bits [Y 41.0239 dB    U 44.0411 dB    V 43.6915 dB]
+OUTPUTTING THE MSE for per frame
+ [ET     2 ] [L0 37 ] [L1 ] [MD5:2061ef6f744fab1f018f8c1302f21856,8794661bf58f57b52b296035f2b32290,f0571c31df82ffb843a99be2ceb4931d]
+Yes I KNOW THAT I AM DOING ONLY PREV REFERENCE FOR ANALYSIS: find me in Top ;) 
+
+OUTPUTTING THE sigma^2 orig for per frame
+POC   39 TId: 0 ( P-SLICE, nQP 25 QP 25 )      14152 bits [Y 40.4470 dB    U 43.5595 dB    V 42.9556 dB]
+OUTPUTTING THE MSE for per frame
+ [ET     2 ] [L0 38 ] [L1 ] [MD5:a682e84dee130f54e55ae6b3fc3775df,936aaddeddcf897d2a27afeed43af29d,5d4a8246f32cccf9e3a1459d97b796d3]
+Yes I KNOW THAT I AM DOING ONLY PREV REFERENCE FOR ANALYSIS: find me in Top ;) 
+
+OUTPUTTING THE sigma^2 orig for per frame
+POC   40 TId: 0 ( P-SLICE, nQP 23 QP 23 )      32952 bits [Y 41.7972 dB    U 44.5838 dB    V 44.7227 dB]
+OUTPUTTING THE MSE for per frame
+ [ET     3 ] [L0 39 ] [L1 ] [MD5:1cdd6a6221ea264be57a41418ca4410f,290417dc6354859566ccdf0db4b767cd,a7198cecc3b8d0a2a640476152c85655]
+Yes I KNOW THAT I AM DOING ONLY PREV REFERENCE FOR ANALYSIS: find me in Top ;) 
+
+OUTPUTTING THE sigma^2 orig for per frame
+POC   41 TId: 0 ( P-SLICE, nQP 25 QP 25 )      12760 bits [Y 40.5300 dB    U 43.8778 dB    V 43.6902 dB]
+OUTPUTTING THE MSE for per frame
+ [ET     2 ] [L0 40 ] [L1 ] [MD5:08317362a2acec6616d96faf265d3f21,ac5328fa9c0497141f3fab5189d92542,127ed668c65991c2f8b6f31b9ce338f7]
+Yes I KNOW THAT I AM DOING ONLY PREV REFERENCE FOR ANALYSIS: find me in Top ;) 
+
+OUTPUTTING THE sigma^2 orig for per frame
+POC   42 TId: 0 ( P-SLICE, nQP 24 QP 24 )      20056 bits [Y 40.8426 dB    U 43.8826 dB    V 43.7055 dB]
+OUTPUTTING THE MSE for per frame
+ [ET     2 ] [L0 41 ] [L1 ] [MD5:1aba9eca96f78d0e9c870cfa0571e866,7715d0cb9b61d8c59ea9a88aac8fe90d,426a9c4ceb07b62b82a3ae3554740c05]
+Yes I KNOW THAT I AM DOING ONLY PREV REFERENCE FOR ANALYSIS: find me in Top ;) 
+
+OUTPUTTING THE sigma^2 orig for per frame
+POC   43 TId: 0 ( P-SLICE, nQP 25 QP 25 )      13112 bits [Y 40.2431 dB    U 43.4597 dB    V 43.0844 dB]
+OUTPUTTING THE MSE for per frame
+ [ET     2 ] [L0 42 ] [L1 ] [MD5:55bb0c919a67bd525a47d5361065ec70,8c567d340aefc774aa64c0d2513b21a7,f07ce52a775f649fae9b4d6058840df7]
+Yes I KNOW THAT I AM DOING ONLY PREV REFERENCE FOR ANALYSIS: find me in Top ;) 
+
+OUTPUTTING THE sigma^2 orig for per frame
+POC   44 TId: 0 ( P-SLICE, nQP 23 QP 23 )      33792 bits [Y 41.7058 dB    U 44.3612 dB    V 44.5812 dB]
+OUTPUTTING THE MSE for per frame
+ [ET     3 ] [L0 43 ] [L1 ] [MD5:cd9662f7603221395347fe51891d0d49,db92112be99172786ae40bdbfd3efbb9,93c0613f92ff4d16a2e81ff2cbe265ce]
+Yes I KNOW THAT I AM DOING ONLY PREV REFERENCE FOR ANALYSIS: find me in Top ;) 
+
+OUTPUTTING THE sigma^2 orig for per frame
+POC   45 TId: 0 ( P-SLICE, nQP 25 QP 25 )      12456 bits [Y 40.6462 dB    U 43.8501 dB    V 43.4150 dB]
+OUTPUTTING THE MSE for per frame
+ [ET     2 ] [L0 44 ] [L1 ] [MD5:be076025eaf16a6405d225b5789d4856,0720979587a2be4737597da9ed2ded30,5a7dcc69203c2746f0aa5cd5958423f0]
+Yes I KNOW THAT I AM DOING ONLY PREV REFERENCE FOR ANALYSIS: find me in Top ;) 
+
+OUTPUTTING THE sigma^2 orig for per frame
+POC   46 TId: 0 ( P-SLICE, nQP 24 QP 24 )      20416 bits [Y 40.8440 dB    U 43.7311 dB    V 43.6222 dB]
+OUTPUTTING THE MSE for per frame
+ [ET     2 ] [L0 45 ] [L1 ] [MD5:ee72a3912ecb7a6ce9f7175a803915d4,faa1f550302cac416725c9390210c593,597a79590bb2002d6aa7ef49580ac8a1]
+Yes I KNOW THAT I AM DOING ONLY PREV REFERENCE FOR ANALYSIS: find me in Top ;) 
+
+OUTPUTTING THE sigma^2 orig for per frame
+POC   47 TId: 0 ( P-SLICE, nQP 25 QP 25 )      14808 bits [Y 40.2646 dB    U 43.3012 dB    V 42.9023 dB]
+OUTPUTTING THE MSE for per frame
+ [ET     2 ] [L0 46 ] [L1 ] [MD5:95afb20ca9655a81f4712f2bf9561f0c,9b6f79a3de02ef431478c8de132804cf,b1522e5383feae1aca9e534d63d2fbff]
+Yes I KNOW THAT I AM DOING ONLY PREV REFERENCE FOR ANALYSIS: find me in Top ;) 
+
+OUTPUTTING THE sigma^2 orig for per frame
+POC   48 TId: 0 ( P-SLICE, nQP 23 QP 23 )      34864 bits [Y 41.9762 dB    U 44.4840 dB    V 44.5851 dB]
+OUTPUTTING THE MSE for per frame
+ [ET     3 ] [L0 47 ] [L1 ] [MD5:d2b51a88dc4ad927097d559c328cc292,747bfd76b6854d6bb8f65230b5df7208,44bc524b6e9e6f41e922279fcd40ab66]
+Yes I KNOW THAT I AM DOING ONLY PREV REFERENCE FOR ANALYSIS: find me in Top ;) 
+
+OUTPUTTING THE sigma^2 orig for per frame
+POC   49 TId: 0 ( P-SLICE, nQP 25 QP 25 )      12920 bits [Y 41.0351 dB    U 43.6985 dB    V 43.6564 dB]
+OUTPUTTING THE MSE for per frame
+ [ET     2 ] [L0 48 ] [L1 ] [MD5:159931a3cdb4dc49a954d25054cc79bb,5ad80fa8fbedcaf2f79186ecf35a5239,566b5b64bda14e94cd71092400c16728]
+
+
+SUMMARY --------------------------------------------------------
+	Total Frames |   Bitrate     Y-PSNR    U-PSNR    V-PSNR    YUV-PSNR 
+	       50    a     941.4080   41.1342   44.0878   43.8580   41.8580
+
+
+I Slices--------------------------------------------------------
+	Total Frames |   Bitrate     Y-PSNR    U-PSNR    V-PSNR    YUV-PSNR 
+	        1    i    5602.4000   42.8048   44.8472   45.0573   43.4095
+
+
+P Slices--------------------------------------------------------
+	Total Frames |   Bitrate     Y-PSNR    U-PSNR    V-PSNR    YUV-PSNR 
+	       49    p     846.2857   41.1001   44.0723   43.8335   41.8314
+
+
+B Slices--------------------------------------------------------
+	Total Frames |   Bitrate     Y-PSNR    U-PSNR    V-PSNR    YUV-PSNR 
+	        0    b          nan       nan       nan       nan       nan
+
+RVM: 0.000
+Bytes written to file: 120737 (965.896 kbps)
+
+ Total Time:      102.543 sec.

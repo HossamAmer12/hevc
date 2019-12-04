@@ -1,0 +1,3 @@
+vidyo1_720p_60 vidyo1_720p_60
+vidyo3_720p_60 vidyo3_720p_60
+vidyo4_720p_60 vidyo4_720p_60
